@@ -8,7 +8,7 @@ your machine by cloning this repository.
 
 **Not everything is vendored.** Excalidraw is external because its pinned source
 has no explicit license. Anthropic's full 19-skill catalog is included, but its
-restricted document skills and seven other skills remain external. See
+four restricted document skills and nine other skills remain external. See
 [the catalog](CATALOG.md), [Anthropic setup](ANTHROPIC.md), and
 [license boundaries](THIRD_PARTY_NOTICES.md).
 
