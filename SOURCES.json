@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-29",
+  "sources": [
+    {
+      "id": "excalidraw-diagram",
+      "repository": "coleam00/excalidraw-diagram-skill",
+      "url": "https://github.com/coleam00/excalidraw-diagram-skill",
+      "ref": "8646fcc9f74f38539c6cdb4c969723336a96ddcd",
+      "license": "NOASSERTION",
+      "status": "external",
+      "reason": "No explicit license in the pinned tree or README. Upstream installation is documented, but obtain suitable rights before copying or redistributing.",
+      "selections": []
+    },
+    {
+      "id": "pretty-mermaid",
+      "repository": "imxv/Pretty-mermaid-skills",
+      "url": "https://github.com/imxv/Pretty-mermaid-skills",
+      "ref": "e234ab73c2992f03c36db04fd55ebb90abca9c45",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "status": "bundled",
+      "selections": [
+        {"upstream": "", "local": "skills/pretty-mermaid", "exclude_prefixes": [".github/"]}
+      ],
+      "reason": "Complete root skill, renderer, lockfile, references and assets; upstream GitHub automation is not installed."
+    },
+    {
+      "id": "mermaid-diagrams",
+      "repository": "softaworks/agent-toolkit",
+      "url": "https://github.com/softaworks/agent-toolkit",
+      "ref": "3027f20f3181758385a1bb8c022d4041dfb4de84",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "status": "bundled",
+      "selections": [
+        {"upstream": "skills/mermaid-diagrams", "local": "skills/mermaid-diagrams", "extra_files": {"LICENSE": "LICENSE"}}
+      ],
+      "reason": "Only the complete Mermaid skill and its inherited root license, not the whole toolkit."
+    },
+    {
+      "id": "azure-resource-visualizer",
+      "repository": "microsoft/azure-skills",
+      "url": "https://github.com/microsoft/azure-skills",
+      "ref": "e484244aad82d80bd640d44b2bea92b03bddf559",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "status": "bundled",
+      "selections": [
+        {"upstream": "skills/azure-resource-visualizer", "local": "skills/azure-resource-visualizer", "extra_files": {"LICENSE": "LICENSE"}}
+      ],
+      "reason": "Only the complete visualizer skill. Azure MCP and other Azure skills are not bundled or configured."
+    },
+    {
+      "id": "azure-diagrams",
+      "repository": "cmb211087/azure-diagrams-skill",
+      "url": "https://github.com/cmb211087/azure-diagrams-skill",
+      "ref": "d7513005f62ad8042c36987cd7da515a114701d1",
+      "license": "MIT",
+      "license_path": "skills/azure-diagrams/LICENSE",
+      "status": "bundled",
+      "selections": [
+        {"upstream": "skills/azure-diagrams", "local": "skills/azure-diagrams"}
+      ],
+      "reason": "Complete published skill, including references, requirements, scripts and fixtures; repository-level example galleries are not bundled."
+    },
+    {
+      "id": "aymen-drawio",
+      "repository": "aymenfurter/skills",
+      "url": "https://github.com/aymenfurter/skills",
+      "ref": "071fa8835d0ffe0bb72a54573a465672fc7ba8cc",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "status": "bundled",
+      "selections": [
+        {"upstream": "skills/drawio-pitch", "local": "skills/drawio-pitch"},
+        {"upstream": "skills/drawio-iterate", "local": "skills/drawio-iterate"}
+      ],
+      "reason": "Original, unmodified skills and per-skill licenses. No sample customer diagrams. Research-agent, A5, ninefold growth and minimum four-pass requirements remain intact."
+    },
+    {
+      "id": "anthropic",
+      "repository": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "ref": "ca45fc496a3436251f191354091d557da31c15b5",
+      "license": "Mixed; see per-skill licenses and ANTHROPIC-CATALOG.json",
+      "status": "partial",
+      "selections": [
+        {"upstream": "skills/brand-guidelines", "local": "skills/brand-guidelines", "license": "Apache-2.0"},
+        {"upstream": "skills/frontend-design", "local": "skills/frontend-design", "license": "Apache-2.0"},
+        {"upstream": "skills/internal-comms", "local": "skills/internal-comms", "license": "Apache-2.0"},
+        {"upstream": "skills/mcp-builder", "local": "skills/mcp-builder", "license": "Apache-2.0"},
+        {"upstream": "skills/skill-creator", "local": "skills/skill-creator", "license": "Apache-2.0"},
+        {"upstream": "skills/theme-factory", "local": "skills/theme-factory", "license": "Apache-2.0"}
+      ],
+      "notices": {"THIRD_PARTY_NOTICES.md": "third-party/anthropic/THIRD_PARTY_NOTICES.md"},
+      "reason": "Six complete Apache-licensed skills useful for toolkit maintenance, MCP development and presentation. Full official 19-skill catalog and official installation guidance included separately; restrictive document skills and other unbundled skills remain external."
+    },
+    {
+      "id": "natural-architecture-diagrams",
+      "url": "https://github.com/suzungg/csa-architecture-diagram-skills",
+      "ref": "user-authored-snapshot-2026-10-29",
+      "license": "MIT",
+      "status": "bundled-original",
+      "local": "skills/natural-architecture-diagrams",
+      "required_files": ["SKILL.md", "README.md", "examples.md", "LICENSE.txt"],
+      "reason": "Complete user-provided standalone pack, copied without changes. Original file hashes recorded in SOURCE-LOCK.json; no personal source path is published."
+    }
+  ]
+}

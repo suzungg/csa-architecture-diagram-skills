@@ -1,0 +1,4 @@
+flowchart LR
+    client["Client"] -->|"HTTPS request"| web["Web application"]
+    web -->|"API request"| api["Application API"]
+    api -->|"Query"| data[("Application data")]
