@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" background="#FFFFFF" math="0" shadow="0" csaMode="reference">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="diagram-title" value="Fabric batch prediction lifecycle" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=32;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="1">
+      <mxGeometry x="60" y="40" width="1480" height="48" as="geometry" />
+    </mxCell>
+    <mxCell id="diagram-subtitle" value="Training and batch scoring in data science; governed consumption in analytics" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontColor=#526573;fontStyle=0;spacing=0;" vertex="1" parent="1">
+      <mxGeometry x="60" y="94" width="1480" height="32" as="geometry" />
+    </mxCell>
+    <mxCell id="ds-box" value="" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;rounded=0;fillColor=#F7FAFC;strokeColor=#7E96AA;strokeWidth=2;" vertex="1" parent="1" csaRole="boundary" boundaryKind="workspace">
+      <mxGeometry x="60" y="170" width="1000" height="650" as="geometry" />
+    </mxCell>
+    <mxCell id="analytics-box" value="" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;rounded=0;fillColor=#F5FAF8;strokeColor=#70998B;strokeWidth=2;" vertex="1" parent="1" csaRole="boundary" boundaryKind="workspace">
+      <mxGeometry x="1100" y="170" width="440" height="650" as="geometry" />
+    </mxCell>
+    <mxCell id="ds-heading" value="DATA SCIENCE WORKSPACE" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="1">
+      <mxGeometry x="85" y="190" width="925" height="32" as="geometry" />
+    </mxCell>
+    <mxCell id="analytics-heading" value="ANALYTICS WORKSPACE" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="1">
+      <mxGeometry x="1125" y="190" width="390" height="32" as="geometry" />
+    </mxCell>
+    <mxCell id="curated" value="" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#52758F;strokeWidth=2;" vertex="1" parent="1" csaRole="component" scope="data-science">
+      <mxGeometry x="110" y="310" width="220" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="curated-title" value="Curated lakehouse" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="curated">
+      <mxGeometry x="10" y="16" width="200" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="curated-detail" value="Curated Delta data" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#526573;fontStyle=0;spacing=0;" vertex="1" parent="curated">
+      <mxGeometry x="10" y="49" width="200" height="23" as="geometry" />
+    </mxCell>
+    <mxCell id="train" value="" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#52758F;strokeWidth=2;" vertex="1" parent="1" csaRole="component" scope="data-science">
+      <mxGeometry x="405" y="310" width="220" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="train-title" value="Training notebook" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="train">
+      <mxGeometry x="10" y="16" width="200" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="train-detail" value="Model training" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#526573;fontStyle=0;spacing=0;" vertex="1" parent="train">
+      <mxGeometry x="10" y="49" width="200" height="23" as="geometry" />
+    </mxCell>
+    <mxCell id="experiment" value="" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#52758F;strokeWidth=2;" vertex="1" parent="1" csaRole="component" scope="data-science">
+      <mxGeometry x="760" y="310" width="220" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="experiment-title" value="MLflow experiment" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="experiment">
+      <mxGeometry x="10" y="16" width="200" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="experiment-detail" value="Training run tracking" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#526573;fontStyle=0;spacing=0;" vertex="1" parent="experiment">
+      <mxGeometry x="10" y="49" width="200" height="23" as="geometry" />
+    </mxCell>
+    <mxCell id="model" value="" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#52758F;strokeWidth=2;" vertex="1" parent="1" csaRole="component" scope="data-science">
+      <mxGeometry x="760" y="505" width="220" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="model-title" value="Fabric ML model" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="model">
+      <mxGeometry x="10" y="16" width="200" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="model-detail" value="Registered selected run" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#526573;fontStyle=0;spacing=0;" vertex="1" parent="model">
+      <mxGeometry x="10" y="49" width="200" height="23" as="geometry" />
+    </mxCell>
+    <mxCell id="score" value="" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#52758F;strokeWidth=2;" vertex="1" parent="1" csaRole="component" scope="data-science">
+      <mxGeometry x="405" y="665" width="220" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="score-title" value="Batch scoring notebook" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="score">
+      <mxGeometry x="10" y="16" width="200" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="score-detail" value="Batch PREDICT" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#526573;fontStyle=0;spacing=0;" vertex="1" parent="score">
+      <mxGeometry x="10" y="49" width="200" height="23" as="geometry" />
+    </mxCell>
+    <mxCell id="gold" value="" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#437C68;strokeWidth=2;" vertex="1" parent="1" csaRole="component" scope="analytics">
+      <mxGeometry x="1150" y="665" width="340" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="gold-title" value="Gold lakehouse" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="gold">
+      <mxGeometry x="10" y="16" width="320" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="gold-detail" value="Predictions" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#526573;fontStyle=0;spacing=0;" vertex="1" parent="gold">
+      <mxGeometry x="10" y="49" width="320" height="23" as="geometry" />
+    </mxCell>
+    <mxCell id="semantic" value="" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#437C68;strokeWidth=2;" vertex="1" parent="1" csaRole="component" scope="analytics">
+      <mxGeometry x="1150" y="465" width="340" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="semantic-title" value="Semantic model" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="semantic">
+      <mxGeometry x="10" y="16" width="320" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="semantic-detail" value="Direct Lake" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#526573;fontStyle=0;spacing=0;" vertex="1" parent="semantic">
+      <mxGeometry x="10" y="49" width="320" height="23" as="geometry" />
+    </mxCell>
+    <mxCell id="report" value="" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#437C68;strokeWidth=2;" vertex="1" parent="1" csaRole="component" scope="analytics">
+      <mxGeometry x="1150" y="265" width="340" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="report-title" value="Power BI report" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="report">
+      <mxGeometry x="10" y="16" width="320" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="report-detail" value="Consumes semantic model" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#526573;fontStyle=0;spacing=0;" vertex="1" parent="report">
+      <mxGeometry x="10" y="49" width="320" height="23" as="geometry" />
+    </mxCell>
+    <mxCell id="curated-train" value="Delta data" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#345D7A;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;fontColor=#345D7A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="curated" target="train" kind="data" intent="runtime">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="0" y="-15" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="train-experiment" value="Log training run" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#345D7A;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;fontColor=#345D7A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="train" target="experiment" kind="data" intent="runtime">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="0" y="-15" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="experiment-model" value="Register selected run" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#345D7A;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;fontColor=#345D7A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="experiment" target="model" kind="data" intent="runtime">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="0" y="0" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="model-score" value="Human-approved pinned version" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#7654A3;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;fontColor=#7654A3;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" parent="1" source="model" target="score" kind="control" intent="control">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="0" y="-16" as="offset" />
+        <Array as="points">
+          <mxPoint x="870" y="620" />
+          <mxPoint x="515" y="620" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="curated-score" value="Delta data" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#345D7A;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;fontColor=#345D7A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="curated" target="score" kind="data" intent="runtime">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="0" y="-18" as="offset" />
+        <Array as="points">
+          <mxPoint x="220" y="710" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="score-gold" value="Predictions: authorized cross-workspace write" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#345D7A;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;fontColor=#345D7A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="score" target="gold" kind="data" intent="runtime">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="0" y="23" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="gold-semantic" value="Direct Lake" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#345D7A;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;fontColor=#345D7A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gold" target="semantic" kind="data" intent="runtime">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="0" y="0" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="semantic-report" value="Report consumption" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#345D7A;strokeWidth=2;endArrow=block;endFill=1;startArrow=none;fontColor=#345D7A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="semantic" target="report" kind="data" intent="runtime">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="0" y="0" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="scope-note" value="Scope: one deployment stage, not dev/test/prod promotion. Cross-workspace access must be authorized." style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#243746;fontStyle=0;spacing=0;" vertex="1" parent="1">
+      <mxGeometry x="60" y="851" width="1480" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="approval-note" value="Approval is human-controlled. No native automatic approval or online serving is represented." style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#243746;fontStyle=0;spacing=0;" vertex="1" parent="1">
+      <mxGeometry x="60" y="889" width="1480" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="legend" value="Solid blue arrows: data / runtime     |     Dashed purple arrow: model-version control" style="fontFamily=Arial;fontSize=16;html=0;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#526573;fontStyle=0;spacing=0;" vertex="1" parent="1">
+      <mxGeometry x="60" y="938" width="1480" height="25" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

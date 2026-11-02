@@ -1,0 +1,103 @@
+{
+  "title": "Fabric batch prediction lifecycle",
+  "facts": [
+    "Curated Delta data in a lakehouse feeds a training notebook and a separate batch scoring notebook. Training logs to an MLflow experiment; a selected run is registered as a Fabric ML model.",
+    "A human-approved pinned model version controls batch PREDICT scoring. This is not native automatic approval or online serving.",
+    "Scoring writes predictions to a Gold lakehouse. A semantic model uses Direct Lake on that data; a Power BI report consumes the semantic model.",
+    "Data science and analytics use separate workspaces. Cross-workspace access must be authorized. This is one deployment stage, not dev/test/prod promotion."
+  ],
+  "nodes": {
+    "curated": {
+      "title": "Curated lakehouse",
+      "scope": "data-science"
+    },
+    "train": {
+      "title": "Training notebook",
+      "scope": "data-science"
+    },
+    "experiment": {
+      "title": "MLflow experiment",
+      "scope": "data-science"
+    },
+    "model": {
+      "title": "Fabric ML model",
+      "scope": "data-science"
+    },
+    "score": {
+      "title": "Batch scoring notebook",
+      "scope": "data-science"
+    },
+    "gold": {
+      "title": "Gold lakehouse",
+      "scope": "analytics"
+    },
+    "semantic": {
+      "title": "Semantic model",
+      "scope": "analytics"
+    },
+    "report": {
+      "title": "Power BI report",
+      "scope": "analytics"
+    }
+  },
+  "edges": [
+    {
+      "source": "curated",
+      "target": "train",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "train",
+      "target": "experiment",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "experiment",
+      "target": "model",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "model",
+      "target": "score",
+      "kind": "control",
+      "intent": "control"
+    },
+    {
+      "source": "curated",
+      "target": "score",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "score",
+      "target": "gold",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "gold",
+      "target": "semantic",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "semantic",
+      "target": "report",
+      "kind": "data",
+      "intent": "runtime"
+    }
+  ],
+  "scopes": {
+    "data-science": {
+      "boundary": "ds-box",
+      "kind": "workspace"
+    },
+    "analytics": {
+      "boundary": "analytics-box",
+      "kind": "workspace"
+    }
+  }
+}

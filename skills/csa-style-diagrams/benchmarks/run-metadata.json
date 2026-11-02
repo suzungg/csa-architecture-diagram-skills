@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-02",
+  "host": "GitHub Copilot app; fresh general-purpose task context per case/condition",
+  "model": "Runtime default; resolved model/settings were not reported",
+  "seed": null,
+  "cost": null,
+  "generation_seconds": null,
+  "activation": "Direct repository files, not host skill loader",
+  "review": "Parent/skill author; not blinded",
+  "renderer": "draw.io Desktop 32.6.1, Windows, PNG export width 2400; content cropping retained",
+  "text_measurement": "Local Edge headless with isolated profile and local fonts",
+  "inputs_sha256": {
+    "assets/fabric/catalog.json": "3a5cec4839ce5545ba50382e65c401205e1355243c56923f0dbf252086de296c",
+    "assets/fabric/README.md": "d613102878ada4374ad48939fb8eb8f5707a1c16928e850f33700411975aa713",
+    "assets/foundry/catalog.json": "7ffc295c4938a8a99ee21efa7b424ecbe6162b23c883e15f0f5cb02d7b24b263",
+    "assets/foundry/README.md": "895e06990a5ce402ccada128d23ddef51189458e2cac389908aa924b1d09ecbd",
+    "examples/fabric-batch/build.py": "2add857b4c93f19ff026e872958d147dc80779e187e2c712f485551b83dac12b",
+    "examples/fabric-batch/contract.json": "b56830af7b4fb8d2fd870d45dd703e9ebe0bc8bec9bb71646519886355ec9a49",
+    "examples/fabric-batch/README.md": "a6e48d466bbc845e3799fdf0d1d1efde424ae27729af9282063c5ab8d87a3174",
+    "examples/fabric-official/build.py": "05f7d142bab060a0865be6cd48d4b885ea39916c213f7ce2bacf71b606df6f7a",
+    "examples/fabric-official/contract.json": "b56830af7b4fb8d2fd870d45dd703e9ebe0bc8bec9bb71646519886355ec9a49",
+    "examples/fabric-official/README.md": "477794aef645b9ef4d269f8ede82faedc335123433fb2068d81dd7f8b0160963",
+    "examples/foundry-icons/build.py": "9b138a4aa766eb8015d88c8c50dfb208ac12f29081d9e421904cdd9da45bd4f6",
+    "examples/foundry-icons/contract.json": "88aa87a0144a02af6f592940b1ee9729229a5a045118dfa90698f7314d0d2a39",
+    "examples/foundry-icons/README.md": "19ff4f6df818e95fcfb6d0eed9eca105d5dcd33222abfea9d1595edb394bd6a5",
+    "examples/foundry-multi-project/build.py": "964ed5bf2539db5171a69c5384cf1f86d805b1f24a55a332c14678d06a37f41b",
+    "examples/foundry-multi-project/contract.json": "8ffe50486f1e9e61505ee60449523518ed82b705fe4b3046a4c0c4a6988b8fed",
+    "examples/foundry-multi-project/README.md": "c042bbf77a9e4922ece7737d45cd810e1b5387add5a448aa0375a367ff81876e",
+    "examples.md": "f851995bc0c1d0b3bd13f1707109d88b11b5227a44a226e60baaa3d10c44eb04",
+    "LICENSE.txt": "f849d8f59e747fc760932d7c3d49ac2a606781bc1280c3086f89333f2c7f3caa",
+    "README.md": "b8a390e297dd9a38c58d0cb9db7a086a6c553742b0749cf9b1e8749cbc039a88",
+    "references/foundry.md": "2950f31eb465d9838f49665e8209e4340cc2f469d1bc7ee0f1221343e30bc682",
+    "references/quality-checks.md": "73ae9964b419071f1569f50b50da451b785a0b3c91e75f962d314380cc2a981a",
+    "references/tooling.md": "0b9106d431969a3ca3973e7bf6a7d65f63e103b2a64f64364bf8c591cdb0ed7d",
+    "references/visual-style.md": "6b8203cbc63d3aeed90fab2f39cc0517ef4a07788c38dbfadf2c5ff91c690dd7",
+    "scripts/check_diagram.py": "b8c0c05fcb7f33b771e4562bf7a858c71b765fc76931c5c2695aee191238fb7e",
+    "scripts/check_rendered.py": "3ec0edb66261b7b383e7ffc99acfa5dfe9c111f41da9cca154871aed7e13e2de",
+    "scripts/csa_drawio.py": "9ac5e3eb5b6093c29694924cab096bdc7740474fc8adc72e48de74e897a0e44c",
+    "scripts/measure_text.js": "61cae2dc4e12bf844548085c5a8993981e809f471d6cce05b09f5bcf2334c08b",
+    "scripts/render_diagram.py": "01f01a19bb459f4162eaf6efd4df01b415edbde27dd90d78771766eb2cd9b7d2",
+    "SKILL.md": "fd9512da059ec8d6b8185789917473409572271919e02419fcf5395336b25f87",
+    "tests/test_diagrams.py": "287e7bf310527138450b819b460d582b101b43fb8f83dc209e88b8f7f9399996",
+    "tests/test_quality.py": "e33a1b0deb239b684fafc14fb3f64bf685ff434ffcabd9a359fdb0809b3b94f6"
+  },
+  "input_snapshot_sha256": "a2210033bee31489b8d5baeac254778ac12fbdbdae3e3228c8fb32bf6ef14b48",
+  "reads_self_reported": {
+    "foundry-baseline": [
+      "briefs.json (whole file); no skills, examples, helpers, assets or history"
+    ],
+    "foundry-csa": [
+      "briefs.json",
+      "SKILL.md",
+      "Foundry/visual/tooling guidance",
+      "Foundry asset README",
+      "multi-project example README",
+      "drawing helper"
+    ],
+    "fabric-baseline": [
+      "briefs.json common + cases.fabric only"
+    ],
+    "fabric-csa": [
+      "briefs.json",
+      "SKILL.md",
+      "tooling/visual guidance",
+      "official Fabric example README/generator",
+      "Fabric asset README/catalog/license",
+      "drawing helper"
+    ]
+  },
+  "generation": "Capture first completed source before quality checking/rendering. Baseline had neutral shapes; CSA used helpers and official icons. No sibling output access authorized.",
+  "feedback_deviation": "All four follow-up messages rejected by host for synchronous agents; parent corrected two defects instead. No model repair performance was measured."
+}

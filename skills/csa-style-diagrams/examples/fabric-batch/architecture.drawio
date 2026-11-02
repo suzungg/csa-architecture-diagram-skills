@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="csa-style-diagrams">
+  <diagram id="architecture" name="Fabric batch data science - annotated layout example">
+    <mxGraphModel page="1" pageScale="1" pageWidth="1850" pageHeight="1190" background="#FFFFFF" csaMode="reference">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="canvas" parent="1" value="" vertex="1" csaRole="canvas" style="fontFamily=Arial;fontColor=#26333F;fillColor=#FFFFFF;strokeColor=none;">
+          <mxGeometry x="0" y="0" width="1850" height="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" value="Microsoft Fabric - batch data science" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="28" y="16" width="1790" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" value="Original layout example | One deployment stage | Neutral symbols, not official product icons" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=18;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="30" y="55" width="1780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fabric-scope" parent="1" value="" vertex="1" csaRole="boundary" style="fontFamily=Arial;fontColor=#26333F;fillColor=#FFFFFF;strokeColor=#A2BBD0;" boundaryKind="logical">
+          <mxGeometry x="205" y="125" width="1620" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="scope-title" parent="1" value="Microsoft Fabric - logical solution scope" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="230" y="140" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ingest" parent="1" value="" vertex="1" csaRole="boundary" style="fontFamily=Arial;fontColor=#26333F;fillColor=#FBFCFD;strokeColor=#A2BBD0;" boundaryKind="logical">
+          <mxGeometry x="225" y="190" width="365" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ingest-header" parent="ingest" value="" vertex="1" csaRole="header" style="fontFamily=Arial;fontColor=#26333F;fillColor=#0078D4;strokeColor=none;">
+          <mxGeometry x="0" y="0" width="365" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ingest-title" parent="ingest" value="Ingest" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#FFFFFF;">
+          <mxGeometry x="46" y="6" width="102" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ingest-number" parent="ingest" value="1" vertex="1" csaRole="badge" style="fontFamily=Arial;fontColor=#26333F;ellipse;fillColor=#16813B;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=18;align=center;">
+          <mxGeometry x="8" y="8" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="prepare" parent="1" value="" vertex="1" csaRole="boundary" style="fontFamily=Arial;fontColor=#26333F;fillColor=#FBFCFD;strokeColor=#A2BBD0;" boundaryKind="logical">
+          <mxGeometry x="605" y="190" width="555" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="prepare-header" parent="prepare" value="" vertex="1" csaRole="header" style="fontFamily=Arial;fontColor=#26333F;fillColor=#0078D4;strokeColor=none;">
+          <mxGeometry x="0" y="0" width="555" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="prepare-title" parent="prepare" value="Prepare data" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#FFFFFF;">
+          <mxGeometry x="46" y="6" width="192" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="prepare-number" parent="prepare" value="2" vertex="1" csaRole="badge" style="fontFamily=Arial;fontColor=#26333F;ellipse;fillColor=#16813B;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=18;align=center;">
+          <mxGeometry x="8" y="8" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="experiment" parent="1" value="" vertex="1" csaRole="boundary" style="fontFamily=Arial;fontColor=#26333F;fillColor=#FBFCFD;strokeColor=#A2BBD0;" boundaryKind="logical">
+          <mxGeometry x="1175" y="190" width="555" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="experiment-header" parent="experiment" value="" vertex="1" csaRole="header" style="fontFamily=Arial;fontColor=#26333F;fillColor=#0078D4;strokeColor=none;">
+          <mxGeometry x="0" y="0" width="555" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="experiment-title" parent="experiment" value="Experiment + register" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#FFFFFF;">
+          <mxGeometry x="46" y="6" width="327" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="experiment-number" parent="experiment" value="3" vertex="1" csaRole="badge" style="fontFamily=Arial;fontColor=#26333F;ellipse;fillColor=#16813B;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=18;align=center;">
+          <mxGeometry x="8" y="8" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="select" parent="1" value="" vertex="1" csaRole="boundary" style="fontFamily=Arial;fontColor=#26333F;fillColor=#FBFCFD;strokeColor=#A2BBD0;" boundaryKind="logical">
+          <mxGeometry x="1500" y="540" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="select-header" parent="select" value="" vertex="1" csaRole="header" style="fontFamily=Arial;fontColor=#26333F;fillColor=#0078D4;strokeColor=none;">
+          <mxGeometry x="0" y="0" width="250" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="select-title" parent="select" value="Review" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#FFFFFF;">
+          <mxGeometry x="46" y="6" width="102" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="select-number" parent="select" value="4" vertex="1" csaRole="badge" style="fontFamily=Arial;fontColor=#26333F;ellipse;fillColor=#16813B;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=18;align=center;">
+          <mxGeometry x="8" y="8" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="scoring" parent="1" value="" vertex="1" csaRole="boundary" style="fontFamily=Arial;fontColor=#26333F;fillColor=#FBFCFD;strokeColor=#A2BBD0;" boundaryKind="logical">
+          <mxGeometry x="1175" y="540" width="300" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="scoring-header" parent="scoring" value="" vertex="1" csaRole="header" style="fontFamily=Arial;fontColor=#26333F;fillColor=#0078D4;strokeColor=none;">
+          <mxGeometry x="0" y="0" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="scoring-title" parent="scoring" value="Batch score" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#FFFFFF;">
+          <mxGeometry x="46" y="6" width="177" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="scoring-number" parent="scoring" value="5" vertex="1" csaRole="badge" style="fontFamily=Arial;fontColor=#26333F;ellipse;fillColor=#16813B;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=18;align=center;">
+          <mxGeometry x="8" y="8" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="consume" parent="1" value="" vertex="1" csaRole="boundary" style="fontFamily=Arial;fontColor=#26333F;fillColor=#FBFCFD;strokeColor=#A2BBD0;" boundaryKind="logical">
+          <mxGeometry x="225" y="540" width="885" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="consume-header" parent="consume" value="" vertex="1" csaRole="header" style="fontFamily=Arial;fontColor=#26333F;fillColor=#0078D4;strokeColor=none;">
+          <mxGeometry x="0" y="0" width="885" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="consume-title" parent="consume" value="Consume predictions" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#FFFFFF;">
+          <mxGeometry x="46" y="6" width="297" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="consume-number" parent="consume" value="6" vertex="1" csaRole="badge" style="fontFamily=Arial;fontColor=#26333F;ellipse;fillColor=#16813B;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=18;align=center;">
+          <mxGeometry x="8" y="8" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor" parent="1" value="" vertex="1" csaRole="boundary" style="fontFamily=Arial;fontColor=#26333F;fillColor=#FBFCFD;strokeColor=#A2BBD0;" boundaryKind="logical">
+          <mxGeometry x="900" y="840" width="575" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-header" parent="monitor" value="" vertex="1" csaRole="header" style="fontFamily=Arial;fontColor=#26333F;fillColor=#0078D4;strokeColor=none;">
+          <mxGeometry x="0" y="0" width="575" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-title" parent="monitor" value="Monitor" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#FFFFFF;">
+          <mxGeometry x="46" y="6" width="110" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-number" parent="monitor" value="7" vertex="1" csaRole="badge" style="fontFamily=Arial;fontColor=#26333F;ellipse;fillColor=#16813B;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=18;align=center;">
+          <mxGeometry x="8" y="8" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="source" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="external">
+          <mxGeometry x="25" y="270" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="source-symbol" parent="source" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=cylinder;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="source-title" parent="source" value="Enterprise&#10;sources" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="source-caption" parent="source" value="Data + outcomes" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="copy" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W1">
+          <mxGeometry x="230" y="270" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="copy-symbol" parent="copy" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=note;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="copy-title" parent="copy" value="Copy activity" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="copy-caption" parent="copy" value="Data Factory / W1" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="bronze" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W1">
+          <mxGeometry x="420" y="270" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="bronze-symbol" parent="bronze" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=cylinder;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="bronze-title" parent="bronze" value="Bronze&#10;lakehouse" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bronze-caption" parent="bronze" value="Raw data / W1" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="clean" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W2">
+          <mxGeometry x="610" y="270" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="clean-symbol" parent="clean" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=note;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="clean-title" parent="clean" value="Quality&#10;notebook" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="clean-caption" parent="clean" value="Validate / W2" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="silver" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W2">
+          <mxGeometry x="800" y="270" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="silver-symbol" parent="silver" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=cylinder;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="silver-title" parent="silver" value="Silver&#10;lakehouse" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="silver-caption" parent="silver" value="Curated Delta / W2" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="prep" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W2">
+          <mxGeometry x="990" y="270" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="prep-symbol" parent="prep" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=note;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="prep-title" parent="prep" value="EDA + features" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="prep-caption" parent="prep" value="Datasets / W2" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="train" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W2">
+          <mxGeometry x="1180" y="270" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="train-symbol" parent="train" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=note;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="train-title" parent="train" value="Train +&#10;evaluate" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="train-caption" parent="train" value="Notebook / W2" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="exp" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W2">
+          <mxGeometry x="1370" y="270" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="exp-symbol" parent="exp" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=ellipse;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="exp-title" parent="exp" value="MLflow&#10;experiment" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="exp-caption" parent="exp" value="Runs + artifacts / W2" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="model" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W2">
+          <mxGeometry x="1560" y="270" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="model-symbol" parent="model" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=document;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="model-title" parent="model" value="Fabric ML&#10;model" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="model-caption" parent="model" value="Versioned model / W2" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="review" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W2">
+          <mxGeometry x="1515" y="630" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="review-symbol" parent="review" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=rectangle;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="0" y="0" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="review-title" parent="review-symbol" value="Human review" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="8" y="8" width="204" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="review-caption" parent="review-symbol" value="Approve + pin version / W2" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="8" y="58" width="204" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="score" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W2">
+          <mxGeometry x="1190" y="630" width="210" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="score-symbol" parent="score" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=note;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="77.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="score-title" parent="score" value="Batch scoring" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="210" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="score-caption" parent="score" value="PREDICT / W2" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="210" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="gold" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W3">
+          <mxGeometry x="860" y="630" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="gold-symbol" parent="gold" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=cylinder;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="gold-title" parent="gold" value="Gold lakehouse" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="gold-caption" parent="gold" value="Predictions / W3" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sem" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W3">
+          <mxGeometry x="610" y="630" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="sem-symbol" parent="sem" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=document;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="sem-title" parent="sem" value="Semantic model" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="sem-caption" parent="sem" value="Direct Lake / W3" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="report" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W3">
+          <mxGeometry x="310" y="630" width="150" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="report-symbol" parent="report" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=document;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="47.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="report-title" parent="report" value="Power BI report" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="report-caption" parent="report" value="Insights / W3" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="quality" parent="1" value="" vertex="1" csaRole="component" style="fontFamily=Arial;fontColor=#26333F;group;fillColor=none;strokeColor=none;" workspace="W2">
+          <mxGeometry x="940" y="900" width="260" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="quality-symbol" parent="quality" value="" vertex="1" csaRole="symbol" style="fontFamily=Arial;fontColor=#26333F;shape=note;fillColor=#F0F5F8;strokeColor=#526675;strokeWidth=1.5;">
+          <mxGeometry x="102.0" y="0" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="quality-title" parent="quality" value="Quality / drift notebook" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#26333F;">
+          <mxGeometry x="0" y="70" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="quality-caption" parent="quality" value="Custom checks / W2" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#4A5968;">
+          <mxGeometry x="0" y="120" width="260" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-00" parent="1" edge="1" source="source" target="copy" kind="data" meaning="Source data and outcomes" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.19444444444444445;entryX=0.31333333333333335;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-01" parent="1" edge="1" source="copy" target="bronze" kind="data" meaning="Land raw data" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.19444444444444445;entryX=0.31333333333333335;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-02" parent="1" edge="1" source="bronze" target="clean" kind="data" meaning="Read raw batches" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.19444444444444445;entryX=0.31333333333333335;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-03" parent="1" edge="1" source="clean" target="silver" kind="data" meaning="Validated Delta tables" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.19444444444444445;entryX=0.31333333333333335;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-04" parent="1" edge="1" source="silver" target="prep" kind="data" meaning="Curated data" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.19444444444444445;entryX=0.31333333333333335;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-05" parent="1" edge="1" source="prep" target="train" kind="data" meaning="Training and validation data" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.19444444444444445;entryX=0.31333333333333335;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-06" parent="1" edge="1" source="train" target="exp" kind="data" meaning="Log runs and artifacts" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.19444444444444445;entryX=0.31333333333333335;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-07" parent="1" edge="1" source="exp" target="model" kind="data" meaning="Register selected run" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.19444444444444445;entryX=0.31333333333333335;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-08" parent="1" edge="1" source="model" target="review" kind="control" meaning="Review candidate version" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#087E8B;dashed=1;exitX=0.6866666666666666;exitY=0.19444444444444445;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1750" y="298" />
+              <mxPoint x="1750" y="610" />
+              <mxPoint x="1625" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-09" parent="1" edge="1" source="review" target="score" kind="control" meaning="Approve and pin version" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#087E8B;dashed=1;exitX=0.0;exitY=0.5;entryX=0.6333333333333333;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1455" y="675" />
+              <mxPoint x="1455" y="658" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-09-label" parent="1" value="Pin version" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="1355" y="632" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-10" parent="1" edge="1" source="prep" target="score" kind="data" meaning="New scoring batches" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.2916666666666667;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1145" y="312" />
+              <mxPoint x="1145" y="521" />
+              <mxPoint x="1445" y="521" />
+              <mxPoint x="1445" y="610" />
+              <mxPoint x="1295" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-10-label" parent="1" value="Scoring batches" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="1175" y="494" width="230" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-11" parent="1" edge="1" source="score" target="gold" kind="data" meaning="Write predictions" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.36666666666666664;exitY=0.19444444444444445;entryX=0.6866666666666666;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-11-label" parent="1" value="Predictions" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="1055" y="630" width="155" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-12" parent="1" edge="1" source="gold" target="sem" kind="data" meaning="Direct Lake" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.31333333333333335;exitY=0.19444444444444445;entryX=0.6866666666666666;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-12-label" parent="1" value="Direct Lake" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="770" y="630" width="130" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-13" parent="1" edge="1" source="sem" target="report" kind="data" meaning="BI consumption" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.31333333333333335;exitY=0.19444444444444445;entryX=0.6866666666666666;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-13-label" parent="1" value="BI queries" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="490" y="630" width="130" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-14" parent="1" edge="1" source="gold" target="quality" kind="data" meaning="Predictions and provenance" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.2916666666666667;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="672" />
+              <mxPoint x="1050" y="810" />
+              <mxPoint x="1070" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-14-label" parent="1" value="Predictions + provenance" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="1080" y="802" width="290" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-15" parent="1" edge="1" source="silver" target="quality" kind="data" meaning="Actuals when available" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#354552;dashed=0;exitX=0.6866666666666666;exitY=0.2916666666666667;entryX=0.6076923076923076;entryY=0.19444444444444445;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="953" y="312" />
+              <mxPoint x="953" y="487" />
+              <mxPoint x="1800" y="487" />
+              <mxPoint x="1800" y="928" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-15-label" parent="1" value="Actuals when available" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="1500" y="460" width="240" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-16" parent="1" edge="1" source="quality" target="train" kind="control" meaning="Human-reviewed retraining decision" style="noEdgeStyle=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#087E8B;dashed=1;exitX=0.3923076923076923;exitY=0.19444444444444445;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;jumpStyle=arc;jumpSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="928" />
+              <mxPoint x="215" y="105" />
+              <mxPoint x="1165" y="105" />
+              <mxPoint x="1165" y="250" />
+              <mxPoint x="1255" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-16-label" parent="1" value="Human-reviewed retraining decision (custom)" vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="450" y="82" width="650" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-note" parent="1" value="Compare predictions&#10;with eligible actuals.&#10;A person decides to retrain." vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=16;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="1220" y="970" width="240" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" value="Blue bands = logical phases, not workspaces. Solid = data / artifacts. Dashed = human control. Crossings are not junctions." vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=16;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="230" y="1082" width="1575" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ownership" parent="1" value="Workspace ownership: W1 Bronze ingestion | W2 Silver + data science | W3 Gold + analytics. Authorize cross-workspace access." vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=17;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="28" y="1132" width="1780" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="limitations" parent="1" value="No native feature store, online endpoint, automatic promotion or automatic drift-triggered retraining is implied. See the example notes." vertex="1" csaRole="label" style="fontFamily=Arial;fontColor=#26333F;text;html=0;whiteSpace=wrap;spacing=0;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;fontColor=#26333F;">
+          <mxGeometry x="28" y="1164" width="1790" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

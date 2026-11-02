@@ -1,0 +1,9 @@
+{
+  "source_sha256": "0230403775f0ec66a01dbbabee1d51bcaa8dd1c2424ba301e86976a464ecb278",
+  "png_sha256": "ed134c87b1b484cc8f7a6a71e0110cb580a29fb94a6ab70f48fd21d806bcaa50",
+  "png_dimensions": [
+    2400,
+    1517
+  ],
+  "visual_review": "not established by rendering; inspect the actual PNG"
+}

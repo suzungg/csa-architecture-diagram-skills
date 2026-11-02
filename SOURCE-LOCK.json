@@ -2,354 +2,1254 @@
   "schema_version": 1,
   "files": [
     {
-      "path": "skills/azure-diagrams/CONTRIBUTING.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/CONTRIBUTING.md",
-      "git_blob": "a698fe77fd1f1ea0ba118cdfaae865d7a4434485",
-      "sha256": "e54c8cf8e8dcaa158e2151cbf43a3c079b40465dc97f876d55393a8638ffba5f",
-      "bytes": 3064,
+      "path": "skills/csa-style-diagrams/LICENSE.txt",
+      "source": "csa-style-diagrams",
+      "upstream_path": "LICENSE.txt",
+      "git_blob": "c1e24b573b958e6e807e4b214c032a9f31acf225",
+      "sha256": "f849d8f59e747fc760932d7c3d49ac2a606781bc1280c3086f89333f2c7f3caa",
+      "bytes": 1120,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/LICENSE",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/LICENSE",
-      "git_blob": "062cea7599d68b3b91db2803bce6129787cba9b7",
-      "sha256": "d5e5d6c9e7997ea3fc65e088de23bf8869388a8149aed2b1ede0adfdbf60c763",
-      "bytes": 1074,
+      "path": "skills/csa-style-diagrams/README.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "README.md",
+      "git_blob": "86f47d3bf75499b5a57c58134154bb285db614a7",
+      "sha256": "8e43bccebe96d725e4cd174a947082a6f2d80920be98302e99cf711c65ba9eae",
+      "bytes": 8126,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/README.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/README.md",
-      "git_blob": "dc845ebc47f302c5ca56c76969a01894265a9cbb",
-      "sha256": "2c4b4ddf3780276d6d5950c15813d7d14057c241309837e986f6338e65bd243d",
-      "bytes": 4554,
+      "path": "skills/csa-style-diagrams/SKILL.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "SKILL.md",
+      "git_blob": "acc7db32a439bcc8c552e2cd623f0193247227c0",
+      "sha256": "fd9512da059ec8d6b8185789917473409572271919e02419fcf5395336b25f87",
+      "bytes": 16398,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/SKILL.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/SKILL.md",
-      "git_blob": "04184ff8865f19bd1a9137e2118f4a0f19e5dc1b",
-      "sha256": "7808fba45dc1758f85febd1a95c473bb9966839770f2b47b4b23ce772211fd39",
-      "bytes": 16177,
+      "path": "skills/csa-style-diagrams/assets/fabric/LICENSE",
+      "source": "microsoft-fabric-icons-6.1.0",
+      "upstream_path": "v6.1.0/package/LICENSE",
+      "git_blob": "98767aca074260c13c7aa30619bd2f88c168572c",
+      "sha256": "bd0ceac9fa63897c17062f8b40d0e89a0952fbba8b15d840f87411b17641c66f",
+      "bytes": 1078,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/evals/README.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/evals/README.md",
-      "git_blob": "8e7f51d700f32e55cf5686578d118c3829bce2b8",
-      "sha256": "8f5c8be9b54676d850fc3c3f47e6da82bafc2a75d31a75b7c8df8d0551a51cac",
-      "bytes": 1317,
+      "path": "skills/csa-style-diagrams/assets/fabric/README.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "assets/fabric/README.md",
+      "git_blob": "21867d18ab859fb26d5e096c6056c5204eaa11c4",
+      "sha256": "d613102878ada4374ad48939fb8eb8f5707a1c16928e850f33700411975aa713",
+      "bytes": 1831,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/evals/scenarios.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/evals/scenarios.md",
-      "git_blob": "f811ba72e0552b100f03923e3b256a8e1aa00fce",
-      "sha256": "7ad137d8018ad1faa801b210a170af23b4afedf8f8c642bb8500c14c930ff4fc",
-      "bytes": 2106,
+      "path": "skills/csa-style-diagrams/assets/fabric/catalog.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "assets/fabric/catalog.json",
+      "git_blob": "a4676ec61846ccfd743708e812d719bc533b70c1",
+      "sha256": "3a5cec4839ce5545ba50382e65c401205e1355243c56923f0dbf252086de296c",
+      "bytes": 2663,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/azure-components.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/azure-components.md",
-      "git_blob": "d7fc1b1a416427a1127cbe45b4420d445383b4d3",
-      "sha256": "b04a404140ab92030cc6e17456e15d88dbfd312454234f485a77838f75f2c29b",
-      "bytes": 17775,
+      "path": "skills/csa-style-diagrams/assets/fabric/icons/dataflow_gen2_48_item.svg",
+      "source": "microsoft-fabric-icons-6.1.0",
+      "upstream_path": "v6.1.0/package/dist/svg/dataflow_gen2_48_item.svg",
+      "git_blob": "93c9febd8bfd9d0b69fab4b21a8dc431c32a45dd",
+      "sha256": "5291386e4344dbd5729c19805d75287fc04eed07ed74979d6b15355213a17aaf",
+      "bytes": 1604,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/business-process-flows.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/business-process-flows.md",
-      "git_blob": "344341d8715dcd8de3af08dec361bdc4a6bf5a77",
-      "sha256": "6799cf8ea079bbfa7a4dba8f6011d8e2fc7914e6e37c990778b628df07586977",
-      "bytes": 11765,
+      "path": "skills/csa-style-diagrams/assets/fabric/icons/experiments_48_item.svg",
+      "source": "microsoft-fabric-icons-6.1.0",
+      "upstream_path": "v6.1.0/package/dist/svg/experiments_48_item.svg",
+      "git_blob": "98b7396ce500e705c3a2309c7e188df4ea85bb17",
+      "sha256": "ee794562a7e24f0747cc6b6e71885daab56baa1f72efa64a336013ef7c7008e9",
+      "bytes": 1713,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/c4-model.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/c4-model.md",
-      "git_blob": "1ee62ca1f0bd0e7e918ecd5dbff7c160c82db3e0",
-      "sha256": "442e50ae9710397db8882265361e4b435b27ba2fb9596e9bbf74a603e4af08f6",
-      "bytes": 3426,
+      "path": "skills/csa-style-diagrams/assets/fabric/icons/lakehouse_48_item.svg",
+      "source": "microsoft-fabric-icons-6.1.0",
+      "upstream_path": "v6.1.0/package/dist/svg/lakehouse_48_item.svg",
+      "git_blob": "a06e893bb2ecafcc6a563a607e7b4c2064b7a7d9",
+      "sha256": "7f4ba4303e8f507d4ec8e47bc055bace80eb9715ccc58df40021b776a3c65f08",
+      "bytes": 3228,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/common-patterns.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/common-patterns.md",
-      "git_blob": "49c9dff532d7d79cbf64387097c7830567cf49ea",
-      "sha256": "c850464557e5fcd7a5fe89e838d49d841bbf8cc678753cb4ee058fc137f09530",
-      "bytes": 19471,
+      "path": "skills/csa-style-diagrams/assets/fabric/icons/model_48_item.svg",
+      "source": "microsoft-fabric-icons-6.1.0",
+      "upstream_path": "v6.1.0/package/dist/svg/model_48_item.svg",
+      "git_blob": "166d8342791e59b5be40740d452e16fedef46a35",
+      "sha256": "c648a0da9c88f4c79ea6ee127c146ce0682d917b78b83079e9aedd09dbf2a1ef",
+      "bytes": 1834,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/entity-relationship-diagrams.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/entity-relationship-diagrams.md",
-      "git_blob": "69e8553d5eb24c4227a41a1f2b225f7ae710c5aa",
-      "sha256": "eea6b4fcf3ae6c1f03c7888a04928f429cab38e3e929ac93d3cc9ed950566482",
-      "bytes": 10498,
+      "path": "skills/csa-style-diagrams/assets/fabric/icons/notebook_48_item.svg",
+      "source": "microsoft-fabric-icons-6.1.0",
+      "upstream_path": "v6.1.0/package/dist/svg/notebook_48_item.svg",
+      "git_blob": "f329876b4e02ccabd1b2cdc01d26102f008c47c0",
+      "sha256": "d1822f787c453b2edf2f5af8ecca2b8b1258e07859dfaf057562b0f166dbc866",
+      "bytes": 2741,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/iac-to-diagram.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/iac-to-diagram.md",
-      "git_blob": "dd2e38a29cda9b175f289e63f1e734dcecbce691",
-      "sha256": "fa4987b6a3a6800eaed7a602b6eb6540d2c0a52e538d0727f031ecc45bc03281",
-      "bytes": 15774,
+      "path": "skills/csa-style-diagrams/assets/fabric/icons/pipeline_48_item.svg",
+      "source": "microsoft-fabric-icons-6.1.0",
+      "upstream_path": "v6.1.0/package/dist/svg/pipeline_48_item.svg",
+      "git_blob": "fb8b9c4db4b97a4346f56c6fb7ed1228550419db",
+      "sha256": "a0df60d8e899ff5f8bdb80fe5281cba002735267297f371098f5ff6d55bbe744",
+      "bytes": 1643,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/integration-services.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/integration-services.md",
-      "git_blob": "308c703881f879ca290693b30183451b2c2f0e70",
-      "sha256": "4ae3b1a0a79568fac076d1ae9840203801683c20fac1c6a52bf28770a6f48214",
-      "bytes": 8360,
+      "path": "skills/csa-style-diagrams/assets/fabric/icons/report_48_item.svg",
+      "source": "microsoft-fabric-icons-6.1.0",
+      "upstream_path": "v6.1.0/package/dist/svg/report_48_item.svg",
+      "git_blob": "5194647a3c064c810006e5ce990de39ed0f5caca",
+      "sha256": "2e8640722aa8a530a0f98fde21482f1957a0589ef701823b319bbfccb26d9e44",
+      "bytes": 1626,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/large-diagram-strategies.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/large-diagram-strategies.md",
-      "git_blob": "ba1efc0e7a9b72bbba20957b49b8cdf95a1a5b72",
-      "sha256": "9627fd8939ee2a39edfea4ac97ec93c9108caa68d753acda13a236ee90dd47bd",
-      "bytes": 15551,
+      "path": "skills/csa-style-diagrams/assets/fabric/icons/semantic_model_48_item.svg",
+      "source": "microsoft-fabric-icons-6.1.0",
+      "upstream_path": "v6.1.0/package/dist/svg/semantic_model_48_item.svg",
+      "git_blob": "8fe5fc93fe7d6f536629b5e5ba0d5f314a7bc516",
+      "sha256": "c0317bc92fea437d374b71788b037705f61983cd59573808ce933f3d03e14abb",
+      "bytes": 2491,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/mermaid-output.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/mermaid-output.md",
-      "git_blob": "d8bdfe05b9001d2484273de546148f5ee62918fa",
-      "sha256": "ea61b93fc806168fdbb6306bfdb28e1d5060d5491fb286f20dd4d006727fde84",
-      "bytes": 2665,
+      "path": "skills/csa-style-diagrams/assets/foundry/Microsoft_Terms_of_Use.pdf",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Microsoft_Terms_of_Use.pdf",
+      "git_blob": "4425c309a1d1b416d12be9789d218e465464e4a3",
+      "sha256": "983e83cef1a8f85164760b076a96df54cb50af345861cb1d8344040037d0531c",
+      "bytes": 63859,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/migration-patterns.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/migration-patterns.md",
-      "git_blob": "9a15e742335afcbe1c89c72e74fed467e823a0d0",
-      "sha256": "befd8de100d729a3346e4aa1a0de8fa33d113c4731a851f80fac3cf690c0a781",
-      "bytes": 11838,
+      "path": "skills/csa-style-diagrams/assets/foundry/README.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "assets/foundry/README.md",
+      "git_blob": "1fef6f71320c202a8a74eaa024d123ca76e766cb",
+      "sha256": "895e06990a5ce402ccada128d23ddef51189458e2cac389908aa924b1d09ecbd",
+      "bytes": 2895,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/preventing-overlaps.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/preventing-overlaps.md",
-      "git_blob": "ccfac262fb4c98e170daf0374bdae27b50e30a7e",
-      "sha256": "500d73f55aba34756ace50cc3f51b04a6a53a2686d1e5951f82faa6104c9fe19",
-      "bytes": 12377,
+      "path": "skills/csa-style-diagrams/assets/foundry/catalog.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "assets/foundry/catalog.json",
+      "git_blob": "84a75ca6ce67e719869fa9e3a7515bc2e583e486",
+      "sha256": "7ffc295c4938a8a99ee21efa7b424ecbe6162b23c883e15f0f5cb02d7b24b263",
+      "bytes": 4838,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/quick-reference.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/quick-reference.md",
-      "git_blob": "76c50d24a87be152965ec4de6218901ca792fae4",
-      "sha256": "6af12da07956e3561978b6878aa8ff327f2f193666ee6c189761b6a4d74bd82d",
-      "bytes": 16568,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/00012-icon-service-Application-Insights.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/devops/00012-icon-service-Application-Insights.svg",
+      "git_blob": "19f3e6917a94c45ce5b386139c83f30539636bf1",
+      "sha256": "36c73dea8b1598fbfff84890a2b409600f1339eec8c1bf1a896439e9da8f9dca",
+      "bytes": 2320,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/sequence-auth-flows.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/sequence-auth-flows.md",
-      "git_blob": "930c2e9259795d187adab45a78c61de8c612e2e3",
-      "sha256": "cec98f15456109016faf2a933fe47f927739d4280a50080615d32208f225432c",
-      "bytes": 8098,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/02579-icon-service-Private-Endpoints.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/other/02579-icon-service-Private-Endpoints.svg",
+      "git_blob": "98fe90ad3eff37b63e422052317610fdb369658a",
+      "sha256": "96de0bb7f0aeb1220d0fd6d337578d5e93dca017d6ea7d42d887aa329b2fd90d",
+      "bytes": 1883,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/timeline-gantt-diagrams.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/timeline-gantt-diagrams.md",
-      "git_blob": "2c370b215161635a936f0fbafe61598684629fdd",
-      "sha256": "d5ac10ec77cd226fb1aef488af20325540130cb3d8c1290ea54eaf58b5d05292",
-      "bytes": 12165,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/02989-icon-service-Container-Apps-Environments.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/other/02989-icon-service-Container-Apps-Environments.svg",
+      "git_blob": "ef8c70d12e29e030596929823c920e872fbc8f18",
+      "sha256": "3cf4ba9242e31496f778a27e92c9c2b2a09664f105c58325d5e2dcb142d3c3b9",
+      "bytes": 2029,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/references/ui-wireframe-diagrams.md",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/references/ui-wireframe-diagrams.md",
-      "git_blob": "1badfd73c3aba0aac7aae03f3e55770997ea4cb8",
-      "sha256": "e9c6b8332184d0857436d19a1769b7d56df547cfb5c1d95008643ba39c668fd3",
-      "bytes": 20151,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/035746832-icon-service-AI-Foundry.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/ai + machine learning/035746832-icon-service-AI-Foundry.svg",
+      "git_blob": "38930a3d886c19fad1822baefa84aa60da04f568",
+      "sha256": "fab039a771f72780ae34e59065d61c66a02d3c347d50923ef2956f34912ea02c",
+      "bytes": 2824,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/requirements-extras.txt",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/requirements-extras.txt",
-      "git_blob": "bb50addf4935dc764eaa94a677807e0647025ad6",
-      "sha256": "26249bd8ecf1acbf46159808337a45273c2d5029d98a8a73e5b6195d85166340",
-      "bytes": 580,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/036509415-icon-service-Foundry-Project.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/ai + machine learning/036509415-icon-service-Foundry-Project.svg",
+      "git_blob": "bdd928fb63f8bc7d510037978b0dc8e8ce3f8214",
+      "sha256": "152187174d7d632cd91fd7d17b37316c423e008a84a889241163af832c8c3dec",
+      "bytes": 2348,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/requirements.txt",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/requirements.txt",
-      "git_blob": "e876ca005bad79e86ba5562373761ffb65308a7e",
-      "sha256": "76adb380966fe6a459be22487bc6906d7bd5cbf8582227ec0c8ed5763327f111",
-      "bytes": 910,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/038470523-icon-service-Foundry-Agent-Service.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/ai + machine learning/038470523-icon-service-Foundry-Agent-Service.svg",
+      "git_blob": "aae336727f3abaa2c2efb90e440f4444ec57557e",
+      "sha256": "aedb65eeb06c1d4f3d57568edd2e8e7205065589ae8ceba4513a2fd21b4053ca",
+      "bytes": 3284,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/scripts/ascii_to_diagram.py",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/scripts/ascii_to_diagram.py",
-      "git_blob": "95671ae1e36e5eedd79deab6b14f2eb188a77bb9",
-      "sha256": "c9db01418d52a53ee733a82f808bc7119cf5295e979a04f2b37a80d967e4f03a",
-      "bytes": 8536,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/038470614-icon-service-Foundry-Models.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/ai + machine learning/038470614-icon-service-Foundry-Models.svg",
+      "git_blob": "4da257684cf9501e3df7377386358e00b97e269c",
+      "sha256": "9c671f141cb0e19b62e004628183ed8711ad16ec3b2e56b14c3cd035d5fac711",
+      "bytes": 5358,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/scripts/check_imports.py",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/scripts/check_imports.py",
-      "git_blob": "e48209de7d185bd72d321cbaf2d7d7c3e9595e73",
-      "sha256": "6f6e07afdb35bdb846ae0e6f6b46968b34b25fa570a63b87c1feb9cdff4fdba4",
-      "bytes": 3359,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/10044-icon-service-Cognitive-Search.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/ai + machine learning/10044-icon-service-Cognitive-Search.svg",
+      "git_blob": "53e44a5972f845095d0f2cb887c1ae2d4d85a04f",
+      "sha256": "f7af1213ce089236593835cb5564d6d3f01358cba6488fe562aa8bbc8adc3b38",
+      "bytes": 1146,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/scripts/generate_diagram.py",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/scripts/generate_diagram.py",
-      "git_blob": "0b06b0505c9939dd33b106835e8225f79bc7ff45",
-      "sha256": "3f7818e1b2f344dd188783c924a9d238cffeeb5e31c69941fd5d290426207a0b",
-      "bytes": 27313,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/10061-icon-service-Virtual-Networks.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/networking/10061-icon-service-Virtual-Networks.svg",
+      "git_blob": "ad628afabf62b9ede41787c40cb3789d184ec420",
+      "sha256": "64a5e75ecef2f9f69067faa2eb131266cb8f2858706f8ab74bfea5ad0d98b14d",
+      "bytes": 1860,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/scripts/iac_to_diagram.py",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/scripts/iac_to_diagram.py",
-      "git_blob": "529ebc6010ac2ddcbbb8483a489ede1f56f20764",
-      "sha256": "e5a2b1b7037ec9ed43c04bef63aee525dbd14829a7dd42883eab94a9c4634b17",
-      "bytes": 6504,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/10084-icon-service-Firewalls.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/networking/10084-icon-service-Firewalls.svg",
+      "git_blob": "0a97a18a57b33b55cdf2795478306467f306c88b",
+      "sha256": "154c416cc15b95b7c6c1ab61a5ecb33f14845197b7d163bd9dc6f1968c14be1e",
+      "bytes": 1474,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/scripts/list_azure_nodes.py",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/scripts/list_azure_nodes.py",
-      "git_blob": "886c131f6f7d184be59ceddf7b762241bb8ce92d",
-      "sha256": "f9e05a9b1456b6dc0a0a9afa3c6c4676916c0b217e3489a718ed6440f5dea9cf",
-      "bytes": 3119,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/10086-icon-service-Storage-Accounts.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/storage/10086-icon-service-Storage-Accounts.svg",
+      "git_blob": "e2a26a2d5fef3a087ed28ca990df9318ab7fca62",
+      "sha256": "7190d3bb14ce30ce74bd0af873915830fe821e8c5f6ef6f3149e6f7cfb2aa4f7",
+      "bytes": 1157,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/scripts/multi_diagram_generator.py",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/scripts/multi_diagram_generator.py",
-      "git_blob": "e91a6c0468885cb7d7966435c1aebb17a635acc7",
-      "sha256": "e6f653c486b380ec811dba2ae4d14a6c0113d01e1f82ed34c1f27880b96e2025",
-      "bytes": 26240,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/10121-icon-service-Azure-Cosmos-DB.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/databases/10121-icon-service-Azure-Cosmos-DB.svg",
+      "git_blob": "ecb1792ed181813054c405480d4368bfd26e205e",
+      "sha256": "b6f1f2afac15762d1de44366d34984c5a3e6e58f94d9e81407ac01565212e8e3",
+      "bytes": 2599,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/scripts/render_examples.py",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/scripts/render_examples.py",
-      "git_blob": "5538ce0439007466ce351c3227e5c5b517e2ec5c",
-      "sha256": "82cb13445275df4ea4e77e4d406617a42cb2fb89f3c9c97b90c35f2ccb315238",
-      "bytes": 2866,
+      "path": "skills/csa-style-diagrams/assets/foundry/icons/10245-icon-service-Key-Vaults.svg",
+      "source": "microsoft-azure-icons-v24",
+      "upstream_path": "Azure_Public_Service_Icons/Icons/security/10245-icon-service-Key-Vaults.svg",
+      "git_blob": "53f0135e145679c8bc17ca82ae47c333eb783fca",
+      "sha256": "712b426f54f0fc50d0816dc79df709daa7ac5f93ccaf4e9b3527f627f6e9ad97",
+      "bytes": 2231,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/scripts/verify_installation.py",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/scripts/verify_installation.py",
-      "git_blob": "8ebd96dff2aa2415023b8bcdc775510dc896b932",
-      "sha256": "d3c3385afc7a7455e5bc045899748211e6c7d311f80d2d76c6e15444cd285108",
-      "bytes": 6217,
+      "path": "skills/csa-style-diagrams/benchmarks/README.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/README.md",
+      "git_blob": "32d7983ec7820c24abae85d335bf62ea465d71b4",
+      "sha256": "e0c389d5a83bd36b3268ad038157decd0901ed4db90d29c0e192e70a26f303d1",
+      "bytes": 6549,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-diagrams/tests/fixtures/sample-arm.json",
-      "source": "azure-diagrams",
-      "upstream_path": "skills/azure-diagrams/tests/fixtures/sample-arm.json",
-      "git_blob": "e14801532c7bf865f45cdf6586fc0dbd98157786",
-      "sha256": "7d52623acd8ae93b8bd0e144c53903a55fe81fb989b3ea0dafa867d3903de27d",
-      "bytes": 1119,
+      "path": "skills/csa-style-diagrams/benchmarks/briefs.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/briefs.json",
+      "git_blob": "28d2ecfab2a2fa78ee62e8ffda22c96dc7022841",
+      "sha256": "c7b8f85b0c50a2d34f43f0c782d2294d8206e7162dd0870869be935573dbc944",
+      "bytes": 6291,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-resource-visualizer/LICENSE",
-      "source": "azure-resource-visualizer",
-      "upstream_path": "LICENSE",
-      "git_blob": "356b112bcc4f07e03b6e57569eedf9d79978d2d5",
-      "sha256": "8a5d8efb70942e65032f930c761d097feeb41a7517ebd04c9d2e4ec3764071c5",
-      "bytes": 1077,
+      "path": "skills/csa-style-diagrams/benchmarks/corrections.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/corrections.json",
+      "git_blob": "755ceec015cd9bfed4e8309707896bab49f70840",
+      "sha256": "808efcd6f6229c9ce9d1659c76427eb32c695ffd65c033b44dd0f49216ccf5eb",
+      "bytes": 2020,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-resource-visualizer/SKILL.md",
-      "source": "azure-resource-visualizer",
-      "upstream_path": "skills/azure-resource-visualizer/SKILL.md",
-      "git_blob": "24aa2ca9ce042b70cba745c50ae5a198db4a9a46",
-      "sha256": "110c607c2626505931621c42f6cb21f2be9f35a2d35cf828b61f5562485ec8c4",
-      "bytes": 8528,
+      "path": "skills/csa-style-diagrams/benchmarks/input-snapshot.zip",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/input-snapshot.zip",
+      "git_blob": "29bfa81da7b63cfbec4b57d57ae6ad9040b53ab8",
+      "sha256": "a2210033bee31489b8d5baeac254778ac12fbdbdae3e3228c8fb32bf6ef14b48",
+      "bytes": 70193,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-resource-visualizer/assets/example-diagram.md",
-      "source": "azure-resource-visualizer",
-      "upstream_path": "skills/azure-resource-visualizer/assets/example-diagram.md",
-      "git_blob": "7cccc08177c898c2cba4e4bfd6b9ec3a86576c69",
-      "sha256": "634ad47b9dc958dd36e37b51369d1df60cc0430c072697b45f71b5a3e1ea221c",
-      "bytes": 1778,
+      "path": "skills/csa-style-diagrams/benchmarks/results.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/results.json",
+      "git_blob": "feab093f2ebe1f9ad56606ef16c78a501b55bbc0",
+      "sha256": "46d05dce544f42270e717ae0d23e66daac129a04596b261fce0dc9a51d3877ee",
+      "bytes": 6693,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-resource-visualizer/assets/template-architecture.md",
-      "source": "azure-resource-visualizer",
-      "upstream_path": "skills/azure-resource-visualizer/assets/template-architecture.md",
-      "git_blob": "574e5eb38a5662db3b1beb22b4456200579c7a1e",
-      "sha256": "4f77937ad89eb8d333afb928592f0b5b22a83044083521dacfe55d8b7b1eff22",
-      "bytes": 970,
+      "path": "skills/csa-style-diagrams/benchmarks/run-metadata.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/run-metadata.json",
+      "git_blob": "67da9e120fd9080a46443761df54a43a1583f597",
+      "sha256": "4cba8b63784219e3dc4400631b39e89ec87c8f5f3f67a93f60834038a8892c15",
+      "bytes": 4845,
       "mode": "100644"
     },
     {
-      "path": "skills/azure-resource-visualizer/references/azure-resource-graph.md",
-      "source": "azure-resource-visualizer",
-      "upstream_path": "skills/azure-resource-visualizer/references/azure-resource-graph.md",
-      "git_blob": "4ab7a3d9d67f47164f6e19d004cf465c7257cc4e",
-      "sha256": "c178445ad2a41f459b2b83353b7f3dc5bf0f99c102bac043f2eb482ffb00f726",
-      "bytes": 2390,
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/contract.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/contract.json",
+      "git_blob": "155dfb337e433ad55fe795c81883979cb699dada",
+      "sha256": "07a5b99bd46e28fe113a5eb6d27dbcf2be61a25913dd7a9fb52f2c8aab5e6a07",
+      "bytes": 2644,
       "mode": "100644"
     },
     {
-      "path": "skills/brand-guidelines/LICENSE.txt",
-      "source": "anthropic",
-      "upstream_path": "skills/brand-guidelines/LICENSE.txt",
-      "git_blob": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
-      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-      "bytes": 11345,
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/edit.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/edit.check.json",
+      "git_blob": "66cae668210635bfae9a04b10a494b8a99018c58",
+      "sha256": "00bfbde675b14fa7e288bb94e2c36983d23ef40e68e47a42dab7d5dac19a76c8",
+      "bytes": 2706,
       "mode": "100644"
     },
     {
-      "path": "skills/brand-guidelines/SKILL.md",
-      "source": "anthropic",
-      "upstream_path": "skills/brand-guidelines/SKILL.md",
-      "git_blob": "47c72c607bdb5dd81bdea5de2b5e4f3992a5fd59",
-      "sha256": "1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe",
-      "bytes": 2235,
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/edit.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/edit.drawio",
+      "git_blob": "31a0a651d5578b298e1237525e991a69c618907b",
+      "sha256": "8ddf8f20faf012a6e6be298726c9ffe25d67ddba8f9673733e7a6ef5bfce9c1d",
+      "bytes": 17178,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/edit.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/edit.png",
+      "git_blob": "b530c6d6f38ee39f132884b9f3c0097129903ad6",
+      "sha256": "f761de872b04e907e64aed3961dc8338c2a1ccbf8fb6357a5efbdcc0005d033c",
+      "bytes": 462052,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/edit.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/edit.render.json",
+      "git_blob": "b6e0bf836b6536aea5b00f2bab21e0bbf1b1e2a4",
+      "sha256": "a1ba74d47d9d77cabfe780ef56644792aed90deb341fa90978ea4df70b31aca1",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/edit.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/edit.text.json",
+      "git_blob": "c8f40e2a8e66e8e5ca437690c665318d629927aa",
+      "sha256": "67d74709f3d29a4583196316891d8feb3cf78312645dacc711971379b12c0294",
+      "bytes": 9823,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/final.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/final.check.json",
+      "git_blob": "66cae668210635bfae9a04b10a494b8a99018c58",
+      "sha256": "00bfbde675b14fa7e288bb94e2c36983d23ef40e68e47a42dab7d5dac19a76c8",
+      "bytes": 2706,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/final.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/final.drawio",
+      "git_blob": "bde612f27c2e229b37bb8c19a01333c2214414f9",
+      "sha256": "9d61af24775be5ef8931cde4880444a262f7efae75796e9bcd753740264e686e",
+      "bytes": 17173,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/final.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/final.png",
+      "git_blob": "ca7c1969bf80f72c602e0140b5923b035b725496",
+      "sha256": "545e812ef38952f682fd84a1661ed1207b960986a6da797af5d50246daafbe3f",
+      "bytes": 460641,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/final.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/final.render.json",
+      "git_blob": "b7fc0feb72999fee36e67733cb09e0a10570df20",
+      "sha256": "b50b98f0e1783221a10f0b0e162efc9819940cad5e6fe5678f6972f7cb9888ff",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/final.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/final.text.json",
+      "git_blob": "594817fffbe6fe26c112b3f2f5ccffe2a7d781f6",
+      "sha256": "b7d90c593f4378757766074ea6967ba0cac18d6cb2e9008af668160a176a8802",
+      "bytes": 9821,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/first.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/first.check.json",
+      "git_blob": "66cae668210635bfae9a04b10a494b8a99018c58",
+      "sha256": "00bfbde675b14fa7e288bb94e2c36983d23ef40e68e47a42dab7d5dac19a76c8",
+      "bytes": 2706,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/first.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/first.drawio",
+      "git_blob": "cc5ce2d799589a0d01f3cb13c51955300af5e466",
+      "sha256": "b72c9b50ecb193b1444bad7165e8e7069ea45e2ff35700cf766a369e251bbbf5",
+      "bytes": 17022,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/first.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/first.png",
+      "git_blob": "2ffd36b6b267bc993c741f84ea01961a1dbf8502",
+      "sha256": "72f569a0cfac4b151872a1989c64fe8b7c1d8b31cca28093c03af1235d52e63b",
+      "bytes": 460749,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/first.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/first.render.json",
+      "git_blob": "7aa9bd424f18fed85836c5315ebd44fc05438ac0",
+      "sha256": "5fd60e1cbaeda6c321ce8763077832dda44205d644b03c8e11403cad618e9b52",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-baseline/first.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-baseline/first.text.json",
+      "git_blob": "142a9011388d40d08f48a401ddc342f287836744",
+      "sha256": "e069dc2fbcb8d4c9963d010bd73a8ea199b10b075be6424b7c0955850ce71a39",
+      "bytes": 10138,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/contract.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/contract.json",
+      "git_blob": "155dfb337e433ad55fe795c81883979cb699dada",
+      "sha256": "07a5b99bd46e28fe113a5eb6d27dbcf2be61a25913dd7a9fb52f2c8aab5e6a07",
+      "bytes": 2644,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/edit.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/edit.check.json",
+      "git_blob": "bb3b29618ed73c7ebff57b965da7c0efa897b7b4",
+      "sha256": "796d2070340ceafb516871dd0f5e4be1c29f0c139f768748717063530d83a877",
+      "bytes": 353,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/edit.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/edit.drawio",
+      "git_blob": "cef0f4213e08955042ce60927957303a592a5621",
+      "sha256": "aec46d4b4c53f924cf13f39f846c8be1cf98c55fd3853a6c4b9aea0694de58d9",
+      "bytes": 51859,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/edit.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/edit.png",
+      "git_blob": "ec57ad9f25cb56fc9700574781d66559a4c9654e",
+      "sha256": "6fc7afc6fad4a16f660cac27a4f799f635bebb5e5d4df7c044fdd210f231654d",
+      "bytes": 509715,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/edit.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/edit.render.json",
+      "git_blob": "ba30710f53930aada3b56734abc53e9afba2db17",
+      "sha256": "ae0c2931462c1dd7bce3c5e3c49c4a5bfd96313f4b8fce38fc8dac7bf313f676",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/edit.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/edit.text.json",
+      "git_blob": "97856ad53c37350abc799033efbfe666fff3dbb9",
+      "sha256": "213541e5bf6edc219ae76e04ef06b9ae05de8cf90d4db9b250072827db770123",
+      "bytes": 10897,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/final.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/final.check.json",
+      "git_blob": "4fda5629564aeb52c379b11cb9bfba3dac525038",
+      "sha256": "ed86bd46e2e415740d3094b57c057cbfe08131cf1865a1c21142a1b71da17c15",
+      "bytes": 210,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/final.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/final.drawio",
+      "git_blob": "cb321526c7f769181452c205870e942f70e1c885",
+      "sha256": "39c4deb43957075c8e0434dc5da013708619fca84ec89cd69abe45f654c55d94",
+      "bytes": 51853,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/final.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/final.png",
+      "git_blob": "56e4f5f7270ec67612668064f62fbb54897cc488",
+      "sha256": "f3402e20136d484847f20a36f03caf68dd4d0f6ce48bc51c244080f94d26de7f",
+      "bytes": 503272,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/final.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/final.render.json",
+      "git_blob": "54a405fc53dfc36ced29924be2310af88265c547",
+      "sha256": "1091089e93070b201104258b2b083bf7236308628c49171d0c2010e6ef3c0fb8",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/final.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/final.text.json",
+      "git_blob": "b492fa1d56d1510a8e2385247582ead0911a01e0",
+      "sha256": "294fa3ae688d3c5a144ff9c12388aa162021379a126a051b6eb9eb6494f1c43a",
+      "bytes": 10751,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/first.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/first.check.json",
+      "git_blob": "4fda5629564aeb52c379b11cb9bfba3dac525038",
+      "sha256": "ed86bd46e2e415740d3094b57c057cbfe08131cf1865a1c21142a1b71da17c15",
+      "bytes": 210,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/first.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/first.drawio",
+      "git_blob": "cb321526c7f769181452c205870e942f70e1c885",
+      "sha256": "39c4deb43957075c8e0434dc5da013708619fca84ec89cd69abe45f654c55d94",
+      "bytes": 51853,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/first.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/first.png",
+      "git_blob": "56e4f5f7270ec67612668064f62fbb54897cc488",
+      "sha256": "f3402e20136d484847f20a36f03caf68dd4d0f6ce48bc51c244080f94d26de7f",
+      "bytes": 503272,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/first.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/first.render.json",
+      "git_blob": "54a405fc53dfc36ced29924be2310af88265c547",
+      "sha256": "1091089e93070b201104258b2b083bf7236308628c49171d0c2010e6ef3c0fb8",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/fabric-csa/first.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/fabric-csa/first.text.json",
+      "git_blob": "b492fa1d56d1510a8e2385247582ead0911a01e0",
+      "sha256": "294fa3ae688d3c5a144ff9c12388aa162021379a126a051b6eb9eb6494f1c43a",
+      "bytes": 10751,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/contract.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/contract.json",
+      "git_blob": "b4cb3407f4507180cb5cd819c4385adc04c25b43",
+      "sha256": "a86561d8b6957f08c386a6e623a39a84f907d9e08d945231377135698eeecb40",
+      "bytes": 2473,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/edit.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/edit.check.json",
+      "git_blob": "308a78799b16a62d0c8eb71f20ebb2cb7e1e5871",
+      "sha256": "4d70b6ae0e611d72b57bdf6451f2b9edbce52f7d38772f195fee9f2ece2fb465",
+      "bytes": 1393,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/edit.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/edit.drawio",
+      "git_blob": "8564073aef351dd85d9f9fc31ee69c31aa899638",
+      "sha256": "0230403775f0ec66a01dbbabee1d51bcaa8dd1c2424ba301e86976a464ecb278",
+      "bytes": 12390,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/edit.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/edit.png",
+      "git_blob": "49cb3fb6ee019b616c9f9eba8af575dcb7311725",
+      "sha256": "ed134c87b1b484cc8f7a6a71e0110cb580a29fb94a6ab70f48fd21d806bcaa50",
+      "bytes": 542047,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/edit.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/edit.render.json",
+      "git_blob": "948c92ea1404c11f4d5501f570e34d38334fbf25",
+      "sha256": "239bd5a9812ea3967875788a52395738a9101c01f650502b9a993ce40ee87ee3",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/edit.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/edit.text.json",
+      "git_blob": "5f190345513ef30d29adc16e0ce18593eb731b26",
+      "sha256": "8530e9cb861af4aa14c8d4b67b111a02076e26ea0c2d7be973aff7611f444d47",
+      "bytes": 8034,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/final.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/final.check.json",
+      "git_blob": "308a78799b16a62d0c8eb71f20ebb2cb7e1e5871",
+      "sha256": "4d70b6ae0e611d72b57bdf6451f2b9edbce52f7d38772f195fee9f2ece2fb465",
+      "bytes": 1393,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/final.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/final.drawio",
+      "git_blob": "0b73df52bed78c05627db5e7535d7b9bb636f745",
+      "sha256": "a945dd88fd01bf58f23ddd8e3700a9772786d925bd89fd7e2875b4e353ee0e7e",
+      "bytes": 12309,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/final.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/final.png",
+      "git_blob": "00eb946b1e377c1fc109e1538f9d1c4278ca369e",
+      "sha256": "bdfe2c86950845356683c88a0982203d6bf3e9dc0039d1b4f720f5b57cefb204",
+      "bytes": 540038,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/final.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/final.render.json",
+      "git_blob": "c7a38e936a148f03434b4f4c55b9447002012c9d",
+      "sha256": "52ff4a50af62667191744740efe32dd11b93c37c98d7143da178c7c246d25862",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/final.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/final.text.json",
+      "git_blob": "ade04b12ef096664a65e03c18423cb3171874402",
+      "sha256": "207113bfb738aec9864f38eb7a419df3d919d16e7933165b62a89b64deb06dcf",
+      "bytes": 8031,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/first.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/first.check.json",
+      "git_blob": "308a78799b16a62d0c8eb71f20ebb2cb7e1e5871",
+      "sha256": "4d70b6ae0e611d72b57bdf6451f2b9edbce52f7d38772f195fee9f2ece2fb465",
+      "bytes": 1393,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/first.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/first.drawio",
+      "git_blob": "0b73df52bed78c05627db5e7535d7b9bb636f745",
+      "sha256": "a945dd88fd01bf58f23ddd8e3700a9772786d925bd89fd7e2875b4e353ee0e7e",
+      "bytes": 12309,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/first.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/first.png",
+      "git_blob": "00eb946b1e377c1fc109e1538f9d1c4278ca369e",
+      "sha256": "bdfe2c86950845356683c88a0982203d6bf3e9dc0039d1b4f720f5b57cefb204",
+      "bytes": 540038,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/first.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/first.render.json",
+      "git_blob": "c7a38e936a148f03434b4f4c55b9447002012c9d",
+      "sha256": "52ff4a50af62667191744740efe32dd11b93c37c98d7143da178c7c246d25862",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-baseline/first.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-baseline/first.text.json",
+      "git_blob": "ade04b12ef096664a65e03c18423cb3171874402",
+      "sha256": "207113bfb738aec9864f38eb7a419df3d919d16e7933165b62a89b64deb06dcf",
+      "bytes": 8031,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/contract.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/contract.json",
+      "git_blob": "b4cb3407f4507180cb5cd819c4385adc04c25b43",
+      "sha256": "a86561d8b6957f08c386a6e623a39a84f907d9e08d945231377135698eeecb40",
+      "bytes": 2473,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/edit.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/edit.check.json",
+      "git_blob": "eaf2924580b79b4cfe1cdf8b920211c6a4f603bd",
+      "sha256": "0c24c25072dce6e4c60c761e06e63ea016644cfd3535c4f68546669316df0981",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/edit.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/edit.drawio",
+      "git_blob": "1e91346a004987ab2249fc32af61eba7505a2930",
+      "sha256": "72eed87e61217528ded73b9d2f27d1908b4948361bb8accccf4293d47f82adce",
+      "bytes": 38939,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/edit.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/edit.png",
+      "git_blob": "1379faa872494ed25fb5a9fdf87e5fe26e883771",
+      "sha256": "5a6f3eb2c5916d176e295018c706776a1bd60e3f55095480186bcae36b3facd8",
+      "bytes": 529390,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/edit.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/edit.render.json",
+      "git_blob": "1ceac361aaccba95d63630dcd944d36511035008",
+      "sha256": "77e6cc8d374b4446411230fea505c69d8c7acd69cba19e353a8755de5db9efff",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/edit.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/edit.text.json",
+      "git_blob": "eecfba1aa653fb47cbe5d4daa539ecc072901132",
+      "sha256": "4d1502454e32353f89f5409e7c29ca0fe08b702d73e7a7f63fa8badc8bde86ce",
+      "bytes": 9706,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/final.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/final.check.json",
+      "git_blob": "eaf2924580b79b4cfe1cdf8b920211c6a4f603bd",
+      "sha256": "0c24c25072dce6e4c60c761e06e63ea016644cfd3535c4f68546669316df0981",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/final.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/final.drawio",
+      "git_blob": "ecbfd08cdd668fa90afe4586b5f80676a9457293",
+      "sha256": "13c4629b67de22453da12696504b224e73bb1699a74b46d31f0ef25614542146",
+      "bytes": 38936,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/final.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/final.png",
+      "git_blob": "6da2414b9aa847c9de5b7a85ddc4fd28ad157198",
+      "sha256": "fe2e4e383a6749341567d1f3c8c8bb4bf9b7fe03b0d4269c7df759a20880d3b9",
+      "bytes": 527940,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/final.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/final.render.json",
+      "git_blob": "815f139e38a401fb3b22fc4361e580d55626c1bd",
+      "sha256": "07e9120bf7fdeac7c4f2ec4b5a31d9f3f053867dee79a0af8bfa9cea50242c25",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/final.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/final.text.json",
+      "git_blob": "fb2af39676cdbfa9f125a27dc25518775212a84a",
+      "sha256": "9bae7f5c8c3d6bfa5ec31159922f5ce697a569699d26f0a9d035acd273b94df6",
+      "bytes": 9692,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/first.check.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/first.check.json",
+      "git_blob": "3f7c33188db0c460cf5d4c7d2ee2a271b61122c6",
+      "sha256": "4e7b6f991d29fa052f3e990c40b85ab2130268f151561d2a7aebee8c5a105aae",
+      "bytes": 197,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/first.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/first.drawio",
+      "git_blob": "7da309bbb79fbb00a62926708d52b9f1502b014f",
+      "sha256": "7b5173aaf374c6191c28e39fe2b83bc60fd86f262237d69c3a278d84722055bc",
+      "bytes": 38936,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/first.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/first.png",
+      "git_blob": "1a1383f8977bb8086c8cba2bcd7d40af7be4cd50",
+      "sha256": "652b8d44a76d4a4b54aa466a1a966529812f9644dab834edb956ec3562810908",
+      "bytes": 528087,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/first.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/first.render.json",
+      "git_blob": "f681c781312f5098f9c4ba44f222549971a21121",
+      "sha256": "101cc5859bb3c098ff804ae122c8aad984504578c149945f6313d6db764490af",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/runs/foundry-csa/first.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/runs/foundry-csa/first.text.json",
+      "git_blob": "f29e8392661aeaaf0239e00941b3235dccf471e8",
+      "sha256": "9201b517be679fe38676511d08a24dca32894fddfcea75e85d35796f691b68ad",
+      "bytes": 9692,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/benchmarks/score.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "benchmarks/score.py",
+      "git_blob": "8e6040ac7839b671b831aef08181e03ff57e54e6",
+      "sha256": "902d0833363aa4cc458bb91ba1131c2aef23ac36bbb62c8bd8a0ab7c22d7fa85",
+      "bytes": 2739,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples.md",
+      "git_blob": "0dba9575ad9dc6c15c2900360fcc7a7093103322",
+      "sha256": "b26ed42e8f576c72b3e5acc7e85d57bb7e60fe27f02b2e25770d87e4d3b31d14",
+      "bytes": 9482,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-batch/README.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-batch/README.md",
+      "git_blob": "a4544c7b23181c92fe0a315633076dc8c1ca9cae",
+      "sha256": "a6e48d466bbc845e3799fdf0d1d1efde424ae27729af9282063c5ab8d87a3174",
+      "bytes": 5200,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-batch/architecture.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-batch/architecture.drawio",
+      "git_blob": "4b4cc70a286b55ce344e82f9757f54cdf61116b7",
+      "sha256": "12cbc55efdb9d52b7c68b628553b59a13c4168aafc29d2a43faa1e7e3b26730c",
+      "bytes": 43905,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-batch/architecture.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-batch/architecture.png",
+      "git_blob": "f08e06a93f6325fc66592a17e4165b387c43e22c",
+      "sha256": "f26516df699ea3a36e970d73eb219a4463f924091b96f4c64d898550a4c1603a",
+      "bytes": 625138,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-batch/architecture.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-batch/architecture.render.json",
+      "git_blob": "eb96f90dd99aa5d913daf3af6653dee0d3e1c940",
+      "sha256": "4cac23196b2207bdaf41423a827421c9d82ee56f28284e0252fe0b743f60d25c",
+      "bytes": 304,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-batch/build.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-batch/build.py",
+      "git_blob": "90933a95d3b10182ae57aa83e90a193096bc8cdd",
+      "sha256": "2add857b4c93f19ff026e872958d147dc80779e187e2c712f485551b83dac12b",
+      "bytes": 8593,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-batch/contract.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-batch/contract.json",
+      "git_blob": "0132f44552c62bde100db41bae7e6da463e07a9c",
+      "sha256": "b56830af7b4fb8d2fd870d45dd703e9ebe0bc8bec9bb71646519886355ec9a49",
+      "bytes": 3408,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-official/README.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-official/README.md",
+      "git_blob": "32f0d34746ee87ecd3bc7b84adec1464304e894e",
+      "sha256": "477794aef645b9ef4d269f8ede82faedc335123433fb2068d81dd7f8b0160963",
+      "bytes": 1546,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-official/architecture.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-official/architecture.drawio",
+      "git_blob": "d98934232f80941df9c4a39bd57829ea38f91cd1",
+      "sha256": "c59ce10d5be64c90ed33f0e2094c1cac69dcb7ec396c5fa62a90ba39103395ee",
+      "bytes": 85165,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-official/architecture.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-official/architecture.png",
+      "git_blob": "3c8d9c82386b6830d1423d4d7c200207bcbcde3d",
+      "sha256": "1cd391bc42da649211178949ec7f854024ae61dd4a4202c96bc805033ff5fca1",
+      "bytes": 650698,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-official/architecture.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-official/architecture.render.json",
+      "git_blob": "a072915f881ff1e9213a2c810162b6ff93c59488",
+      "sha256": "fcb5573a32a7a9160c08a5617097fc0e48dc0711e1d4f151ef0e54a7f9ae9e5d",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-official/architecture.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-official/architecture.text.json",
+      "git_blob": "0dd995d8e3f9918c7d8a00885b0c38a5d75e213e",
+      "sha256": "c41ac8f5e0eff207df757f5af9a4ad3b669d38b319d9b695e51f1f5f127769bb",
+      "bytes": 18269,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-official/build.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-official/build.py",
+      "git_blob": "01c1d334035c06b4e1a1422bccb3357aab658fa4",
+      "sha256": "05f7d142bab060a0865be6cd48d4b885ea39916c213f7ce2bacf71b606df6f7a",
+      "bytes": 739,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/fabric-official/contract.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/fabric-official/contract.json",
+      "git_blob": "0132f44552c62bde100db41bae7e6da463e07a9c",
+      "sha256": "b56830af7b4fb8d2fd870d45dd703e9ebe0bc8bec9bb71646519886355ec9a49",
+      "bytes": 3408,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-icons/README.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-icons/README.md",
+      "git_blob": "31005b6d7b12695f144be890e1e5f55d2a07c723",
+      "sha256": "19ff4f6df818e95fcfb6d0eed9eca105d5dcd33222abfea9d1595edb394bd6a5",
+      "bytes": 1971,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-icons/architecture.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-icons/architecture.drawio",
+      "git_blob": "3671d158304ad7ceb13b7e3a85d210ecc5103ed5",
+      "sha256": "943a534b2de14d83726275bc7d5ef9b2dc258aadf9a6464c963caca549812c84",
+      "bytes": 63296,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-icons/architecture.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-icons/architecture.png",
+      "git_blob": "520c2e9f37c20074732b99c652e3bd3064b516f2",
+      "sha256": "9b03f46f3ce72eb62c720cb64f588295da442a98f55883c30fc2712ee730d562",
+      "bytes": 484889,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-icons/architecture.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-icons/architecture.render.json",
+      "git_blob": "79765d796abf5ad616f2463f05fa924b7772fd0e",
+      "sha256": "0cdc3403b0056eaf1a4511cf3409bf3c5cb2663e94615c9375486df12c89094b",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-icons/build.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-icons/build.py",
+      "git_blob": "9f28b2426faafd7802401f11fa3b9bfaf89cccbe",
+      "sha256": "9b138a4aa766eb8015d88c8c50dfb208ac12f29081d9e421904cdd9da45bd4f6",
+      "bytes": 2981,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-icons/contract.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-icons/contract.json",
+      "git_blob": "838a7531976b5dd2a6d8ea6d91f8cb3ec67f38c5",
+      "sha256": "88aa87a0144a02af6f592940b1ee9729229a5a045118dfa90698f7314d0d2a39",
+      "bytes": 1315,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-multi-project/README.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-multi-project/README.md",
+      "git_blob": "bcc94ce4b8236d0f7d0c7ec2a9e11574eae9c47b",
+      "sha256": "c042bbf77a9e4922ece7737d45cd810e1b5387add5a448aa0375a367ff81876e",
+      "bytes": 3277,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-multi-project/architecture.drawio",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-multi-project/architecture.drawio",
+      "git_blob": "b466f70ae61f84ced1fee3fb4764b531d17e42bd",
+      "sha256": "e990fc7d484357ec778bdb56fd45d6f028e06ce7d2f2da48bd4fb96a49a39521",
+      "bytes": 44434,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-multi-project/architecture.png",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-multi-project/architecture.png",
+      "git_blob": "6b03d6107e9c6ed20ba32523b3c7dea5991af6a1",
+      "sha256": "3b97e738b66bfc3912249f15baad4e20632ec0d56ac99469290a825e94ba0891",
+      "bytes": 497950,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-multi-project/architecture.render.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-multi-project/architecture.render.json",
+      "git_blob": "ea52321520c112d93ad22ef7bf10346cb1d882f2",
+      "sha256": "f332a4ee4ecac76b416aa03b2808bda21cf3ddfb63487a5858be436f5625cb88",
+      "bytes": 295,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-multi-project/architecture.text.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-multi-project/architecture.text.json",
+      "git_blob": "d23204acd3ca22adbe6d58295f3d8af1885f6ca5",
+      "sha256": "bc33925e47c7c5ee829c24dd866206a1b3a4672778a91db715c00e1daba335ca",
+      "bytes": 9446,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-multi-project/build.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-multi-project/build.py",
+      "git_blob": "0501f080dcba135bdbc83c4fd0b9cc2705b5a907",
+      "sha256": "964ed5bf2539db5171a69c5384cf1f86d805b1f24a55a332c14678d06a37f41b",
+      "bytes": 6178,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/examples/foundry-multi-project/contract.json",
+      "source": "csa-style-diagrams",
+      "upstream_path": "examples/foundry-multi-project/contract.json",
+      "git_blob": "86a2dcf2765daab4dea82fffebcd1a38096fea59",
+      "sha256": "8ffe50486f1e9e61505ee60449523518ed82b705fe4b3046a4c0c4a6988b8fed",
+      "bytes": 2112,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/references/foundry.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "references/foundry.md",
+      "git_blob": "7947b835a5f4ad8e3f3ad2915155fe71a09de02a",
+      "sha256": "2950f31eb465d9838f49665e8209e4340cc2f469d1bc7ee0f1221343e30bc682",
+      "bytes": 5635,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/references/quality-checks.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "references/quality-checks.md",
+      "git_blob": "493a206b89bc831f83232d4d4fbc8fc5575be6dc",
+      "sha256": "73ae9964b419071f1569f50b50da451b785a0b3c91e75f962d314380cc2a981a",
+      "bytes": 3945,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/references/tooling.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "references/tooling.md",
+      "git_blob": "da91b7b83cb65c3195ceab02d26aee53ac8e8305",
+      "sha256": "575bcdbd373878b876626c05c8386f54b82cd1b8dcd0719754872faa2df79993",
+      "bytes": 9487,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/references/visual-style.md",
+      "source": "csa-style-diagrams",
+      "upstream_path": "references/visual-style.md",
+      "git_blob": "c708ecdcac59dc6c73bcdb4bd1558ae77bcfdb35",
+      "sha256": "6b8203cbc63d3aeed90fab2f39cc0517ef4a07788c38dbfadf2c5ff91c690dd7",
+      "bytes": 4339,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/scripts/check_diagram.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "scripts/check_diagram.py",
+      "git_blob": "a0a67e03f07aa32364bb5adcb58f463b09e4749d",
+      "sha256": "1f9c48052f60e17f03d2d183bddb1fcbe5e6b5ff0534e31b76a96d814e69a3ba",
+      "bytes": 20204,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/scripts/check_rendered.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "scripts/check_rendered.py",
+      "git_blob": "aa9eedf0a6b5bd8a55181a8cf6d81c9b1d867f8e",
+      "sha256": "3ec0edb66261b7b383e7ffc99acfa5dfe9c111f41da9cca154871aed7e13e2de",
+      "bytes": 6084,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/scripts/csa_drawio.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "scripts/csa_drawio.py",
+      "git_blob": "fa359f9f583cb20b93d5679e378fd333ee3f7ed0",
+      "sha256": "9ac5e3eb5b6093c29694924cab096bdc7740474fc8adc72e48de74e897a0e44c",
+      "bytes": 12460,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/scripts/measure_text.js",
+      "source": "csa-style-diagrams",
+      "upstream_path": "scripts/measure_text.js",
+      "git_blob": "41f711bb612899a56b140d8326118cb8370b9988",
+      "sha256": "61cae2dc4e12bf844548085c5a8993981e809f471d6cce05b09f5bcf2334c08b",
+      "bytes": 2960,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/scripts/render_diagram.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "scripts/render_diagram.py",
+      "git_blob": "aff96169718b9b18ea19f6d6cacb81a63dec80a9",
+      "sha256": "01f01a19bb459f4162eaf6efd4df01b415edbde27dd90d78771766eb2cd9b7d2",
+      "bytes": 3427,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/tests/test_diagrams.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "tests/test_diagrams.py",
+      "git_blob": "80a45ed49e6ed81a0279564fff7d951af229685a",
+      "sha256": "aec69b5ddbce80baf4a735b9b6ff40bb4102a79a6c6ef63f5921d378ef29b017",
+      "bytes": 19219,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/csa-style-diagrams/tests/test_quality.py",
+      "source": "csa-style-diagrams",
+      "upstream_path": "tests/test_quality.py",
+      "git_blob": "f00f1658a9e4db78005d77a596a00be94438deac",
+      "sha256": "912e3564e267c11a45bcab0b11dcbff67c08899241587577538c4f3ec2061c60",
+      "bytes": 7557,
       "mode": "100644"
     },
     {
@@ -386,177 +1286,6 @@
       "git_blob": "7a1f47ad73833440a2bd46d28658183f9db4baee",
       "sha256": "7e3c2a3a7e1372f72b6b9f1cbd5178c4059f435a68e2724ae6ff72df8adf121e",
       "bytes": 2009,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/frontend-design/LICENSE.txt",
-      "source": "anthropic",
-      "upstream_path": "skills/frontend-design/LICENSE.txt",
-      "git_blob": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
-      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
-      "bytes": 10174,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/frontend-design/SKILL.md",
-      "source": "anthropic",
-      "upstream_path": "skills/frontend-design/SKILL.md",
-      "git_blob": "a5333457c414d20d625f307df945842c0952ecc3",
-      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
-      "bytes": 9390,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/internal-comms/LICENSE.txt",
-      "source": "anthropic",
-      "upstream_path": "skills/internal-comms/LICENSE.txt",
-      "git_blob": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
-      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-      "bytes": 11345,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/internal-comms/SKILL.md",
-      "source": "anthropic",
-      "upstream_path": "skills/internal-comms/SKILL.md",
-      "git_blob": "56ea935b74f371bfeb4c7d3c19d5139df866e73b",
-      "sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475",
-      "bytes": 1511,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/internal-comms/examples/3p-updates.md",
-      "source": "anthropic",
-      "upstream_path": "skills/internal-comms/examples/3p-updates.md",
-      "git_blob": "5329bfbf3b47035946a3995dd63025799b582f8c",
-      "sha256": "087e4363c0f3513728a7e695eeb9ead5c3ecd12a4681b59340691180e65b68fc",
-      "bytes": 3274,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/internal-comms/examples/company-newsletter.md",
-      "source": "anthropic",
-      "upstream_path": "skills/internal-comms/examples/company-newsletter.md",
-      "git_blob": "4997a072b62ed7f65a9fd113903db3d9eba34b98",
-      "sha256": "30f81cfbdb03858a006169c72169024089c7c5d3d32611d337782da4f38c86b5",
-      "bytes": 3295,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/internal-comms/examples/faq-answers.md",
-      "source": "anthropic",
-      "upstream_path": "skills/internal-comms/examples/faq-answers.md",
-      "git_blob": "395262a860636434593cd3c3da258000231ea4f6",
-      "sha256": "5ecd3356cd6666937f2ebefa753253edfdbdca15e368d07baf398bfcced72484",
-      "bytes": 2366,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/internal-comms/examples/general-comms.md",
-      "source": "anthropic",
-      "upstream_path": "skills/internal-comms/examples/general-comms.md",
-      "git_blob": "0ea977018ca8167d39bfc9adb253f80336819578",
-      "sha256": "4d3a4bb198a77626bcf018e96b2b45a2dbabed172d4ade0fcd70d23ae8a47a47",
-      "bytes": 602,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/LICENSE.txt",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/LICENSE.txt",
-      "git_blob": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
-      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-      "bytes": 11345,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/SKILL.md",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/SKILL.md",
-      "git_blob": "d61a9056202a0f8b2d064c896e62f415c45b1bf1",
-      "sha256": "b483b56d6673134497e45489c317f26ae0f1429c194db0297e43073e17e6748c",
-      "bytes": 11129,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/reference/evaluation.md",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/reference/evaluation.md",
-      "git_blob": "87e9bb78840fac113d93b4a27ab5b229a18cf226",
-      "sha256": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
-      "bytes": 21663,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/reference/mcp_best_practices.md",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/reference/mcp_best_practices.md",
-      "git_blob": "b9d343cc3ae89b1fc139dae96bdb2b7e29ba3648",
-      "sha256": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
-      "bytes": 7330,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/reference/node_mcp_server.md",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/reference/node_mcp_server.md",
-      "git_blob": "738ec1fb8b1a41661b0bb5d32a26234a14c4e3f0",
-      "sha256": "ee3c95d812e450f6168b734390d0c9ef6f8ebeef041d73a122c972dfbd4d476a",
-      "bytes": 28745,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/reference/node_mcp_server_v2.md",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/reference/node_mcp_server_v2.md",
-      "git_blob": "5d61f896d9707c8797c33ac8ac03c5aebf9b163f",
-      "sha256": "49b2fe48f33910b743ae3a56353fffa5d5f252f531053f24f2da4e5914c0d3aa",
-      "bytes": 35171,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/reference/python_mcp_server.md",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/reference/python_mcp_server.md",
-      "git_blob": "cf7ec996d2e6e3655bc75ff6902738d03a37334e",
-      "sha256": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
-      "bytes": 25099,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/scripts/connections.py",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/scripts/connections.py",
-      "git_blob": "ffcd0da3fbe1539320d022017ae83b61a9587a5c",
-      "sha256": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
-      "bytes": 4875,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/scripts/evaluation.py",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/scripts/evaluation.py",
-      "git_blob": "41778569c45a458e0eea839b8917692ad65be2d5",
-      "sha256": "49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7",
-      "bytes": 12579,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/scripts/example_evaluation.xml",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/scripts/example_evaluation.xml",
-      "git_blob": "41e4459b5af861e61f1ca87d2f8f5ab5543dc054",
-      "sha256": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
-      "bytes": 1194,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/mcp-builder/scripts/requirements.txt",
-      "source": "anthropic",
-      "upstream_path": "skills/mcp-builder/scripts/requirements.txt",
-      "git_blob": "e73e5d1e356edafadb9dc9243e6f300f2c5529b3",
-      "sha256": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7",
-      "bytes": 29,
       "mode": "100644"
     },
     {
@@ -647,753 +1376,6 @@
       "git_blob": "027b5b5d046272151923da3d29254746774458df",
       "sha256": "11900f082d21c7e3fc0addcd2bf50689a1c36a5af806207942a2f772cb5e2b3b",
       "bytes": 9213,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/natural-architecture-diagrams/LICENSE.txt",
-      "source": "natural-architecture-diagrams",
-      "upstream_path": "LICENSE.txt",
-      "git_blob": "c1e24b573b958e6e807e4b214c032a9f31acf225",
-      "sha256": "f849d8f59e747fc760932d7c3d49ac2a606781bc1280c3086f89333f2c7f3caa",
-      "bytes": 1120,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/natural-architecture-diagrams/README.md",
-      "source": "natural-architecture-diagrams",
-      "upstream_path": "README.md",
-      "git_blob": "f7068079e6da1e9b231480c4aa17cdf2824c2606",
-      "sha256": "15064e610136423e35c714a2a45fe9ba5b91ceadf3abd37aa86b3f36e5b99acd",
-      "bytes": 2661,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/natural-architecture-diagrams/SKILL.md",
-      "source": "natural-architecture-diagrams",
-      "upstream_path": "SKILL.md",
-      "git_blob": "6198ad5653816a71b17bbbf08ad376420eca91cc",
-      "sha256": "4b3bd78a69454806fdbccc72ca247b30f4203b9f8ec4e771b6a768ab41cb3d84",
-      "bytes": 12416,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/natural-architecture-diagrams/examples.md",
-      "source": "natural-architecture-diagrams",
-      "upstream_path": "examples.md",
-      "git_blob": "369d26b4d0e696c6c90ad22b0314aac94c25670a",
-      "sha256": "c9e2891794ffd50618d04752df3fb845dbe350f6c49d24016d52c8a0bead5bab",
-      "bytes": 3125,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/.gitignore",
-      "source": "pretty-mermaid",
-      "upstream_path": ".gitignore",
-      "git_blob": "6442ebfe4722ed17bf98776eb711070bfea0c8ec",
-      "sha256": "94a99939b329c52f5493b7066077443637e49a67714946aa96442a8f1ec03788",
-      "bytes": 570,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/CHANGELOG.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "CHANGELOG.md",
-      "git_blob": "96c37f1714ada6a20e8c69d9a139f60b1c443d20",
-      "sha256": "fd4908001e6af6f61055067348fb2e6f4067dc5893a9e55d743538172f5422bf",
-      "bytes": 1389,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/CODE_OF_CONDUCT.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "CODE_OF_CONDUCT.md",
-      "git_blob": "ce3ac2cc2b3ada95ff1ae1f08b820536d3529c3e",
-      "sha256": "8fb36813fe19a16fb7026f38708ab61ff738d0214461680425d2deed3a814a1a",
-      "bytes": 3925,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/CONTRIBUTING.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "CONTRIBUTING.md",
-      "git_blob": "1321b93ad63050aac634f7da31571364a740033c",
-      "sha256": "5cb81e68efbcfaad0c328c016302f7664f06dee6826e4bd54f7d6bd995f95b35",
-      "bytes": 1776,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/LICENSE",
-      "source": "pretty-mermaid",
-      "upstream_path": "LICENSE",
-      "git_blob": "bcd4d7759082818489c5c55fedc222cec9098e53",
-      "sha256": "d84c4702c346daabcfeefec4c691a36eb394360927c384c64798bbab97e8fb41",
-      "bytes": 1087,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/README.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "README.md",
-      "git_blob": "7faea2ca356bdf756c55121ae4fd66742636b513",
-      "sha256": "7b04c0d4ff29ba6ee6c08d4de7d712f97dc5d83538ceeb2cae00296bcc79b68d",
-      "bytes": 5147,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/README_CN.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "README_CN.md",
-      "git_blob": "7567819ee0fd8711969d9cc40b1cb727b30c9739",
-      "sha256": "da53b55ddac26182c000c35cd75fd8b99a1fb7270034487f32901c368fd0fc3a",
-      "bytes": 5106,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/README_JA.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "README_JA.md",
-      "git_blob": "fc175a8f8b6add911f58b029e1a4fc103577ea29",
-      "sha256": "c358ac2e1fb5db46a7d141673ae7b6ccf09c1ae14a52984c9914fff91e80221a",
-      "bytes": 5748,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/RELEASING.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "RELEASING.md",
-      "git_blob": "afad34d94351a617991e270175cf878b97c58948",
-      "sha256": "fe13667985555123fbcde58cdbccd222d96e2c7205a474878f18cdb6bf76e3e6",
-      "bytes": 1220,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/SECURITY.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "SECURITY.md",
-      "git_blob": "900854238228342036880527e27c961c10509fc7",
-      "sha256": "038234fa1a08e1dc20d5b237602c1004254c583c361c70bfa6ea9a0cea7bb956",
-      "bytes": 704,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/SKILL.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "SKILL.md",
-      "git_blob": "1f74012c5d2e5f4bfb25417c785b2a05d11190a4",
-      "sha256": "48eb5ab19c027ed305f9868a6cebc33b7b647027626c47a2a203fe2aeec1dbdb",
-      "bytes": 7802,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/example_diagrams/class.mmd",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/example_diagrams/class.mmd",
-      "git_blob": "7ae62ade695bdd1231bbcbfcf1134f3d2f61b630",
-      "sha256": "b663c78cc0119f4f3e31558258bccb623c38fefbd19fdf2b024f59219128b30b",
-      "bytes": 515,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/example_diagrams/er.mmd",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/example_diagrams/er.mmd",
-      "git_blob": "779a0a86819fd1165ecaab7ffc9228ee7de368a7",
-      "sha256": "2ac285e792c158748d2ab273819d57035f2c91c9754ba2a1b00d552386953f11",
-      "bytes": 584,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/example_diagrams/flowchart.mmd",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/example_diagrams/flowchart.mmd",
-      "git_blob": "8a78d0aa9c68c445e7dad0e3f7ccd814035668f6",
-      "sha256": "3cdc2495c41099af6cda8525931033c3c080cd0091002aed688b2f27a18fbcd6",
-      "bytes": 253,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/example_diagrams/sequence.mmd",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/example_diagrams/sequence.mmd",
-      "git_blob": "e6d73e1369598e59218d3183f5024d75119cd392",
-      "sha256": "e9ab2c5b014136a8ec8b58a0acf8c10aeccf4b80f8594cc2d23be6d86df42499",
-      "bytes": 295,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/example_diagrams/state.mmd",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/example_diagrams/state.mmd",
-      "git_blob": "38800cb180f6cbf1dd486f120afe57c778a1eb67",
-      "sha256": "d9dedab2a571b8bb9d727d99c5f41c87cd0ae34b656dbd61cb028ae237bf204c",
-      "bytes": 225,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/example_diagrams/xychart.mmd",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/example_diagrams/xychart.mmd",
-      "git_blob": "fd1ad2fd178678147ed9af422c624ee5178c3dd6",
-      "sha256": "0553c83739c0fbe2557f72f15bfc267d880141067a8f2bff26d6ed8dd07511d6",
-      "bytes": 206,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/social-preview.png",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/social-preview.png",
-      "git_blob": "cf0a9a943153813c7ce374dd505c86b0c2e3eb18",
-      "sha256": "b3dd4383bbe59fcdf0696c39449f4f6e22fa650b023421530b6d8bde5aa61db9",
-      "bytes": 828104,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/catppuccin-latte.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/catppuccin-latte.svg",
-      "git_blob": "f695a19a4284311b904d3767aada8dd3d017fe7b",
-      "sha256": "b30a6b8b8590b0331ca0c952648e3f483d5cc4069ff77996821e736f22b74ee6",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/catppuccin-mocha.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/catppuccin-mocha.svg",
-      "git_blob": "a0eb28c69a3439667917464d1dabb2981b90c8c4",
-      "sha256": "37613fbb387b90769202f9e84bf700ec5e3da713e429a71930f8c0e44036c2d8",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/dracula.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/dracula.svg",
-      "git_blob": "febe8fce6de593fdeaefe50af9f33b12efcbeebe",
-      "sha256": "028a83abfe52350c20b5420148a56eea83aaeda52dfa650dc3765484f0b31ef6",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/github-dark.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/github-dark.svg",
-      "git_blob": "623503f97b3fad8108edf2312b513dfa0e8c0e36",
-      "sha256": "c2cb9e4319c64709983d4c62d9cb772515119e044fe7ffaca9aa82fea10e8717",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/github-light.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/github-light.svg",
-      "git_blob": "d401d0c62efd30d81b019cb5da0af651fd6db807",
-      "sha256": "2815bb5f9b525109668d193af21b2933c53e78279fec85e2ca94b5c190f5c986",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/nord-light.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/nord-light.svg",
-      "git_blob": "54f079e05fed0589308ede0b0a56c1324a0fd2d1",
-      "sha256": "6005196ac74c3a62fa8d46e87f2905c39a3f2e1d3988a7f5cf1ba17a2b8fd9d8",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/nord.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/nord.svg",
-      "git_blob": "c387f8bb7f352cd8cb77f0203b4eb2dd7a54d662",
-      "sha256": "45b8e21ef885f3258134631ca28bf21d2d0c1c0f6124d1a63575693a8014b7f2",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/one-dark.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/one-dark.svg",
-      "git_blob": "a48d6628f5b547faad4c2a2b6484d8503673fdcc",
-      "sha256": "b39430c67a63c7db5cd9bc268bd792442bf89e29112449dae05aeef9e30f521f",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/solarized-dark.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/solarized-dark.svg",
-      "git_blob": "96f1d613886f1f1092d76d09db5d5ceab8275d61",
-      "sha256": "83d3d1a63cacfb4a4a2299d4082d15f19f17893b992867c144301284a634cc66",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/solarized-light.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/solarized-light.svg",
-      "git_blob": "e1aabd4ed1e3cbe8ebd6562d51408891e6f19efe",
-      "sha256": "b1cbf1920d52dd324e1d5f33194b54a2a0507192dc0372e8f4668ca02ceb8303",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/source.mmd",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/source.mmd",
-      "git_blob": "ccdff33ffedc2294fad3b17a808c782d04703490",
-      "sha256": "bc671d389d826180384b74fe1867575a540c400e7bca6b153a65a2c57fda1fff",
-      "bytes": 176,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/tokyo-night-light.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/tokyo-night-light.svg",
-      "git_blob": "da39ca2a119ca72a7ffd0afe4224fd520be1b678",
-      "sha256": "f3e17a19d548282512477fbc43a0649b2491ad43214eeeafa8ff958e6e25a041",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/tokyo-night-storm.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/tokyo-night-storm.svg",
-      "git_blob": "0793a4b95bd24580773f989da22b796f1eb60302",
-      "sha256": "4cc7652046719cbf380e786f2fda4ba25612b7f76b646baa129a366a4d8539cc",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/tokyo-night.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/tokyo-night.svg",
-      "git_blob": "f68b7280ab45883bf19553765e3e05d864f0effd",
-      "sha256": "0f7b58949989f201be072906e9552e44ba230199bc2148ba4b2f5949138350e7",
-      "bytes": 5922,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/zinc-dark.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/zinc-dark.svg",
-      "git_blob": "4a169cc533f6af25a629437e25367cbec5f7cf26",
-      "sha256": "ae1fe745682c0babbd2eca14bd3ba2fc998c5dd67c0a954f98da1295dd2825d8",
-      "bytes": 5874,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/assets/theme_gallery/zinc-light.svg",
-      "source": "pretty-mermaid",
-      "upstream_path": "assets/theme_gallery/zinc-light.svg",
-      "git_blob": "2f4c054a76044d6f7686a20ee2bffd09484e81d5",
-      "sha256": "0474e1f05976f24d87b42e1f066540b63ef11e4529531386fff1ede31ad498fc",
-      "bytes": 5874,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/docs/THEME_GALLERY.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "docs/THEME_GALLERY.md",
-      "git_blob": "3d653c833b34c8f50d413d40281a47e6d7910607",
-      "sha256": "46019b3fd075299c1f552dcbf0c685c503e2f4267dd6ee38d2b5710e67f48693",
-      "bytes": 2193,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/package-lock.json",
-      "source": "pretty-mermaid",
-      "upstream_path": "package-lock.json",
-      "git_blob": "7d124dd53812e5b6383270f2e09c2d4f61bc9dd1",
-      "sha256": "4c86e4e7caaf2ffd1efccc9b046ec1552c9abe65a88e33600428ac870bc82cf6",
-      "bytes": 8675,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/package.json",
-      "source": "pretty-mermaid",
-      "upstream_path": "package.json",
-      "git_blob": "7f3b18e5605b5620ffcc273adbd2e03dfa57b34e",
-      "sha256": "eff441c9285662decdce39aa50ba18ef7979886cf77926aaea35698ecdde1dcd",
-      "bytes": 555,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/references/DIAGRAM_TYPES.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "references/DIAGRAM_TYPES.md",
-      "git_blob": "4a7f6c125a2b407e53c9e7acb0eab0988372768c",
-      "sha256": "dd3a6fd1bdf291dc8f79aa81bfaa959d830ea6cbaa6b2d524da369d739fa53ff",
-      "bytes": 8025,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/references/THEMES.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "references/THEMES.md",
-      "git_blob": "66107d26c6e86599cd5668f4fc32f1e32d995879",
-      "sha256": "922aa6cc251e0e7df481544ade52fcaad76eaf61267ca5151f2370bd2ffcdadd",
-      "bytes": 9404,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/references/api_reference.md",
-      "source": "pretty-mermaid",
-      "upstream_path": "references/api_reference.md",
-      "git_blob": "70a5a8d98fe9855a94ea1a28f88fb4af53f7506c",
-      "sha256": "de1df248be8dc01b4f5fe4523163d6ae0e369052df95a3abc11e0fa307ef320a",
-      "bytes": 2457,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/scripts/batch.mjs",
-      "source": "pretty-mermaid",
-      "upstream_path": "scripts/batch.mjs",
-      "git_blob": "8c7842e3efc47bb0d98a2d2edeecf3958293480c",
-      "sha256": "e6aa890d21627458c1d4d6bb3ab65a31052e334379d574afc1e7c6da20f4a6f0",
-      "bytes": 10284,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/scripts/generate-theme-gallery.mjs",
-      "source": "pretty-mermaid",
-      "upstream_path": "scripts/generate-theme-gallery.mjs",
-      "git_blob": "c8b2a27aea46b242c49390198de02b2827696810",
-      "sha256": "4fbadf235d679fd9bc61aca983c789d2188caa645305e1252b3322189264f85c",
-      "bytes": 1214,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/scripts/png.mjs",
-      "source": "pretty-mermaid",
-      "upstream_path": "scripts/png.mjs",
-      "git_blob": "ed7ce19eeaa09314514e01d576e5aac9fc1391a0",
-      "sha256": "6135e769174231e92db1e7b88fb51d0a293bcf403de9f928b862568c45665a2b",
-      "bytes": 10681,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/scripts/render.mjs",
-      "source": "pretty-mermaid",
-      "upstream_path": "scripts/render.mjs",
-      "git_blob": "35edfd6ef03fe01e2fde49a72714429c76b0984f",
-      "sha256": "ef4aeebd7fc80e6d462ea42a3c5d6f7b53912bf63e34c0f072987c92e04f5ec6",
-      "bytes": 8754,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/scripts/smoke-test.mjs",
-      "source": "pretty-mermaid",
-      "upstream_path": "scripts/smoke-test.mjs",
-      "git_blob": "0e3ec2701284897ad8b340d86e44d5c3283dec16",
-      "sha256": "a74cfc1b34296543a4de010e23b98919120f5f0a337771b73cf54537a6bcbd6f",
-      "bytes": 11006,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/scripts/themes.mjs",
-      "source": "pretty-mermaid",
-      "upstream_path": "scripts/themes.mjs",
-      "git_blob": "259eb3706367b59ac3aba75f538d7258b07f2858",
-      "sha256": "11d73ea2c72ec9d9239aed869d097ef8a47badd58cb7ba6d9f6976522f8e3988",
-      "bytes": 1644,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/pretty-mermaid/scripts/validate-docs.mjs",
-      "source": "pretty-mermaid",
-      "upstream_path": "scripts/validate-docs.mjs",
-      "git_blob": "dea9e051e32c0dfc9d151aa13a1d59f83455cd0b",
-      "sha256": "a625a672d555f4bac8f1a99b520ed9e8fa02f5a43e2a7b6043cdb1611d6b674f",
-      "bytes": 2774,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/LICENSE.txt",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/LICENSE.txt",
-      "git_blob": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
-      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-      "bytes": 11345,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/SKILL.md",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/SKILL.md",
-      "git_blob": "65b3a402dbd09b8e83f9d637c6b553875189085c",
-      "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
-      "bytes": 33168,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/agents/analyzer.md",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/agents/analyzer.md",
-      "git_blob": "14e41d6068635f4dd3fb878fd1626312395dda63",
-      "sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a",
-      "bytes": 10376,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/agents/comparator.md",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/agents/comparator.md",
-      "git_blob": "80e00eb45db3ee53a132fc2ba97fd59a7339e563",
-      "sha256": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e",
-      "bytes": 7287,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/agents/grader.md",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/agents/grader.md",
-      "git_blob": "558ab05c0a9a8bb062ef4c51823d4d76c3acf7c4",
-      "sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a",
-      "bytes": 9049,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/assets/eval_review.html",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/assets/eval_review.html",
-      "git_blob": "938ff32aed9bffabf723bd5492d720f4736c8e4d",
-      "sha256": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452",
-      "bytes": 7058,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/eval-viewer/generate_review.py",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/eval-viewer/generate_review.py",
-      "git_blob": "7fa5978631fed1ed545591dbb2b0eb21ce3f3d08",
-      "sha256": "fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb",
-      "bytes": 16365,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/eval-viewer/viewer.html",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/eval-viewer/viewer.html",
-      "git_blob": "6d8e96348a02e66c3363d2ff3b3ae58ac11e6382",
-      "sha256": "a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa",
-      "bytes": 44998,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/references/schemas.md",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/references/schemas.md",
-      "git_blob": "b6eeaa2d4a34c1653069585c6c5603da39a5bdbe",
-      "sha256": "8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f",
-      "bytes": 12061,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/scripts/__init__.py",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/scripts/__init__.py",
-      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/skill-creator/scripts/aggregate_benchmark.py",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/scripts/aggregate_benchmark.py",
-      "git_blob": "3e66e8c105be9bab9f0e9c61f0d1482619401580",
-      "sha256": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
-      "bytes": 14386,
-      "mode": "100755"
-    },
-    {
-      "path": "skills/skill-creator/scripts/generate_report.py",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/scripts/generate_report.py",
-      "git_blob": "959e30a0014ec165c41a2bb7420b7dfe1416bbac",
-      "sha256": "13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453",
-      "bytes": 12847,
-      "mode": "100755"
-    },
-    {
-      "path": "skills/skill-creator/scripts/improve_description.py",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/scripts/improve_description.py",
-      "git_blob": "06bcec76122446986e3610c20a39c466de36f495",
-      "sha256": "87d864570220b699fac52da309d2d6efdb060647bfebc74f768128e646accf80",
-      "bytes": 11116,
-      "mode": "100755"
-    },
-    {
-      "path": "skills/skill-creator/scripts/package_skill.py",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/scripts/package_skill.py",
-      "git_blob": "f48eac444656ddc41204aac1760a217951ce609e",
-      "sha256": "1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f",
-      "bytes": 4234,
-      "mode": "100755"
-    },
-    {
-      "path": "skills/skill-creator/scripts/quick_validate.py",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/scripts/quick_validate.py",
-      "git_blob": "ed8e1dddce77b16af13c6f36b3fe86c4ac7c590c",
-      "sha256": "67cf5703402013936c8fb75ad6a1afecd8841d45cc5e606b634eb05825fde365",
-      "bytes": 3972,
-      "mode": "100755"
-    },
-    {
-      "path": "skills/skill-creator/scripts/run_eval.py",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/scripts/run_eval.py",
-      "git_blob": "e58c70bea39d5b252a1e819f242bbdcdf20e8b87",
-      "sha256": "43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f",
-      "bytes": 11464,
-      "mode": "100755"
-    },
-    {
-      "path": "skills/skill-creator/scripts/run_loop.py",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/scripts/run_loop.py",
-      "git_blob": "30a263d674ef19de11c756d6f7537f91a421909e",
-      "sha256": "7bd6f674203168520517eec94c55f493c0d154339b061b4d7c0f0dad187d0f21",
-      "bytes": 13605,
-      "mode": "100755"
-    },
-    {
-      "path": "skills/skill-creator/scripts/utils.py",
-      "source": "anthropic",
-      "upstream_path": "skills/skill-creator/scripts/utils.py",
-      "git_blob": "51b6a07dd57174197a937034b7eecebd5768ff8a",
-      "sha256": "3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1",
-      "bytes": 1661,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/LICENSE.txt",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/LICENSE.txt",
-      "git_blob": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
-      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-      "bytes": 11345,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/SKILL.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/SKILL.md",
-      "git_blob": "90dfceaf2ecdc191a4dcfb0069768a9560638998",
-      "sha256": "c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552",
-      "bytes": 3124,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/theme-showcase.pdf",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/theme-showcase.pdf",
-      "git_blob": "24495d145c95917aba3a3445f7105444b6f7cfcc",
-      "sha256": "3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253",
-      "bytes": 124310,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/themes/arctic-frost.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/themes/arctic-frost.md",
-      "git_blob": "e9f1eb0574e377ec8be59a71a1c206958f8b253e",
-      "sha256": "868a75a8fb5b2a61d0f0ab87c437fe632d3cbab6371c418f06aa2816ac109ae0",
-      "bytes": 544,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/themes/botanical-garden.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/themes/botanical-garden.md",
-      "git_blob": "0c95bf7349c26996c7d43d6c0276a285287a9ffe",
-      "sha256": "222cb8e7496abc9b75b29453c809fb9839e7e4b01fa45deecdd896b38d087765",
-      "bytes": 519,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/themes/desert-rose.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/themes/desert-rose.md",
-      "git_blob": "ea7c74eb80794fe15f870e12c5588b2a988f77a1",
-      "sha256": "bd065b8629be3b64655183927e248e3d892a27b8d184b009cfba89c96102744f",
-      "bytes": 496,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/themes/forest-canopy.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/themes/forest-canopy.md",
-      "git_blob": "90c2b26518d8d7ff1d58981def5e93e2eca01780",
-      "sha256": "ecb722efa24688e808b5bf323c334ca2349e989cfddd72ce8400ce5d4c4bd3e7",
-      "bytes": 506,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/themes/golden-hour.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/themes/golden-hour.md",
-      "git_blob": "ed8fc256f4e9b2dfffd46e82fdc451c32f87dbb1",
-      "sha256": "3444a00df971d3c2f06b665e21a2e9eb5d7d7d6f6281f2758773b8345776a139",
-      "bytes": 528,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/themes/midnight-galaxy.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/themes/midnight-galaxy.md",
-      "git_blob": "97e1c5f380eba51cd8956ec96114629c6540b76e",
-      "sha256": "0e134c4c0324df41e34ac314269aa6829cd378cf3c304b31858d0cd158d2f944",
-      "bytes": 513,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/themes/modern-minimalist.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/themes/modern-minimalist.md",
-      "git_blob": "6bd26a29beb09e663a1c049f5f8ec86189ae2db2",
-      "sha256": "b8bc572b75948d4df69c401af703b9262ed6820a3ceb270da30a529e92763614",
-      "bytes": 549,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/themes/ocean-depths.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/themes/ocean-depths.md",
-      "git_blob": "b675126f53c49af7b6c3e00793a6d4773fb77af6",
-      "sha256": "a7ad8eec85341dbfcb2665da827a4b6a4baee08ab3335ac02421f18e6b46b2e2",
-      "bytes": 555,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/themes/sunset-boulevard.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/themes/sunset-boulevard.md",
-      "git_blob": "df799a0cc0e61c9226e52725afb45a1c6388f242",
-      "sha256": "658af11ab04be4923692571081ffb42a428141ae537703117b9236d9f8ee22a3",
-      "bytes": 558,
-      "mode": "100644"
-    },
-    {
-      "path": "skills/theme-factory/themes/tech-innovation.md",
-      "source": "anthropic",
-      "upstream_path": "skills/theme-factory/themes/tech-innovation.md",
-      "git_blob": "e029a435fb02647e6fd0b440618ae21f326d35e1",
-      "sha256": "183648163026dd5eeba3df5effa335b55ba333c3ee1fe215278605e55f40a52a",
-      "bytes": 547,
-      "mode": "100644"
-    },
-    {
-      "path": "third-party/anthropic/THIRD_PARTY_NOTICES.md",
-      "source": "anthropic",
-      "upstream_path": "THIRD_PARTY_NOTICES.md",
-      "git_blob": "ffef92c48b351a3ed036556ed32dda934e8cf41a",
-      "sha256": "a8ff7a84dee9dfb42ab448de281784387ceafdf63881b7c070ee2de7f6ed865c",
-      "bytes": 46162,
       "mode": "100644"
     }
   ]

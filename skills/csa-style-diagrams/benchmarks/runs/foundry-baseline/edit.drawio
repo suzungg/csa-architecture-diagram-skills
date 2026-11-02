@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" background="#FFFFFF" math="0" shadow="0" csaMode="reference">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="title" value="Two Foundry use cases sharing models" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=32;fontStyle=1;fontColor=#172B4D;" vertex="1" parent="1">
+      <mxGeometry x="60" y="35" width="1480" height="55" as="geometry" />
+    </mxCell>
+    <mxCell id="subtitle" value="Logical request view · Public authenticated HTTPS assumed · Responses return on request paths" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#42526E;" vertex="1" parent="1">
+      <mxGeometry x="60" y="100" width="1480" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="apps-box" value="" csaRole="boundary" boundaryKind="logical" style="rounded=0;html=0;fillColor=#F7F9FC;strokeColor=#8898AA;strokeWidth=2;dashed=1;fontFamily=Arial;fontSize=18;" vertex="1" parent="1">
+      <mxGeometry x="60" y="220" width="310" height="540" as="geometry" />
+    </mxCell>
+    <mxCell id="apps-heading" value="Application-owned apps" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontStyle=1;fontColor=#172B4D;" vertex="1" parent="apps-box">
+      <mxGeometry x="20" y="20" width="275" height="35" as="geometry" />
+    </mxCell>
+    <mxCell id="foundry-box" value="" csaRole="boundary" boundaryKind="resource" style="rounded=0;html=0;fillColor=#F4F8FE;strokeColor=#2867AD;strokeWidth=2;fontFamily=Arial;fontSize=18;" vertex="1" parent="1">
+      <mxGeometry x="500" y="170" width="720" height="610" as="geometry" />
+    </mxCell>
+    <mxCell id="foundry-heading" value="Foundry resource" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;fontColor=#174A80;" vertex="1" parent="foundry-box">
+      <mxGeometry x="25" y="15" width="650" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="project-a-box" value="" csaRole="boundary" boundaryKind="project" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#819AB6;strokeWidth=1.5;dashed=1;fontFamily=Arial;fontSize=18;" vertex="1" parent="foundry-box">
+      <mxGeometry x="40" y="110" width="300" height="190" as="geometry" />
+    </mxCell>
+    <mxCell id="project-a-heading" value="Support project" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontStyle=1;fontColor=#174A80;" vertex="1" parent="project-a-box">
+      <mxGeometry x="20" y="15" width="260" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="project-a-note" value="Development / ownership scope" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#42526E;" vertex="1" parent="project-a-box">
+      <mxGeometry x="20" y="48" width="270" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="project-b-box" value="" csaRole="boundary" boundaryKind="project" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#819AB6;strokeWidth=1.5;dashed=1;fontFamily=Arial;fontSize=18;" vertex="1" parent="foundry-box">
+      <mxGeometry x="40" y="355" width="300" height="190" as="geometry" />
+    </mxCell>
+    <mxCell id="project-b-heading" value="Research project" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontStyle=1;fontColor=#174A80;" vertex="1" parent="project-b-box">
+      <mxGeometry x="20" y="15" width="260" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="project-b-note" value="Development / ownership scope" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#42526E;" vertex="1" parent="project-b-box">
+      <mxGeometry x="20" y="48" width="270" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="search-box" value="" csaRole="boundary" boundaryKind="resource" style="rounded=0;html=0;fillColor=#F3FAF8;strokeColor=#438779;strokeWidth=2;fontFamily=Arial;fontSize=18;" vertex="1" parent="1">
+      <mxGeometry x="1290" y="210" width="260" height="220" as="geometry" />
+    </mxCell>
+    <mxCell id="search-heading" value="Independent resource" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontStyle=1;fontColor=#215C51;" vertex="1" parent="search-box">
+      <mxGeometry x="20" y="20" width="230" height="35" as="geometry" />
+    </mxCell>
+    <mxCell id="app-a" value="Support web app v2" csaRole="component" scope="apps" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#536D89;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#172B4D;" vertex="1" parent="apps-box">
+      <mxGeometry x="70.0" y="150" width="210" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="app-b" value="Research web app" csaRole="component" scope="apps" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#536D89;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#172B4D;" vertex="1" parent="apps-box">
+      <mxGeometry x="50" y="395" width="210" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="agent-a" value="Support agent" csaRole="component" scope="project-a" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E8F1FD;strokeColor=#2867AD;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#174A80;" vertex="1" parent="project-a-box">
+      <mxGeometry x="35" y="90" width="220" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="agent-b" value="Research agent" csaRole="component" scope="project-b" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E8F1FD;strokeColor=#2867AD;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#174A80;" vertex="1" parent="project-b-box">
+      <mxGeometry x="35" y="90" width="220" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="models" value="Shared model&#10;deployments" csaRole="component" scope="foundry" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E8F1FD;strokeColor=#2867AD;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#174A80;" vertex="1" parent="foundry-box">
+      <mxGeometry x="430" y="265" width="250" height="110" as="geometry" />
+    </mxCell>
+    <mxCell id="models-note" value="Resource-owned&#10;Used by both agents" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#42526E;" vertex="1" parent="foundry-box">
+      <mxGeometry x="430" y="390" width="250" height="55" as="geometry" />
+    </mxCell>
+    <mxCell id="search" value="Azure AI Search" csaRole="component" scope="retrieval" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#438779;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#215C51;" vertex="1" parent="search-box">
+      <mxGeometry x="30" y="90" width="200" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="edge-app-a-agent-a" value="Agent request" kind="data" intent="runtime" style="edgeStyle=none;html=0;rounded=0;strokeColor=#244C76;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;fontFamily=Arial;fontSize=16;fontColor=#244C76;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;" edge="1" parent="1" source="app-a" target="agent-a">
+      <mxGeometry relative="1" as="geometry"><mxPoint x="0" y="-10" as="offset" /></mxGeometry>
+    </mxCell>
+    <mxCell id="edge-app-b-agent-b" value="Agent request" kind="data" intent="runtime" style="edgeStyle=none;html=0;rounded=0;strokeColor=#244C76;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;fontFamily=Arial;fontSize=16;fontColor=#244C76;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;" edge="1" parent="1" source="app-b" target="agent-b">
+      <mxGeometry relative="1" as="geometry"><mxPoint x="0" y="-10" as="offset" /></mxGeometry>
+    </mxCell>
+    <mxCell id="edge-agent-a-models" value="" kind="data" intent="runtime" style="edgeStyle=none;html=0;rounded=0;strokeColor=#244C76;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.272727;entryPerimeter=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="agent-a" target="models">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points"><mxPoint x="870" y="415" /><mxPoint x="870" y="465" /></Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge-agent-b-models" value="" kind="data" intent="runtime" style="edgeStyle=none;html=0;rounded=0;strokeColor=#244C76;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.727273;entryPerimeter=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="agent-b" target="models">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points"><mxPoint x="870" y="660" /><mxPoint x="870" y="515" /></Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge-agent-a-search" value="" kind="data" intent="runtime" style="edgeStyle=none;html=0;rounded=0;strokeColor=#244C76;strokeWidth=2;endArrow=block;endFill=1;exitX=0.95;exitY=0;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="agent-a" target="search">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points"><mxPoint x="784" y="250" /><mxPoint x="1260" y="250" /><mxPoint x="1260" y="340" /></Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="search-tool-label" value="Configured Search tool · Support agent only" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#244C76;" vertex="1" parent="1">
+      <mxGeometry x="810" y="215" width="400" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="scope-note" value="Project boundaries express ownership and development scopes—not subnets or runtime proxy hops." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#42526E;" vertex="1" parent="1">
+      <mxGeometry x="60" y="810" width="1480" height="35" as="geometry" />
+    </mxCell>
+    <mxCell id="auth-note" value="Arrows show requests. Authentication and RBAC require explicit configuration; no automatic access is implied." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#42526E;" vertex="1" parent="1">
+      <mxGeometry x="60" y="850" width="1480" height="35" as="geometry" />
+    </mxCell>
+    <mxCell id="evidence-label" value="Authoritative evidence" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;fontColor=#42526E;" vertex="1" parent="1">
+      <mxGeometry x="60" y="905" width="1480" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="evidence-architecture" value="https://learn.microsoft.com/en-us/azure/foundry/concepts/architecture" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#42526E;" vertex="1" parent="1">
+      <mxGeometry x="60" y="930" width="1480" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="evidence-search" value="https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/ai-search" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#42526E;" vertex="1" parent="1">
+      <mxGeometry x="60" y="955" width="1480" height="22" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

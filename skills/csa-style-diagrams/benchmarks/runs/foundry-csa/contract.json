@@ -1,0 +1,91 @@
+{
+  "title": "Two Foundry use cases sharing models",
+  "facts": [
+    "Two application-owned web apps call separate agents in two Foundry projects inside one Foundry resource. Projects are development/ownership scopes, not subnets or runtime proxy hops.",
+    "Both agents use shared resource-owned model deployments. Only the support agent uses a configured Azure AI Search tool. Search remains an independent resource.",
+    "This is a logical request view with public authenticated HTTPS assumed, not a private-network design. Responses return on request paths. Do not imply automatic authentication/RBAC.",
+    "Authoritative evidence: https://learn.microsoft.com/en-us/azure/foundry/concepts/architecture and https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/ai-search"
+  ],
+  "nodes": {
+    "app-a": {
+      "title": "Support web app",
+      "scope": "apps"
+    },
+    "app-b": {
+      "title": "Research web app",
+      "scope": "apps"
+    },
+    "agent-a": {
+      "title": "Support agent",
+      "scope": "project-a"
+    },
+    "agent-b": {
+      "title": "Research agent",
+      "scope": "project-b"
+    },
+    "models": {
+      "title": "Shared model deployments",
+      "scope": "foundry"
+    },
+    "search": {
+      "title": "Azure AI Search",
+      "scope": "retrieval"
+    }
+  },
+  "edges": [
+    {
+      "source": "app-a",
+      "target": "agent-a",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "app-b",
+      "target": "agent-b",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "agent-a",
+      "target": "models",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "agent-b",
+      "target": "models",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "agent-a",
+      "target": "search",
+      "kind": "data",
+      "intent": "runtime"
+    }
+  ],
+  "scopes": {
+    "apps": {
+      "boundary": "apps-box",
+      "kind": "logical"
+    },
+    "foundry": {
+      "boundary": "foundry-box",
+      "kind": "resource"
+    },
+    "project-a": {
+      "boundary": "project-a-box",
+      "kind": "project",
+      "parent": "foundry"
+    },
+    "project-b": {
+      "boundary": "project-b-box",
+      "kind": "project",
+      "parent": "foundry"
+    },
+    "retrieval": {
+      "boundary": "search-box",
+      "kind": "resource"
+    }
+  }
+}

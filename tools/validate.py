@@ -11,6 +11,12 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 IGNORED = {".git", "node_modules", ".venv", "__pycache__", "output", "artifacts"}
+REQUIRED_SKILLS = {
+    "skills/mermaid-diagrams",
+    "skills/drawio-pitch",
+    "skills/drawio-iterate",
+    "skills/csa-style-diagrams",
+}
 RESOURCE = re.compile(
     r"(?<![\w/])(?:references?|scripts|assets|agents|eval-viewer|themes)/[\w./-]+\.[A-Za-z0-9]+"
 )
@@ -111,6 +117,59 @@ def markdown_targets(text):
     return re.findall(r"\[[^\]\n]*\]\(([^\s)]+)(?:\s+[^)]*)?\)", text)
 
 
+def validate_asset_source(root, source):
+    """Validate reviewed Microsoft icon archives, not additional skills."""
+    if source["url"] == "https://learn.microsoft.com/en-us/azure/architecture/icons/":
+        require(re.fullmatch(r"V[0-9]+", source["ref"]), "Unversioned icon archive")
+        archive_url = f"https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_{source['ref']}.zip"
+        family, terms = "foundry", "Microsoft_Terms_of_Use.pdf"
+        require(source["license"] == "Microsoft Azure architecture icon terms",
+                "Microsoft Foundry icons must retain their own permitted-use terms, not MIT")
+    elif source["url"] == "https://learn.microsoft.com/en-us/fabric/fundamentals/icons":
+        require(re.fullmatch(r"[0-9a-f]{40}", source["ref"]), "Unpinned Fabric archive")
+        archive_url = f"https://raw.githubusercontent.com/microsoft/fabric-samples/{source['ref']}/docs-samples/Icons.zip"
+        family, terms = "fabric", "LICENSE"
+        require(source["license"] == "MIT (Microsoft archive license); follow Microsoft Fabric icon usage guidance",
+                "Preserve the Fabric archive license and usage guidance")
+    else:
+        raise ValueError("Unsupported asset provider URL")
+    require(source["archive_url"] == archive_url, "Unexpected icon archive URL")
+    require(re.fullmatch(r"[0-9a-f]{64}", source["archive_sha256"]), "Unpinned archive digest")
+    mapping = source["files"]
+    prefix = f"skills/csa-style-diagrams/assets/{family}/"
+    require(isinstance(mapping, dict) and bool(mapping), "Asset source needs an explicit file mapping")
+    require(len(set(mapping.values())) == len(mapping), "Duplicate asset destinations")
+    for upstream, local in mapping.items():
+        safe_path(root, upstream)
+        safe_path(root, local)
+        require(local.startswith(prefix), "Asset outside the declared asset folder")
+    require(source["license_path"] in mapping, "Original asset terms must be included")
+    require(mapping[source["license_path"]] == prefix + terms,
+            "Unexpected terms destination")
+    catalog_path = safe_path(root, source["catalog"])
+    require(source["catalog"] == prefix + "catalog.json", "Unexpected icon catalog location")
+    catalog = load_json(catalog_path)
+    require(catalog["schema_version"] == 1, "Unsupported icon catalog schema")
+    for key in ("archive_url", "archive_sha256", "license"):
+        require(catalog[key] == source[key], f"Icon catalog/source disagree: {key}")
+    require(catalog["source_url"] == source["url"], "Icon source URL differs")
+    require(catalog["terms_file"] == terms, "Icon terms file differs")
+    icons = catalog["icons"]
+    require(isinstance(icons, dict) and bool(icons), "Icon catalog must not be empty")
+    selected = {source["license_path"]}
+    for alias, icon in icons.items():
+        require(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", alias), "Invalid icon alias")
+        local = prefix + icon["path"]
+        path = safe_path(root, local)
+        require(path.suffix == ".svg" and icon["path"].startswith("icons/"), "Expected local icon SVG")
+        require(mapping.get(icon["upstream_path"]) == local, "Icon catalog/archive mapping differs")
+        require(icon["upstream_path"] not in selected, "Duplicate icon source in catalog")
+        selected.add(icon["upstream_path"])
+        require(hashlib.sha256(path.read_bytes()).hexdigest() == icon["sha256"], "Icon catalog hash differs")
+    require(selected == set(mapping), "Catalog and asset selection differ")
+    return set(mapping.values())
+
+
 def validate(root=ROOT, check_index=False):
     all_files = files_under(root)
     for file in all_files:
@@ -118,14 +177,19 @@ def validate(root=ROOT, check_index=False):
             load_json(file)
     manifest = load_json(root / "SOURCES.json")
     lock = load_json(root / "SOURCE-LOCK.json")
-    catalog = load_json(root / "ANTHROPIC-CATALOG.json")
-    for document in (manifest, lock, catalog):
+    for document in (manifest, lock):
         require(document["schema_version"] == 1, "Unsupported manifest schema")
     sources = manifest["sources"]
     by_id = {s["id"]: s for s in sources}
     require(len(by_id) == len(sources), "Duplicate source ID")
     expected_skills = set()
+    asset_paths = set()
     for source in sources:
+        if source["status"] == "bundled-assets":
+            paths = validate_asset_source(root, source)
+            require(not asset_paths & paths, "Asset has multiple declared sources")
+            asset_paths.update(paths)
+            continue
         require(source["url"].startswith("https://github.com/"), "Expected canonical upstream URL")
         if "repository" in source:
             require(source["url"] == "https://github.com/" + source["repository"], "Repository URL mismatch")
@@ -142,6 +206,8 @@ def validate(root=ROOT, check_index=False):
             expected_skills.add(source["local"])
             for name in source["required_files"]:
                 require(safe_path(root, source["local"] + "/" + name).is_file(), f"Missing original file: {name}")
+    require(expected_skills == REQUIRED_SKILLS,
+            "Source selections must contain exactly the four approved architecture skills")
 
     locked_paths = set()
     for entry in lock["files"]:
@@ -152,8 +218,10 @@ def validate(root=ROOT, check_index=False):
         source = by_id[entry["source"]]
         require(source["status"] != "external", f"External source was copied: {local}")
         safe_path(root, entry["upstream_path"])
-        if source["status"] == "bundled-original":
-            mapped = local == source["local"] + "/" + entry["upstream_path"]
+        if source["status"] == "bundled-assets":
+            mapped = source["files"].get(entry["upstream_path"]) == local
+        elif source["status"] == "bundled-original":
+            mapped = local == source["local"] + "/" + entry["upstream_path"] and local not in asset_paths
         else:
             mapped = source.get("notices", {}).get(entry["upstream_path"]) == local
             for selection in source["selections"]:
@@ -192,30 +260,6 @@ def validate(root=ROOT, check_index=False):
         require(any((file.parent / p).is_file() for p in ("LICENSE", "LICENSE.txt")), f"Missing license: {file}")
         for resource in set(RESOURCE.findall(text)):
             require((file.parent / resource).is_file(), f"Missing skill resource: {file}: {resource}")
-    require((root / "skills/theme-factory/theme-showcase.pdf").is_file(), "Missing theme showcase")
-    require((root / "skills/pretty-mermaid/package-lock.json").is_file(), "Missing renderer dependency lock")
-    require((root / "skills/azure-diagrams/requirements.txt").is_file(), "Missing Python requirements")
-
-    anthropic = by_id["anthropic"]
-    require(catalog["ref"] == anthropic["ref"] and catalog["repository"] == anthropic["url"],
-            "Anthropic catalog pin differs")
-    names = [s["name"] for s in catalog["skills"]]
-    require(len(names) == len(set(names)), "Duplicate Anthropic catalog entry")
-    bundled = {s["upstream"].split("/")[-1] for s in anthropic["selections"]}
-    require({s["name"] for s in catalog["skills"] if s["status"] == "bundled"} == bundled,
-            "Anthropic bundled catalog differs")
-    for skill in catalog["skills"]:
-        require(skill["ref"] == anthropic["ref"], "Unpinned Anthropic entry")
-        require(skill["upstream_path"] == "skills/" + skill["name"], "Anthropic path mismatch")
-        require(skill["url"] == f"{anthropic['url']}/tree/{anthropic['ref']}/{skill['upstream_path']}",
-                "Anthropic catalog URL mismatch")
-        if skill["status"] == "bundled":
-            require(skill["license"] == "Apache-2.0" and skill["local"] == "skills/" + skill["name"],
-                    "Non-Apache or incorrectly mapped Anthropic bundle")
-        else:
-            require(skill["status"] == "external" and skill["local"] is None, "Bad external status")
-            require(not (root / "skills" / skill["name"]).exists(), "External Anthropic source was bundled")
-
     for variant in ("vscode-oauth", "vscode-pat", "copilot-portable"):
         validate_mcp(load_json(root / "examples/mcp" / (variant + ".json")), variant)
     links = 0
@@ -234,7 +278,7 @@ def validate(root=ROOT, check_index=False):
             text = file.read_text(encoding="utf-8")
             require(SECRET.search(text) is None, f"Possible credential in {file}; inspect privately")
     print(f"PASS: {len(skills)} skills; {len(locked_paths)} byte-verified bundled files; "
-          f"{len(names)} Anthropic catalog entries; 3 MCP configs; {links} local Markdown targets.")
+          f"3 MCP configs; {links} local Markdown targets.")
     print("JSON, Python syntax, skill resources and common credential signatures checked. "
           "No skill execution, rendering, network or MCP authentication performed.")
     if check_index:

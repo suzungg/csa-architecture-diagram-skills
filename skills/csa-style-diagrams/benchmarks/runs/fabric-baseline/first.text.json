@@ -1,0 +1,445 @@
+{
+  "errors": 0,
+  "warnings": 18,
+  "issues": [
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "curated-train: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "curated-train: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "train-experiment: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "train-experiment: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "experiment-model: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "experiment-model: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "model-score: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "model-score: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "curated-score: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "curated-score: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "score-gold: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "score-gold: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "gold-semantic: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "gold-semantic: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "semantic-report: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "semantic-report: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "text-overflow",
+      "message": "score-title: browser text extends beyond its reserved slot"
+    },
+    {
+      "level": "warning",
+      "code": "rendered-text-crowding",
+      "message": "score-title / score-detail: less than 4 browser pixels apart"
+    }
+  ],
+  "measured": [
+    {
+      "id": "diagram-title",
+      "actual": {
+        "left": 1,
+        "top": 6.3125,
+        "right": 490.03125,
+        "bottom": 42.3125
+      },
+      "reserved": {
+        "left": 1,
+        "top": 0,
+        "right": 1481,
+        "bottom": 48
+      }
+    },
+    {
+      "id": "diagram-subtitle",
+      "actual": {
+        "left": 1,
+        "top": 59.703125,
+        "right": 623.703125,
+        "bottom": 79.703125
+      },
+      "reserved": {
+        "left": 1,
+        "top": 54,
+        "right": 1481,
+        "bottom": 86
+      }
+    },
+    {
+      "id": "ds-heading",
+      "actual": {
+        "left": 26,
+        "top": 155.5,
+        "right": 308.609375,
+        "bottom": 177.5
+      },
+      "reserved": {
+        "left": 26,
+        "top": 150,
+        "right": 951,
+        "bottom": 182
+      }
+    },
+    {
+      "id": "analytics-heading",
+      "actual": {
+        "left": 1066,
+        "top": 155.5,
+        "right": 1314.90625,
+        "bottom": 177.5
+      },
+      "reserved": {
+        "left": 1066,
+        "top": 150,
+        "right": 1456,
+        "bottom": 182
+      }
+    },
+    {
+      "id": "curated-title",
+      "actual": {
+        "left": 80.46875,
+        "top": 289.703125,
+        "right": 241.53125,
+        "bottom": 309.703125
+      },
+      "reserved": {
+        "left": 61,
+        "top": 286,
+        "right": 261,
+        "bottom": 314
+      }
+    },
+    {
+      "id": "curated-detail",
+      "actual": {
+        "left": 98.03125,
+        "top": 322.5,
+        "right": 223.953125,
+        "bottom": 339.5
+      },
+      "reserved": {
+        "left": 61,
+        "top": 319,
+        "right": 261,
+        "bottom": 342
+      }
+    },
+    {
+      "id": "train-title",
+      "actual": {
+        "left": 378,
+        "top": 289.703125,
+        "right": 534,
+        "bottom": 309.703125
+      },
+      "reserved": {
+        "left": 356,
+        "top": 286,
+        "right": 556,
+        "bottom": 314
+      }
+    },
+    {
+      "id": "train-detail",
+      "actual": {
+        "left": 408.890625,
+        "top": 322.5,
+        "right": 503.109375,
+        "bottom": 339.5
+      },
+      "reserved": {
+        "left": 356,
+        "top": 319,
+        "right": 556,
+        "bottom": 342
+      }
+    },
+    {
+      "id": "experiment-title",
+      "actual": {
+        "left": 729.484375,
+        "top": 289.703125,
+        "right": 892.515625,
+        "bottom": 309.703125
+      },
+      "reserved": {
+        "left": 711,
+        "top": 286,
+        "right": 911,
+        "bottom": 314
+      }
+    },
+    {
+      "id": "experiment-detail",
+      "actual": {
+        "left": 742.90625,
+        "top": 322.5,
+        "right": 879.078125,
+        "bottom": 339.5
+      },
+      "reserved": {
+        "left": 711,
+        "top": 319,
+        "right": 911,
+        "bottom": 342
+      }
+    },
+    {
+      "id": "model-title",
+      "actual": {
+        "left": 739.640625,
+        "top": 484.703125,
+        "right": 882.34375,
+        "bottom": 504.703125
+      },
+      "reserved": {
+        "left": 711,
+        "top": 481,
+        "right": 911,
+        "bottom": 509
+      }
+    },
+    {
+      "id": "model-detail",
+      "actual": {
+        "left": 731.78125,
+        "top": 517.5,
+        "right": 890.21875,
+        "bottom": 534.5
+      },
+      "reserved": {
+        "left": 711,
+        "top": 514,
+        "right": 911,
+        "bottom": 537
+      }
+    },
+    {
+      "id": "score-title",
+      "actual": {
+        "left": 395.984375,
+        "top": 633.90625,
+        "right": 516.015625,
+        "bottom": 675.5
+      },
+      "reserved": {
+        "left": 356,
+        "top": 641,
+        "right": 556,
+        "bottom": 669
+      }
+    },
+    {
+      "id": "score-detail",
+      "actual": {
+        "left": 401.8125,
+        "top": 677.5,
+        "right": 510.1875,
+        "bottom": 694.5
+      },
+      "reserved": {
+        "left": 356,
+        "top": 674,
+        "right": 556,
+        "bottom": 697
+      }
+    },
+    {
+      "id": "gold-title",
+      "actual": {
+        "left": 1193.96875,
+        "top": 644.703125,
+        "right": 1328.015625,
+        "bottom": 664.703125
+      },
+      "reserved": {
+        "left": 1101,
+        "top": 641,
+        "right": 1421,
+        "bottom": 669
+      }
+    },
+    {
+      "id": "gold-detail",
+      "actual": {
+        "left": 1223.890625,
+        "top": 677.5,
+        "right": 1298.09375,
+        "bottom": 694.5
+      },
+      "reserved": {
+        "left": 1101,
+        "top": 674,
+        "right": 1421,
+        "bottom": 697
+      }
+    },
+    {
+      "id": "semantic-title",
+      "actual": {
+        "left": 1191.96875,
+        "top": 444.703125,
+        "right": 1330.015625,
+        "bottom": 464.703125
+      },
+      "reserved": {
+        "left": 1101,
+        "top": 441,
+        "right": 1421,
+        "bottom": 469
+      }
+    },
+    {
+      "id": "semantic-detail",
+      "actual": {
+        "left": 1223.0625,
+        "top": 477.5,
+        "right": 1298.9375,
+        "bottom": 494.5
+      },
+      "reserved": {
+        "left": 1101,
+        "top": 474,
+        "right": 1421,
+        "bottom": 497
+      }
+    },
+    {
+      "id": "report-title",
+      "actual": {
+        "left": 1193.984375,
+        "top": 244.703125,
+        "right": 1328.015625,
+        "bottom": 264.703125
+      },
+      "reserved": {
+        "left": 1101,
+        "top": 241,
+        "right": 1421,
+        "bottom": 269
+      }
+    },
+    {
+      "id": "report-detail",
+      "actual": {
+        "left": 1170.53125,
+        "top": 277.5,
+        "right": 1351.453125,
+        "bottom": 294.5
+      },
+      "reserved": {
+        "left": 1101,
+        "top": 274,
+        "right": 1421,
+        "bottom": 297
+      }
+    },
+    {
+      "id": "scope-note",
+      "actual": {
+        "left": 1,
+        "top": 816.3125,
+        "right": 794.765625,
+        "bottom": 835.3125
+      },
+      "reserved": {
+        "left": 1,
+        "top": 811,
+        "right": 1481,
+        "bottom": 841
+      }
+    },
+    {
+      "id": "approval-note",
+      "actual": {
+        "left": 1,
+        "top": 854.3125,
+        "right": 697.4375,
+        "bottom": 873.3125
+      },
+      "reserved": {
+        "left": 1,
+        "top": 849,
+        "right": 1481,
+        "bottom": 879
+      }
+    },
+    {
+      "id": "legend",
+      "actual": {
+        "left": 1,
+        "top": 902.5,
+        "right": 519.3125,
+        "bottom": 919.5
+      },
+      "reserved": {
+        "left": 1,
+        "top": 898,
+        "right": 1481,
+        "bottom": 923
+      }
+    }
+  ],
+  "source_sha256": "b72c9b50ecb193b1444bad7165e8e7069ea45e2ff35700cf766a369e251bbbf5",
+  "coverage": "Browser-laid-out SVG text and explicit route clarity; not PNG OCR or cloud validation"
+}

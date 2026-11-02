@@ -1,0 +1,60 @@
+[
+  {
+    "case": "foundry",
+    "condition": "baseline",
+    "first_sha256": "a945dd88fd01bf58f23ddd8e3700a9772786d925bd89fd7e2875b4e353ee0e7e",
+    "parent_correction_operations": [],
+    "parent_correction_passes": 0,
+    "agent_correction_turns": null,
+    "review_note": "Synchronous task agents refused follow-up messages. Corrections are parent-authored derivatives, not a measure of model repair performance."
+  },
+  {
+    "case": "foundry",
+    "condition": "csa",
+    "first_sha256": "7b5173aaf374c6191c28e39fe2b83bc60fd86f262237d69c3a278d84722055bc",
+    "parent_correction_operations": [
+      [
+        "project-a-box",
+        "height",
+        "220"
+      ]
+    ],
+    "parent_correction_passes": 1,
+    "agent_correction_turns": null,
+    "review_note": "Synchronous task agents refused follow-up messages. Corrections are parent-authored derivatives, not a measure of model repair performance."
+  },
+  {
+    "case": "fabric",
+    "condition": "baseline",
+    "first_sha256": "b72c9b50ecb193b1444bad7165e8e7069ea45e2ff35700cf766a369e251bbbf5",
+    "parent_correction_operations": [
+      [
+        "score-title",
+        "y",
+        "8"
+      ],
+      [
+        "score-title",
+        "height",
+        "44"
+      ],
+      [
+        "score-detail",
+        "y",
+        "60"
+      ]
+    ],
+    "parent_correction_passes": 1,
+    "agent_correction_turns": null,
+    "review_note": "Synchronous task agents refused follow-up messages. Corrections are parent-authored derivatives, not a measure of model repair performance."
+  },
+  {
+    "case": "fabric",
+    "condition": "csa",
+    "first_sha256": "39c4deb43957075c8e0434dc5da013708619fca84ec89cd69abe45f654c55d94",
+    "parent_correction_operations": [],
+    "parent_correction_passes": 0,
+    "agent_correction_turns": null,
+    "review_note": "Synchronous task agents refused follow-up messages. Corrections are parent-authored derivatives, not a measure of model repair performance."
+  }
+]

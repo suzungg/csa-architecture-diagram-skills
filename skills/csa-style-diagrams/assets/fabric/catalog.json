@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "source": "Microsoft Fabric icons v6.1.0",
+  "source_url": "https://learn.microsoft.com/en-us/fabric/fundamentals/icons",
+  "archive_url": "https://raw.githubusercontent.com/microsoft/fabric-samples/564ec4139742b838468fcf8aa44dac4afe02ce92/docs-samples/Icons.zip",
+  "archive_sha256": "fc22e71b0545ed15e22c53f16bf4fb06ffe72daabd3c90a947a6e481c9675e6b",
+  "reviewed_on": "2026-11-02",
+  "license": "MIT (Microsoft archive license); follow Microsoft Fabric icon usage guidance",
+  "terms_file": "LICENSE",
+  "icons": {
+    "lakehouse": {
+      "display_name": "Lakehouse",
+      "path": "icons/lakehouse_48_item.svg",
+      "upstream_path": "v6.1.0/package/dist/svg/lakehouse_48_item.svg",
+      "sha256": "7f4ba4303e8f507d4ec8e47bc055bace80eb9715ccc58df40021b776a3c65f08"
+    },
+    "notebook": {
+      "display_name": "Notebook",
+      "path": "icons/notebook_48_item.svg",
+      "upstream_path": "v6.1.0/package/dist/svg/notebook_48_item.svg",
+      "sha256": "d1822f787c453b2edf2f5af8ecca2b8b1258e07859dfaf057562b0f166dbc866"
+    },
+    "experiment": {
+      "display_name": "ML experiment",
+      "path": "icons/experiments_48_item.svg",
+      "upstream_path": "v6.1.0/package/dist/svg/experiments_48_item.svg",
+      "sha256": "ee794562a7e24f0747cc6b6e71885daab56baa1f72efa64a336013ef7c7008e9"
+    },
+    "model": {
+      "display_name": "ML model",
+      "path": "icons/model_48_item.svg",
+      "upstream_path": "v6.1.0/package/dist/svg/model_48_item.svg",
+      "sha256": "c648a0da9c88f4c79ea6ee127c146ce0682d917b78b83079e9aedd09dbf2a1ef"
+    },
+    "pipeline": {
+      "display_name": "Data pipeline",
+      "path": "icons/pipeline_48_item.svg",
+      "upstream_path": "v6.1.0/package/dist/svg/pipeline_48_item.svg",
+      "sha256": "a0df60d8e899ff5f8bdb80fe5281cba002735267297f371098f5ff6d55bbe744"
+    },
+    "dataflow-gen2": {
+      "display_name": "Dataflow Gen2",
+      "path": "icons/dataflow_gen2_48_item.svg",
+      "upstream_path": "v6.1.0/package/dist/svg/dataflow_gen2_48_item.svg",
+      "sha256": "5291386e4344dbd5729c19805d75287fc04eed07ed74979d6b15355213a17aaf"
+    },
+    "semantic-model": {
+      "display_name": "Semantic model",
+      "path": "icons/semantic_model_48_item.svg",
+      "upstream_path": "v6.1.0/package/dist/svg/semantic_model_48_item.svg",
+      "sha256": "c0317bc92fea437d374b71788b037705f61983cd59573808ce933f3d03e14abb"
+    },
+    "report": {
+      "display_name": "Power BI report",
+      "path": "icons/report_48_item.svg",
+      "upstream_path": "v6.1.0/package/dist/svg/report_48_item.svg",
+      "sha256": "2e8640722aa8a530a0f98fde21482f1957a0589ef701823b319bbfccb26d9e44"
+    }
+  }
+}

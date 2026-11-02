@@ -1,0 +1,86 @@
+{
+  "errors": 0,
+  "warnings": 16,
+  "issues": [
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "curated-train: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "curated-train: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "train-experiment: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "train-experiment: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "experiment-model: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "experiment-model: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "model-score: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "model-score: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "curated-score: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "curated-score: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "score-gold: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "score-gold: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "gold-semantic: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "gold-semantic: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "semantic-report: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "semantic-report: renderer routing/perimeters cannot be predicted"
+    }
+  ]
+}

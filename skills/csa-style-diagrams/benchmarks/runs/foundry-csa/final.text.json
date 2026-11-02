@@ -1,0 +1,474 @@
+{
+  "errors": 0,
+  "warnings": 0,
+  "issues": [],
+  "measured": [
+    {
+      "id": "title",
+      "actual": {
+        "left": 60,
+        "top": 47.703125,
+        "right": 590.0625,
+        "bottom": 78.703125
+      },
+      "reserved": {
+        "left": 60,
+        "top": 42,
+        "right": 1460,
+        "bottom": 84
+      }
+    },
+    {
+      "id": "subtitle",
+      "actual": {
+        "left": 60,
+        "top": 97.703125,
+        "right": 663.984375,
+        "bottom": 117.703125
+      },
+      "reserved": {
+        "left": 60,
+        "top": 94,
+        "right": 1490,
+        "bottom": 122
+      }
+    },
+    {
+      "id": "apps-box-title",
+      "actual": {
+        "left": 74,
+        "top": 231.5,
+        "right": 305.125,
+        "bottom": 253.5
+      },
+      "reserved": {
+        "left": 74,
+        "top": 226,
+        "right": 346,
+        "bottom": 258
+      }
+    },
+    {
+      "id": "foundry-box-title",
+      "actual": {
+        "left": 514,
+        "top": 179.3125,
+        "right": 701.046875,
+        "bottom": 204.3125
+      },
+      "reserved": {
+        "left": 514,
+        "top": 176,
+        "right": 766,
+        "bottom": 208
+      }
+    },
+    {
+      "id": "project-a-box-title",
+      "actual": {
+        "left": 544,
+        "top": 259.3125,
+        "right": 707.78125,
+        "bottom": 284.3125
+      },
+      "reserved": {
+        "left": 544,
+        "top": 256,
+        "right": 781,
+        "bottom": 288
+      }
+    },
+    {
+      "id": "project-b-box-title",
+      "actual": {
+        "left": 544,
+        "top": 519.3125,
+        "right": 722.53125,
+        "bottom": 544.3125
+      },
+      "reserved": {
+        "left": 544,
+        "top": 516,
+        "right": 796,
+        "bottom": 548
+      }
+    },
+    {
+      "id": "search-box-title",
+      "actual": {
+        "left": 1304,
+        "top": 261.5,
+        "right": 1512.9375,
+        "bottom": 283.5
+      },
+      "reserved": {
+        "left": 1304,
+        "top": 256,
+        "right": 1526,
+        "bottom": 288
+      }
+    },
+    {
+      "id": "resource-description",
+      "actual": {
+        "left": 520,
+        "top": 221.90625,
+        "right": 874.875,
+        "bottom": 238.90625
+      },
+      "reserved": {
+        "left": 520,
+        "top": 218,
+        "right": 1200,
+        "bottom": 242
+      }
+    },
+    {
+      "id": "app-a-title",
+      "actual": {
+        "left": 137,
+        "top": 312.703125,
+        "right": 283,
+        "bottom": 332.703125
+      },
+      "reserved": {
+        "left": 108,
+        "top": 301,
+        "right": 312,
+        "bottom": 345
+      }
+    },
+    {
+      "id": "app-a-caption",
+      "actual": {
+        "left": 152.796875,
+        "top": 354.109375,
+        "right": 267.203125,
+        "bottom": 370.109375
+      },
+      "reserved": {
+        "left": 108,
+        "top": 351,
+        "right": 312,
+        "bottom": 373
+      }
+    },
+    {
+      "id": "app-b-title",
+      "actual": {
+        "left": 130.96875,
+        "top": 572.703125,
+        "right": 289.03125,
+        "bottom": 592.703125
+      },
+      "reserved": {
+        "left": 108,
+        "top": 561,
+        "right": 312,
+        "bottom": 605
+      }
+    },
+    {
+      "id": "app-b-caption",
+      "actual": {
+        "left": 152.796875,
+        "top": 614.109375,
+        "right": 267.203125,
+        "bottom": 630.109375
+      },
+      "reserved": {
+        "left": 108,
+        "top": 611,
+        "right": 312,
+        "bottom": 633
+      }
+    },
+    {
+      "id": "agent-a-title",
+      "actual": {
+        "left": 624,
+        "top": 391.703125,
+        "right": 746,
+        "bottom": 411.703125
+      },
+      "reserved": {
+        "left": 560,
+        "top": 380,
+        "right": 810,
+        "bottom": 424
+      }
+    },
+    {
+      "id": "agent-a-caption",
+      "actual": {
+        "left": 620.78125,
+        "top": 433.109375,
+        "right": 749.203125,
+        "bottom": 449.109375
+      },
+      "reserved": {
+        "left": 560,
+        "top": 430,
+        "right": 810,
+        "bottom": 452
+      }
+    },
+    {
+      "id": "agent-b-title",
+      "actual": {
+        "left": 617.96875,
+        "top": 651.703125,
+        "right": 752.03125,
+        "bottom": 671.703125
+      },
+      "reserved": {
+        "left": 560,
+        "top": 640,
+        "right": 810,
+        "bottom": 684
+      }
+    },
+    {
+      "id": "agent-b-caption",
+      "actual": {
+        "left": 620.78125,
+        "top": 693.109375,
+        "right": 749.203125,
+        "bottom": 709.109375
+      },
+      "reserved": {
+        "left": 560,
+        "top": 690,
+        "right": 810,
+        "bottom": 712
+      }
+    },
+    {
+      "id": "models-title",
+      "actual": {
+        "left": 1010.484375,
+        "top": 520.90625,
+        "right": 1129.515625,
+        "bottom": 562.5
+      },
+      "reserved": {
+        "left": 950,
+        "top": 520,
+        "right": 1190,
+        "bottom": 564
+      }
+    },
+    {
+      "id": "models-caption",
+      "actual": {
+        "left": 1017.078125,
+        "top": 573.109375,
+        "right": 1122.921875,
+        "bottom": 589.109375
+      },
+      "reserved": {
+        "left": 950,
+        "top": 570,
+        "right": 1190,
+        "bottom": 592
+      }
+    },
+    {
+      "id": "search-title",
+      "actual": {
+        "left": 1346.296875,
+        "top": 391.703125,
+        "right": 1483.6875,
+        "bottom": 411.703125
+      },
+      "reserved": {
+        "left": 1300,
+        "top": 380,
+        "right": 1530,
+        "bottom": 424
+      }
+    },
+    {
+      "id": "search-caption",
+      "actual": {
+        "left": 1347.671875,
+        "top": 433.109375,
+        "right": 1482.3125,
+        "bottom": 449.109375
+      },
+      "reserved": {
+        "left": 1300,
+        "top": 430,
+        "right": 1530,
+        "bottom": 452
+      }
+    },
+    {
+      "id": "invoke-support-label",
+      "actual": {
+        "left": 365,
+        "top": 310.109375,
+        "right": 495.765625,
+        "bottom": 326.109375
+      },
+      "reserved": {
+        "left": 365,
+        "top": 306,
+        "right": 545,
+        "bottom": 330
+      }
+    },
+    {
+      "id": "invoke-research-label",
+      "actual": {
+        "left": 365,
+        "top": 570.109375,
+        "right": 503.53125,
+        "bottom": 586.109375
+      },
+      "reserved": {
+        "left": 365,
+        "top": 566,
+        "right": 550,
+        "bottom": 590
+      }
+    },
+    {
+      "id": "support-model-label",
+      "actual": {
+        "left": 895,
+        "top": 405.109375,
+        "right": 983.71875,
+        "bottom": 421.109375
+      },
+      "reserved": {
+        "left": 895,
+        "top": 401,
+        "right": 1025,
+        "bottom": 425
+      }
+    },
+    {
+      "id": "research-model-label",
+      "actual": {
+        "left": 830,
+        "top": 624.109375,
+        "right": 918.71875,
+        "bottom": 640.109375
+      },
+      "reserved": {
+        "left": 830,
+        "top": 620,
+        "right": 980,
+        "bottom": 644
+      }
+    },
+    {
+      "id": "support-search-label",
+      "actual": {
+        "left": 1010,
+        "top": 310.109375,
+        "right": 1153.203125,
+        "bottom": 326.109375
+      },
+      "reserved": {
+        "left": 1010,
+        "top": 306,
+        "right": 1225,
+        "bottom": 330
+      }
+    },
+    {
+      "id": "scope-note",
+      "actual": {
+        "left": 60,
+        "top": 824.703125,
+        "right": 710.34375,
+        "bottom": 844.703125
+      },
+      "reserved": {
+        "left": 60,
+        "top": 822,
+        "right": 1540,
+        "bottom": 848
+      }
+    },
+    {
+      "id": "request-note",
+      "actual": {
+        "left": 60,
+        "top": 864.90625,
+        "right": 782.125,
+        "bottom": 881.90625
+      },
+      "reserved": {
+        "left": 60,
+        "top": 860,
+        "right": 1540,
+        "bottom": 886
+      }
+    },
+    {
+      "id": "access-note",
+      "actual": {
+        "left": 60,
+        "top": 900.90625,
+        "right": 959.15625,
+        "bottom": 917.90625
+      },
+      "reserved": {
+        "left": 60,
+        "top": 896,
+        "right": 1540,
+        "bottom": 922
+      }
+    },
+    {
+      "id": "evidence-1",
+      "actual": {
+        "left": 60,
+        "top": 938.109375,
+        "right": 586.03125,
+        "bottom": 954.109375
+      },
+      "reserved": {
+        "left": 60,
+        "top": 936,
+        "right": 1540,
+        "bottom": 956
+      }
+    },
+    {
+      "id": "evidence-2",
+      "actual": {
+        "left": 60,
+        "top": 962.109375,
+        "right": 539.34375,
+        "bottom": 978.109375
+      },
+      "reserved": {
+        "left": 60,
+        "top": 960,
+        "right": 1090,
+        "bottom": 980
+      }
+    },
+    {
+      "id": "asset-credit",
+      "actual": {
+        "left": 1100,
+        "top": 962.109375,
+        "right": 1383.453125,
+        "bottom": 978.109375
+      },
+      "reserved": {
+        "left": 1100,
+        "top": 960,
+        "right": 1540,
+        "bottom": 980
+      }
+    }
+  ],
+  "source_sha256": "13c4629b67de22453da12696504b224e73bb1699a74b46d31f0ef25614542146",
+  "coverage": "Browser-laid-out SVG text and explicit route clarity; not PNG OCR or cloud validation"
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "common": {
+    "task": "Produce an editable draw.io reference diagram for the case. Use the same supplied facts and exact graph; do not invent services or connections. Choose the layout yourself.",
+    "output": "One uncompressed mxGraphModel with plain mxCells, 1600 by 1000 canvas, white background, Arial labels at least 14 canvas units. Native separate text/shapes/connectors, not a flattened screenshot. No HTML labels, external images or personal filesystem paths.",
+    "metadata": "Use the supplied component IDs as vertex IDs with csaRole=component and the declared scope attribute. Scope boundary vertices use the supplied IDs, csaRole=boundary and boundaryKind matching kind. Edge source/target must reference canonical component IDs, with kind and intent from the contract. Root model csaMode=reference. This metadata is for identical scoring, not a styling prescription.",
+    "assets": "Both conditions may use the same local official SVG catalogs under assets/foundry and assets/fabric, or neutral native symbols with honest labels. Do not fetch assets. Embed any selected SVG without modification.",
+    "review": "The evaluator exports PNG and measures source/contract, browser text, connector clarity and actual image defects. Unsupported automatic routing is a coverage limitation, not itself proof of a visual defect. One equal feedback opportunity is available to each condition.",
+    "edit_task": "After generation and review, rename the first listed component by appending ' v2' and move that component and all its descendants 20 canvas units right in a separate edit-test copy. The evaluator checks whether endpoints stay attached and whether new collisions appear. Do not pre-apply this edit to the first diagram."
+  },
+  "cases": {
+    "foundry": {
+      "title": "Two Foundry use cases sharing models",
+      "facts": [
+        "Two application-owned web apps call separate agents in two Foundry projects inside one Foundry resource. Projects are development/ownership scopes, not subnets or runtime proxy hops.",
+        "Both agents use shared resource-owned model deployments. Only the support agent uses a configured Azure AI Search tool. Search remains an independent resource.",
+        "This is a logical request view with public authenticated HTTPS assumed, not a private-network design. Responses return on request paths. Do not imply automatic authentication/RBAC.",
+        "Authoritative evidence: https://learn.microsoft.com/en-us/azure/foundry/concepts/architecture and https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/ai-search"
+      ],
+      "nodes": {
+        "app-a": {"title": "Support web app", "scope": "apps"},
+        "app-b": {"title": "Research web app", "scope": "apps"},
+        "agent-a": {"title": "Support agent", "scope": "project-a"},
+        "agent-b": {"title": "Research agent", "scope": "project-b"},
+        "models": {"title": "Shared model deployments", "scope": "foundry"},
+        "search": {"title": "Azure AI Search", "scope": "retrieval"}
+      },
+      "edges": [
+        {"source": "app-a", "target": "agent-a", "kind": "data", "intent": "runtime"},
+        {"source": "app-b", "target": "agent-b", "kind": "data", "intent": "runtime"},
+        {"source": "agent-a", "target": "models", "kind": "data", "intent": "runtime"},
+        {"source": "agent-b", "target": "models", "kind": "data", "intent": "runtime"},
+        {"source": "agent-a", "target": "search", "kind": "data", "intent": "runtime"}
+      ],
+      "scopes": {
+        "apps": {"boundary": "apps-box", "kind": "logical"},
+        "foundry": {"boundary": "foundry-box", "kind": "resource"},
+        "project-a": {"boundary": "project-a-box", "kind": "project", "parent": "foundry"},
+        "project-b": {"boundary": "project-b-box", "kind": "project", "parent": "foundry"},
+        "retrieval": {"boundary": "search-box", "kind": "resource"}
+      }
+    },
+    "fabric": {
+      "title": "Fabric batch prediction lifecycle",
+      "facts": [
+        "Curated Delta data in a lakehouse feeds a training notebook and a separate batch scoring notebook. Training logs to an MLflow experiment; a selected run is registered as a Fabric ML model.",
+        "A human-approved pinned model version controls batch PREDICT scoring. This is not native automatic approval or online serving.",
+        "Scoring writes predictions to a Gold lakehouse. A semantic model uses Direct Lake on that data; a Power BI report consumes the semantic model.",
+        "Data science and analytics use separate workspaces. Cross-workspace access must be authorized. This is one deployment stage, not dev/test/prod promotion."
+      ],
+      "nodes": {
+        "curated": {"title": "Curated lakehouse", "scope": "data-science"},
+        "train": {"title": "Training notebook", "scope": "data-science"},
+        "experiment": {"title": "MLflow experiment", "scope": "data-science"},
+        "model": {"title": "Fabric ML model", "scope": "data-science"},
+        "score": {"title": "Batch scoring notebook", "scope": "data-science"},
+        "gold": {"title": "Gold lakehouse", "scope": "analytics"},
+        "semantic": {"title": "Semantic model", "scope": "analytics"},
+        "report": {"title": "Power BI report", "scope": "analytics"}
+      },
+      "edges": [
+        {"source": "curated", "target": "train", "kind": "data", "intent": "runtime"},
+        {"source": "train", "target": "experiment", "kind": "data", "intent": "runtime"},
+        {"source": "experiment", "target": "model", "kind": "data", "intent": "runtime"},
+        {"source": "model", "target": "score", "kind": "control", "intent": "control"},
+        {"source": "curated", "target": "score", "kind": "data", "intent": "runtime"},
+        {"source": "score", "target": "gold", "kind": "data", "intent": "runtime"},
+        {"source": "gold", "target": "semantic", "kind": "data", "intent": "runtime"},
+        {"source": "semantic", "target": "report", "kind": "data", "intent": "runtime"}
+      ],
+      "scopes": {
+        "data-science": {"boundary": "ds-box", "kind": "workspace"},
+        "analytics": {"boundary": "analytics-box", "kind": "workspace"}
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "errors": 0,
+  "warnings": 1,
+  "issues": [
+    {
+      "level": "warning",
+      "code": "label-overlap",
+      "message": "flow-3-label / flow-4-label: bounding rectangles overlap"
+    }
+  ]
+}

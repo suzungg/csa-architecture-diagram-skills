@@ -1,0 +1,57 @@
+{
+  "nodes": {
+    "foundry": {
+      "title": "Microsoft Foundry",
+      "scope": "icon-reference"
+    },
+    "foundry-project": {
+      "title": "Foundry project",
+      "scope": "icon-reference"
+    },
+    "foundry-models": {
+      "title": "Foundry Models",
+      "scope": "icon-reference"
+    },
+    "foundry-agent-service": {
+      "title": "Foundry Agent Service",
+      "scope": "icon-reference"
+    },
+    "container-apps-environment": {
+      "title": "Container Apps environment",
+      "scope": "icon-reference"
+    },
+    "ai-search": {
+      "title": "Azure AI Search",
+      "scope": "icon-reference"
+    },
+    "cosmos-db": {
+      "title": "Azure Cosmos DB",
+      "scope": "icon-reference"
+    },
+    "storage-account": {
+      "title": "Storage account",
+      "scope": "icon-reference"
+    },
+    "key-vault": {
+      "title": "Key Vault",
+      "scope": "icon-reference"
+    },
+    "firewall": {
+      "title": "Azure Firewall",
+      "scope": "icon-reference"
+    },
+    "private-endpoint": {
+      "title": "Private endpoint",
+      "scope": "icon-reference"
+    },
+    "virtual-network": {
+      "title": "Virtual network",
+      "scope": "icon-reference"
+    },
+    "application-insights": {
+      "title": "Application Insights",
+      "scope": "icon-reference"
+    }
+  },
+  "edges": []
+}

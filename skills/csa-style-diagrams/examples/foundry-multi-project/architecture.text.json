@@ -1,0 +1,459 @@
+{
+  "errors": 0,
+  "warnings": 0,
+  "issues": [],
+  "measured": [
+    {
+      "id": "title",
+      "actual": {
+        "left": 40,
+        "top": 23.5,
+        "right": 795.1875,
+        "bottom": 56.5
+      },
+      "reserved": {
+        "left": 40,
+        "top": 20,
+        "right": 1850,
+        "bottom": 60
+      }
+    },
+    {
+      "id": "subtitle",
+      "actual": {
+        "left": 40,
+        "top": 74.703125,
+        "right": 1014.359375,
+        "bottom": 94.703125
+      },
+      "reserved": {
+        "left": 40,
+        "top": 70,
+        "right": 1850,
+        "bottom": 100
+      }
+    },
+    {
+      "id": "applications-title",
+      "actual": {
+        "left": 54,
+        "top": 149.3125,
+        "right": 336.3125,
+        "bottom": 174.3125
+      },
+      "reserved": {
+        "left": 54,
+        "top": 146,
+        "right": 386,
+        "bottom": 178
+      }
+    },
+    {
+      "id": "foundry-resource-title",
+      "actual": {
+        "left": 474,
+        "top": 149.3125,
+        "right": 882.34375,
+        "bottom": 174.3125
+      },
+      "reserved": {
+        "left": 474,
+        "top": 146,
+        "right": 1026,
+        "bottom": 178
+      }
+    },
+    {
+      "id": "project-a-title",
+      "actual": {
+        "left": 514,
+        "top": 209.3125,
+        "right": 815.53125,
+        "bottom": 234.3125
+      },
+      "reserved": {
+        "left": 514,
+        "top": 206,
+        "right": 946,
+        "bottom": 238
+      }
+    },
+    {
+      "id": "project-b-title",
+      "actual": {
+        "left": 514,
+        "top": 629.3125,
+        "right": 825.828125,
+        "bottom": 654.3125
+      },
+      "reserved": {
+        "left": 514,
+        "top": 626,
+        "right": 946,
+        "bottom": 658
+      }
+    },
+    {
+      "id": "search-resource-title",
+      "actual": {
+        "left": 1264,
+        "top": 1019.3125,
+        "right": 1585.5625,
+        "bottom": 1044.3125
+      },
+      "reserved": {
+        "left": 1264,
+        "top": 1016,
+        "right": 1726,
+        "bottom": 1048
+      }
+    },
+    {
+      "id": "operations-title",
+      "actual": {
+        "left": 764,
+        "top": 1019.3125,
+        "right": 1025.609375,
+        "bottom": 1044.3125
+      },
+      "reserved": {
+        "left": 764,
+        "top": 1016,
+        "right": 1151,
+        "bottom": 1048
+      }
+    },
+    {
+      "id": "support-app-title",
+      "actual": {
+        "left": 147,
+        "top": 282.703125,
+        "right": 293,
+        "bottom": 302.703125
+      },
+      "reserved": {
+        "left": 98,
+        "top": 271,
+        "right": 342,
+        "bottom": 315
+      }
+    },
+    {
+      "id": "support-app-caption",
+      "actual": {
+        "left": 138.859375,
+        "top": 324.109375,
+        "right": 301.125,
+        "bottom": 340.109375
+      },
+      "reserved": {
+        "left": 98,
+        "top": 321,
+        "right": 342,
+        "bottom": 343
+      }
+    },
+    {
+      "id": "research-app-title",
+      "actual": {
+        "left": 140.96875,
+        "top": 702.703125,
+        "right": 299.03125,
+        "bottom": 722.703125
+      },
+      "reserved": {
+        "left": 98,
+        "top": 691,
+        "right": 342,
+        "bottom": 735
+      }
+    },
+    {
+      "id": "research-app-caption",
+      "actual": {
+        "left": 138.859375,
+        "top": 744.109375,
+        "right": 301.125,
+        "bottom": 760.109375
+      },
+      "reserved": {
+        "left": 98,
+        "top": 741,
+        "right": 342,
+        "bottom": 763
+      }
+    },
+    {
+      "id": "support-agent-title",
+      "actual": {
+        "left": 609,
+        "top": 361.703125,
+        "right": 731,
+        "bottom": 381.703125
+      },
+      "reserved": {
+        "left": 560,
+        "top": 350,
+        "right": 780,
+        "bottom": 394
+      }
+    },
+    {
+      "id": "support-agent-caption",
+      "actual": {
+        "left": 599.171875,
+        "top": 403.109375,
+        "right": 740.8125,
+        "bottom": 419.109375
+      },
+      "reserved": {
+        "left": 560,
+        "top": 400,
+        "right": 780,
+        "bottom": 422
+      }
+    },
+    {
+      "id": "research-agent-title",
+      "actual": {
+        "left": 602.96875,
+        "top": 781.703125,
+        "right": 737.03125,
+        "bottom": 801.703125
+      },
+      "reserved": {
+        "left": 560,
+        "top": 770,
+        "right": 780,
+        "bottom": 814
+      }
+    },
+    {
+      "id": "research-agent-caption",
+      "actual": {
+        "left": 599.171875,
+        "top": 823.109375,
+        "right": 740.8125,
+        "bottom": 839.109375
+      },
+      "reserved": {
+        "left": 560,
+        "top": 820,
+        "right": 780,
+        "bottom": 842
+      }
+    },
+    {
+      "id": "shared-models-title",
+      "actual": {
+        "left": 1192.46875,
+        "top": 561.703125,
+        "right": 1427.53125,
+        "bottom": 581.703125
+      },
+      "reserved": {
+        "left": 1180,
+        "top": 550,
+        "right": 1440,
+        "bottom": 594
+      }
+    },
+    {
+      "id": "shared-models-caption",
+      "actual": {
+        "left": 1226.328125,
+        "top": 603.109375,
+        "right": 1393.65625,
+        "bottom": 619.109375
+      },
+      "reserved": {
+        "left": 1180,
+        "top": 600,
+        "right": 1440,
+        "bottom": 622
+      }
+    },
+    {
+      "id": "search-title",
+      "actual": {
+        "left": 1461.296875,
+        "top": 1171.703125,
+        "right": 1598.6875,
+        "bottom": 1191.703125
+      },
+      "reserved": {
+        "left": 1410,
+        "top": 1160,
+        "right": 1650,
+        "bottom": 1204
+      }
+    },
+    {
+      "id": "search-caption",
+      "actual": {
+        "left": 1449.828125,
+        "top": 1213.109375,
+        "right": 1610.171875,
+        "bottom": 1229.109375
+      },
+      "reserved": {
+        "left": 1410,
+        "top": 1210,
+        "right": 1650,
+        "bottom": 1232
+      }
+    },
+    {
+      "id": "telemetry-title",
+      "actual": {
+        "left": 893.984375,
+        "top": 1171.703125,
+        "right": 1066,
+        "bottom": 1191.703125
+      },
+      "reserved": {
+        "left": 850,
+        "top": 1160,
+        "right": 1110,
+        "bottom": 1204
+      }
+    },
+    {
+      "id": "telemetry-caption",
+      "actual": {
+        "left": 890.875,
+        "top": 1213.109375,
+        "right": 1069.109375,
+        "bottom": 1229.109375
+      },
+      "reserved": {
+        "left": 850,
+        "top": 1210,
+        "right": 1110,
+        "bottom": 1232
+      }
+    },
+    {
+      "id": "request-a",
+      "actual": {
+        "left": 470,
+        "top": 275.90625,
+        "right": 569.625,
+        "bottom": 292.90625
+      },
+      "reserved": {
+        "left": 470,
+        "top": 272,
+        "right": 630,
+        "bottom": 296
+      }
+    },
+    {
+      "id": "request-b",
+      "actual": {
+        "left": 470,
+        "top": 695.90625,
+        "right": 569.625,
+        "bottom": 712.90625
+      },
+      "reserved": {
+        "left": 470,
+        "top": 692,
+        "right": 630,
+        "bottom": 716
+      }
+    },
+    {
+      "id": "model-call",
+      "actual": {
+        "left": 1020,
+        "top": 281.90625,
+        "right": 1086.71875,
+        "bottom": 298.90625
+      },
+      "reserved": {
+        "left": 1020,
+        "top": 278,
+        "right": 1160,
+        "bottom": 302
+      }
+    },
+    {
+      "id": "search-call",
+      "actual": {
+        "left": 1370,
+        "top": 341.90625,
+        "right": 1485.609375,
+        "bottom": 358.90625
+      },
+      "reserved": {
+        "left": 1370,
+        "top": 337,
+        "right": 1555,
+        "bottom": 363
+      }
+    },
+    {
+      "id": "shared-note",
+      "actual": {
+        "left": 1160,
+        "top": 827.71875,
+        "right": 1402.796875,
+        "bottom": 883.09375
+      },
+      "reserved": {
+        "left": 1160,
+        "top": 810,
+        "right": 1510,
+        "bottom": 900
+      }
+    },
+    {
+      "id": "app-note",
+      "actual": {
+        "left": 75,
+        "top": 848.125,
+        "right": 269.78125,
+        "bottom": 922.6875
+      },
+      "reserved": {
+        "left": 75,
+        "top": 835,
+        "right": 375,
+        "bottom": 935
+      }
+    },
+    {
+      "id": "resource-note",
+      "actual": {
+        "left": 500,
+        "top": 919.90625,
+        "right": 1307.546875,
+        "bottom": 936.90625
+      },
+      "reserved": {
+        "left": 500,
+        "top": 914,
+        "right": 1510,
+        "bottom": 942
+      }
+    },
+    {
+      "id": "footer",
+      "actual": {
+        "left": 40,
+        "top": 1284.90625,
+        "right": 1065.484375,
+        "bottom": 1301.90625
+      },
+      "reserved": {
+        "left": 40,
+        "top": 1280,
+        "right": 1850,
+        "bottom": 1306
+      }
+    }
+  ],
+  "source_sha256": "e990fc7d484357ec778bdb56fd45d6f028e06ce7d2f2da48bd4fb96a49a39521",
+  "coverage": "Browser-laid-out SVG text and explicit route clarity; not PNG OCR or cloud validation"
+}

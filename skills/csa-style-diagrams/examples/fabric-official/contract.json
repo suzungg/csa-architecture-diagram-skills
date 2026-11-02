@@ -1,0 +1,169 @@
+{
+  "title": "Synthetic Fabric batch data science",
+  "nodes": {
+    "source": {
+      "title": "Enterprise sources",
+      "workspace": "external"
+    },
+    "copy": {
+      "title": "Copy activity",
+      "workspace": "W1"
+    },
+    "bronze": {
+      "title": "Bronze lakehouse",
+      "workspace": "W1"
+    },
+    "clean": {
+      "title": "Quality notebook",
+      "workspace": "W2"
+    },
+    "silver": {
+      "title": "Silver lakehouse",
+      "workspace": "W2"
+    },
+    "prep": {
+      "title": "EDA + features",
+      "workspace": "W2"
+    },
+    "train": {
+      "title": "Train + evaluate",
+      "workspace": "W2"
+    },
+    "exp": {
+      "title": "MLflow experiment",
+      "workspace": "W2"
+    },
+    "model": {
+      "title": "Fabric ML model",
+      "workspace": "W2"
+    },
+    "review": {
+      "title": "Human review",
+      "workspace": "W2"
+    },
+    "score": {
+      "title": "Batch scoring",
+      "workspace": "W2"
+    },
+    "gold": {
+      "title": "Gold lakehouse",
+      "workspace": "W3"
+    },
+    "sem": {
+      "title": "Semantic model",
+      "workspace": "W3"
+    },
+    "report": {
+      "title": "Power BI report",
+      "workspace": "W3"
+    },
+    "quality": {
+      "title": "Quality / drift notebook",
+      "workspace": "W2"
+    }
+  },
+  "edges": [
+    {
+      "source": "source",
+      "target": "copy",
+      "kind": "data",
+      "label": "Source data and outcomes"
+    },
+    {
+      "source": "copy",
+      "target": "bronze",
+      "kind": "data",
+      "label": "Land raw data"
+    },
+    {
+      "source": "bronze",
+      "target": "clean",
+      "kind": "data",
+      "label": "Read raw batches"
+    },
+    {
+      "source": "clean",
+      "target": "silver",
+      "kind": "data",
+      "label": "Validated Delta tables"
+    },
+    {
+      "source": "silver",
+      "target": "prep",
+      "kind": "data",
+      "label": "Curated data"
+    },
+    {
+      "source": "prep",
+      "target": "train",
+      "kind": "data",
+      "label": "Training and validation data"
+    },
+    {
+      "source": "train",
+      "target": "exp",
+      "kind": "data",
+      "label": "Log runs and artifacts"
+    },
+    {
+      "source": "exp",
+      "target": "model",
+      "kind": "data",
+      "label": "Register selected run"
+    },
+    {
+      "source": "model",
+      "target": "review",
+      "kind": "control",
+      "label": "Review candidate version"
+    },
+    {
+      "source": "review",
+      "target": "score",
+      "kind": "control",
+      "label": "Approve and pin version"
+    },
+    {
+      "source": "prep",
+      "target": "score",
+      "kind": "data",
+      "label": "New scoring batches"
+    },
+    {
+      "source": "score",
+      "target": "gold",
+      "kind": "data",
+      "label": "Write predictions"
+    },
+    {
+      "source": "gold",
+      "target": "sem",
+      "kind": "data",
+      "label": "Direct Lake"
+    },
+    {
+      "source": "sem",
+      "target": "report",
+      "kind": "data",
+      "label": "BI consumption"
+    },
+    {
+      "source": "gold",
+      "target": "quality",
+      "kind": "data",
+      "label": "Predictions and provenance"
+    },
+    {
+      "source": "silver",
+      "target": "quality",
+      "kind": "data",
+      "label": "Actuals when available"
+    },
+    {
+      "source": "quality",
+      "target": "train",
+      "kind": "control",
+      "label": "Human-reviewed retraining decision"
+    }
+  ]
+}

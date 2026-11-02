@@ -1,0 +1,525 @@
+{
+  "errors": 0,
+  "warnings": 1,
+  "issues": [
+    {
+      "level": "warning",
+      "code": "label-overlap",
+      "message": "flow-3-label / flow-4-label: bounding rectangles overlap"
+    }
+  ],
+  "measured": [
+    {
+      "id": "diagram-title",
+      "actual": {
+        "left": 40,
+        "top": 40.703125,
+        "right": 467.90625,
+        "bottom": 71.703125
+      },
+      "reserved": {
+        "left": 40,
+        "top": 35,
+        "right": 1260,
+        "bottom": 77
+      }
+    },
+    {
+      "id": "diagram-subtitle",
+      "actual": {
+        "left": 40,
+        "top": 89.3125,
+        "right": 740.578125,
+        "bottom": 108.3125
+      },
+      "reserved": {
+        "left": 40,
+        "top": 85,
+        "right": 1490,
+        "bottom": 113
+      }
+    },
+    {
+      "id": "ds-box-title",
+      "actual": {
+        "left": 54,
+        "top": 149.3125,
+        "right": 308.375,
+        "bottom": 174.3125
+      },
+      "reserved": {
+        "left": 54,
+        "top": 146,
+        "right": 396,
+        "bottom": 178
+      }
+    },
+    {
+      "id": "analytics-box-title",
+      "actual": {
+        "left": 1134,
+        "top": 149.3125,
+        "right": 1351.671875,
+        "bottom": 174.3125
+      },
+      "reserved": {
+        "left": 1134,
+        "top": 146,
+        "right": 1431,
+        "bottom": 178
+      }
+    },
+    {
+      "id": "curated-title",
+      "actual": {
+        "left": 109.46875,
+        "top": 491.703125,
+        "right": 270.53125,
+        "bottom": 511.703125
+      },
+      "reserved": {
+        "left": 80,
+        "top": 480,
+        "right": 300,
+        "bottom": 524
+      }
+    },
+    {
+      "id": "curated-caption",
+      "actual": {
+        "left": 131.234375,
+        "top": 533.109375,
+        "right": 248.765625,
+        "bottom": 549.109375
+      },
+      "reserved": {
+        "left": 80,
+        "top": 530,
+        "right": 300,
+        "bottom": 552
+      }
+    },
+    {
+      "id": "train-title",
+      "actual": {
+        "left": 382,
+        "top": 301.703125,
+        "right": 538,
+        "bottom": 321.703125
+      },
+      "reserved": {
+        "left": 350,
+        "top": 290,
+        "right": 570,
+        "bottom": 334
+      }
+    },
+    {
+      "id": "train-caption",
+      "actual": {
+        "left": 403.828125,
+        "top": 343.109375,
+        "right": 516.15625,
+        "bottom": 359.109375
+      },
+      "reserved": {
+        "left": 350,
+        "top": 340,
+        "right": 570,
+        "bottom": 362
+      }
+    },
+    {
+      "id": "experiment-title",
+      "actual": {
+        "left": 678.484375,
+        "top": 301.703125,
+        "right": 841.515625,
+        "bottom": 321.703125
+      },
+      "reserved": {
+        "left": 650,
+        "top": 290,
+        "right": 870,
+        "bottom": 334
+      }
+    },
+    {
+      "id": "experiment-caption",
+      "actual": {
+        "left": 711.359375,
+        "top": 343.109375,
+        "right": 808.625,
+        "bottom": 359.109375
+      },
+      "reserved": {
+        "left": 650,
+        "top": 340,
+        "right": 870,
+        "bottom": 362
+      }
+    },
+    {
+      "id": "model-title",
+      "actual": {
+        "left": 838.640625,
+        "top": 491.703125,
+        "right": 981.34375,
+        "bottom": 511.703125
+      },
+      "reserved": {
+        "left": 800,
+        "top": 480,
+        "right": 1020,
+        "bottom": 524
+      }
+    },
+    {
+      "id": "model-caption",
+      "actual": {
+        "left": 836.0625,
+        "top": 533.109375,
+        "right": 983.9375,
+        "bottom": 549.109375
+      },
+      "reserved": {
+        "left": 800,
+        "top": 530,
+        "right": 1020,
+        "bottom": 552
+      }
+    },
+    {
+      "id": "score-title",
+      "actual": {
+        "left": 446.984375,
+        "top": 681.703125,
+        "right": 653,
+        "bottom": 701.703125
+      },
+      "reserved": {
+        "left": 440,
+        "top": 670,
+        "right": 660,
+        "bottom": 714
+      }
+    },
+    {
+      "id": "score-caption",
+      "actual": {
+        "left": 499.421875,
+        "top": 723.109375,
+        "right": 600.5625,
+        "bottom": 739.109375
+      },
+      "reserved": {
+        "left": 440,
+        "top": 720,
+        "right": 660,
+        "bottom": 742
+      }
+    },
+    {
+      "id": "gold-title",
+      "actual": {
+        "left": 1242.96875,
+        "top": 301.703125,
+        "right": 1377.015625,
+        "bottom": 321.703125
+      },
+      "reserved": {
+        "left": 1200,
+        "top": 290,
+        "right": 1420,
+        "bottom": 334
+      }
+    },
+    {
+      "id": "gold-caption",
+      "actual": {
+        "left": 1263.296875,
+        "top": 343.109375,
+        "right": 1356.703125,
+        "bottom": 359.109375
+      },
+      "reserved": {
+        "left": 1200,
+        "top": 340,
+        "right": 1420,
+        "bottom": 362
+      }
+    },
+    {
+      "id": "semantic-title",
+      "actual": {
+        "left": 1240.96875,
+        "top": 501.703125,
+        "right": 1379.015625,
+        "bottom": 521.703125
+      },
+      "reserved": {
+        "left": 1200,
+        "top": 490,
+        "right": 1420,
+        "bottom": 534
+      }
+    },
+    {
+      "id": "semantic-caption",
+      "actual": {
+        "left": 1274.59375,
+        "top": 543.109375,
+        "right": 1345.40625,
+        "bottom": 559.109375
+      },
+      "reserved": {
+        "left": 1200,
+        "top": 540,
+        "right": 1420,
+        "bottom": 562
+      }
+    },
+    {
+      "id": "report-title",
+      "actual": {
+        "left": 1242.984375,
+        "top": 701.703125,
+        "right": 1377.015625,
+        "bottom": 721.703125
+      },
+      "reserved": {
+        "left": 1200,
+        "top": 690,
+        "right": 1420,
+        "bottom": 734
+      }
+    },
+    {
+      "id": "report-caption",
+      "actual": {
+        "left": 1225.5625,
+        "top": 743.109375,
+        "right": 1394.421875,
+        "bottom": 759.109375
+      },
+      "reserved": {
+        "left": 1200,
+        "top": 740,
+        "right": 1420,
+        "bottom": 762
+      }
+    },
+    {
+      "id": "flow-1-label",
+      "actual": {
+        "left": 205,
+        "top": 328.703125,
+        "right": 285.953125,
+        "bottom": 361.5
+      },
+      "reserved": {
+        "left": 205,
+        "top": 325,
+        "right": 345,
+        "bottom": 365
+      }
+    },
+    {
+      "id": "flow-2-label",
+      "actual": {
+        "left": 520,
+        "top": 214.109375,
+        "right": 624.296875,
+        "bottom": 230.109375
+      },
+      "reserved": {
+        "left": 520,
+        "top": 208,
+        "right": 670,
+        "bottom": 236
+      }
+    },
+    {
+      "id": "flow-3-label",
+      "actual": {
+        "left": 735,
+        "top": 366.703125,
+        "right": 811.28125,
+        "bottom": 399.5
+      },
+      "reserved": {
+        "left": 735,
+        "top": 365,
+        "right": 895,
+        "bottom": 401
+      }
+    },
+    {
+      "id": "flow-4-label",
+      "actual": {
+        "left": 585,
+        "top": 388.703125,
+        "right": 718.09375,
+        "bottom": 421.5
+      },
+      "reserved": {
+        "left": 585,
+        "top": 385,
+        "right": 805,
+        "bottom": 425
+      }
+    },
+    {
+      "id": "flow-5-label",
+      "actual": {
+        "left": 345,
+        "top": 518.703125,
+        "right": 448.5,
+        "bottom": 551.5
+      },
+      "reserved": {
+        "left": 345,
+        "top": 515,
+        "right": 520,
+        "bottom": 555
+      }
+    },
+    {
+      "id": "flow-6-label",
+      "actual": {
+        "left": 780,
+        "top": 595.109375,
+        "right": 884.015625,
+        "bottom": 611.109375
+      },
+      "reserved": {
+        "left": 780,
+        "top": 589,
+        "right": 1015,
+        "bottom": 617
+      }
+    },
+    {
+      "id": "flow-7-label",
+      "actual": {
+        "left": 1355,
+        "top": 385.109375,
+        "right": 1425.8125,
+        "bottom": 401.109375
+      },
+      "reserved": {
+        "left": 1355,
+        "top": 380,
+        "right": 1475,
+        "bottom": 405
+      }
+    },
+    {
+      "id": "flow-8-label",
+      "actual": {
+        "left": 1175,
+        "top": 580.109375,
+        "right": 1234.921875,
+        "bottom": 596.109375
+      },
+      "reserved": {
+        "left": 1175,
+        "top": 575,
+        "right": 1295,
+        "bottom": 600
+      }
+    },
+    {
+      "id": "access-note",
+      "actual": {
+        "left": 805,
+        "top": 701.703125,
+        "right": 960.609375,
+        "bottom": 734.5
+      },
+      "reserved": {
+        "left": 805,
+        "top": 695,
+        "right": 1025,
+        "bottom": 741
+      }
+    },
+    {
+      "id": "reading-key",
+      "actual": {
+        "left": 40,
+        "top": 828.703125,
+        "right": 146.046875,
+        "bottom": 848.703125
+      },
+      "reserved": {
+        "left": 40,
+        "top": 825,
+        "right": 230,
+        "bottom": 853
+      }
+    },
+    {
+      "id": "legend",
+      "actual": {
+        "left": 240,
+        "top": 830.90625,
+        "right": 807.359375,
+        "bottom": 847.90625
+      },
+      "reserved": {
+        "left": 240,
+        "top": 825,
+        "right": 1530,
+        "bottom": 853
+      }
+    },
+    {
+      "id": "approval-note",
+      "actual": {
+        "left": 40,
+        "top": 875.90625,
+        "right": 786.203125,
+        "bottom": 892.90625
+      },
+      "reserved": {
+        "left": 40,
+        "top": 870,
+        "right": 1520,
+        "bottom": 898
+      }
+    },
+    {
+      "id": "stage-note",
+      "actual": {
+        "left": 40,
+        "top": 913.90625,
+        "right": 744.09375,
+        "bottom": 930.90625
+      },
+      "reserved": {
+        "left": 40,
+        "top": 908,
+        "right": 1520,
+        "bottom": 936
+      }
+    },
+    {
+      "id": "draft-note",
+      "actual": {
+        "left": 40,
+        "top": 957.109375,
+        "right": 550.71875,
+        "bottom": 973.109375
+      },
+      "reserved": {
+        "left": 40,
+        "top": 954,
+        "right": 1520,
+        "bottom": 976
+      }
+    }
+  ],
+  "source_sha256": "39c4deb43957075c8e0434dc5da013708619fca84ec89cd69abe45f654c55d94",
+  "coverage": "Browser-laid-out SVG text and explicit route clarity; not PNG OCR or cloud validation"
+}

@@ -1,0 +1,11 @@
+{
+  "errors": 1,
+  "warnings": 0,
+  "issues": [
+    {
+      "level": "error",
+      "code": "scope-containment",
+      "message": "agent-a: outside declared owner project-a"
+    }
+  ]
+}

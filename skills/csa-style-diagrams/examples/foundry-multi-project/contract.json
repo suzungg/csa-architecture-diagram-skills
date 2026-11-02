@@ -1,0 +1,104 @@
+{
+  "nodes": {
+    "support-app": {
+      "title": "Support web app",
+      "scope": "apps"
+    },
+    "research-app": {
+      "title": "Research web app",
+      "scope": "apps"
+    },
+    "support-agent": {
+      "title": "Support agent",
+      "scope": "support"
+    },
+    "research-agent": {
+      "title": "Research agent",
+      "scope": "research"
+    },
+    "shared-models": {
+      "title": "Shared model deployments",
+      "scope": "foundry"
+    },
+    "search": {
+      "title": "Azure AI Search",
+      "scope": "retrieval"
+    },
+    "telemetry": {
+      "title": "Application Insights",
+      "scope": "operations"
+    }
+  },
+  "edges": [
+    {
+      "source": "support-app",
+      "target": "support-agent",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "research-app",
+      "target": "research-agent",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "support-agent",
+      "target": "shared-models",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "research-agent",
+      "target": "shared-models",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "support-agent",
+      "target": "search",
+      "kind": "data",
+      "intent": "runtime"
+    },
+    {
+      "source": "support-app",
+      "target": "telemetry",
+      "kind": "telemetry",
+      "intent": "telemetry"
+    },
+    {
+      "source": "research-app",
+      "target": "telemetry",
+      "kind": "telemetry",
+      "intent": "telemetry"
+    }
+  ],
+  "scopes": {
+    "apps": {
+      "boundary": "applications",
+      "kind": "logical"
+    },
+    "foundry": {
+      "boundary": "foundry-resource",
+      "kind": "resource"
+    },
+    "support": {
+      "boundary": "project-a",
+      "kind": "project",
+      "parent": "foundry"
+    },
+    "research": {
+      "boundary": "project-b",
+      "kind": "project",
+      "parent": "foundry"
+    },
+    "retrieval": {
+      "boundary": "search-resource",
+      "kind": "resource"
+    },
+    "operations": {
+      "boundary": "operations",
+      "kind": "resource"
+    }
+  }
+}

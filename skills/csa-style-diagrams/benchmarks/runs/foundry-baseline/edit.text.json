@@ -1,0 +1,380 @@
+{
+  "errors": 0,
+  "warnings": 8,
+  "issues": [
+    {
+      "level": "warning",
+      "code": "label-overlap",
+      "message": "foundry-heading / search-tool-label: bounding rectangles overlap"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "edge-app-a-agent-a: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "edge-app-a-agent-a: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "edge-app-b-agent-b: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "edge-app-b-agent-b: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "edge-agent-a-models: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "edge-agent-b-models: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "edge-agent-a-search: renderer routing/perimeters cannot be predicted"
+    }
+  ],
+  "measured": [
+    {
+      "id": "title",
+      "actual": {
+        "left": 3,
+        "top": 13.5,
+        "right": 608.78125,
+        "bottom": 49.5
+      },
+      "reserved": {
+        "left": 1,
+        "top": 0,
+        "right": 1481,
+        "bottom": 55
+      }
+    },
+    {
+      "id": "subtitle",
+      "actual": {
+        "left": 3,
+        "top": 77,
+        "right": 783.421875,
+        "bottom": 97
+      },
+      "reserved": {
+        "left": 1,
+        "top": 65,
+        "right": 1481,
+        "bottom": 105
+      }
+    },
+    {
+      "id": "apps-heading",
+      "actual": {
+        "left": 22,
+        "top": 213.5,
+        "right": 254.125,
+        "bottom": 235.5
+      },
+      "reserved": {
+        "left": 21,
+        "top": 205,
+        "right": 296,
+        "bottom": 240
+      }
+    },
+    {
+      "id": "foundry-heading",
+      "actual": {
+        "left": 468,
+        "top": 159,
+        "right": 672.046875,
+        "bottom": 186
+      },
+      "reserved": {
+        "left": 466,
+        "top": 150,
+        "right": 1116,
+        "bottom": 190
+      }
+    },
+    {
+      "id": "project-a-heading",
+      "actual": {
+        "left": 503,
+        "top": 266,
+        "right": 652.2265625,
+        "bottom": 288
+      },
+      "reserved": {
+        "left": 501,
+        "top": 260,
+        "right": 761,
+        "bottom": 290
+      }
+    },
+    {
+      "id": "project-a-note",
+      "actual": {
+        "left": 503,
+        "top": 298,
+        "right": 717.107421875,
+        "bottom": 315
+      },
+      "reserved": {
+        "left": 501,
+        "top": 293,
+        "right": 771,
+        "bottom": 318
+      }
+    },
+    {
+      "id": "project-b-heading",
+      "actual": {
+        "left": 503,
+        "top": 511,
+        "right": 665.634765625,
+        "bottom": 533
+      },
+      "reserved": {
+        "left": 501,
+        "top": 505,
+        "right": 761,
+        "bottom": 535
+      }
+    },
+    {
+      "id": "project-b-note",
+      "actual": {
+        "left": 503,
+        "top": 543,
+        "right": 717.107421875,
+        "bottom": 560
+      },
+      "reserved": {
+        "left": 501,
+        "top": 538,
+        "right": 771,
+        "bottom": 563
+      }
+    },
+    {
+      "id": "search-heading",
+      "actual": {
+        "left": 1253,
+        "top": 203.5,
+        "right": 1461.9375,
+        "bottom": 225.5
+      },
+      "reserved": {
+        "left": 1251,
+        "top": 195,
+        "right": 1481,
+        "bottom": 230
+      }
+    },
+    {
+      "id": "app-a",
+      "actual": {
+        "left": 87.046875,
+        "top": 369.5,
+        "right": 264.953125,
+        "bottom": 391.5
+      },
+      "reserved": {
+        "left": 71,
+        "top": 335,
+        "right": 281,
+        "bottom": 425
+      }
+    },
+    {
+      "id": "app-b",
+      "actual": {
+        "left": 72.609375,
+        "top": 614.5,
+        "right": 239.390625,
+        "bottom": 636.5
+      },
+      "reserved": {
+        "left": 51,
+        "top": 580,
+        "right": 261,
+        "bottom": 670
+      }
+    },
+    {
+      "id": "agent-a",
+      "actual": {
+        "left": 563.171875,
+        "top": 369.5,
+        "right": 688.828125,
+        "bottom": 391.5
+      },
+      "reserved": {
+        "left": 516,
+        "top": 335,
+        "right": 736,
+        "bottom": 425
+      }
+    },
+    {
+      "id": "agent-b",
+      "actual": {
+        "left": 555.390625,
+        "top": 614.5,
+        "right": 696.59375,
+        "bottom": 636.5
+      },
+      "reserved": {
+        "left": 516,
+        "top": 580,
+        "right": 736,
+        "bottom": 670
+      }
+    },
+    {
+      "id": "models",
+      "actual": {
+        "left": 927.5,
+        "top": 429.109375,
+        "right": 1064.484375,
+        "bottom": 480.5
+      },
+      "reserved": {
+        "left": 871,
+        "top": 400,
+        "right": 1121,
+        "bottom": 510
+      }
+    },
+    {
+      "id": "models-note",
+      "actual": {
+        "left": 918.0234375,
+        "top": 535,
+        "right": 1074.4619140625,
+        "bottom": 574
+      },
+      "reserved": {
+        "left": 871,
+        "top": 525,
+        "right": 1121,
+        "bottom": 580
+      }
+    },
+    {
+      "id": "search",
+      "actual": {
+        "left": 1288.734375,
+        "top": 294.5,
+        "right": 1433.265625,
+        "bottom": 316.5
+      },
+      "reserved": {
+        "left": 1261,
+        "top": 265,
+        "right": 1461,
+        "bottom": 345
+      }
+    },
+    {
+      "id": "search-tool-label",
+      "actual": {
+        "left": 785.140625,
+        "top": 187.5,
+        "right": 1117.34814453125,
+        "bottom": 206.5
+      },
+      "reserved": {
+        "left": 751,
+        "top": 180,
+        "right": 1151,
+        "bottom": 210
+      }
+    },
+    {
+      "id": "scope-note",
+      "actual": {
+        "left": 3,
+        "top": 784.5,
+        "right": 808.453125,
+        "bottom": 804.5
+      },
+      "reserved": {
+        "left": 1,
+        "top": 775,
+        "right": 1481,
+        "bottom": 810
+      }
+    },
+    {
+      "id": "auth-note",
+      "actual": {
+        "left": 2,
+        "top": 824.5,
+        "right": 881.4375,
+        "bottom": 844.5
+      },
+      "reserved": {
+        "left": 1,
+        "top": 815,
+        "right": 1481,
+        "bottom": 850
+      }
+    },
+    {
+      "id": "evidence-label",
+      "actual": {
+        "left": 2,
+        "top": 874,
+        "right": 153.365234375,
+        "bottom": 890
+      },
+      "reserved": {
+        "left": 1,
+        "top": 870,
+        "right": 1481,
+        "bottom": 892
+      }
+    },
+    {
+      "id": "evidence-architecture",
+      "actual": {
+        "left": 3,
+        "top": 899,
+        "right": 432.7431640625,
+        "bottom": 915
+      },
+      "reserved": {
+        "left": 1,
+        "top": 895,
+        "right": 1481,
+        "bottom": 917
+      }
+    },
+    {
+      "id": "evidence-search",
+      "actual": {
+        "left": 3,
+        "top": 924,
+        "right": 482.5498046875,
+        "bottom": 940
+      },
+      "reserved": {
+        "left": 1,
+        "top": 920,
+        "right": 1481,
+        "bottom": 942
+      }
+    }
+  ],
+  "source_sha256": "0230403775f0ec66a01dbbabee1d51bcaa8dd1c2424ba301e86976a464ecb278",
+  "coverage": "Browser-laid-out SVG text and explicit route clarity; not PNG OCR or cloud validation"
+}

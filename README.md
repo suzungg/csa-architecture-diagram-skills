@@ -1,16 +1,15 @@
 # CSA architecture diagram skills
 
 A private, curated toolkit for editable architecture diagrams, diagram-as-code,
-and supporting research. **13 complete skill folders are bundled**: seven
-diagram skills (including Aymen's two originals and `natural-architecture-diagrams`)
-and six official Anthropic skills. No skills or MCP servers are installed on
+and supporting research. **Four complete architecture skill folders are bundled**:
+`mermaid-diagrams`, Aymen's original `drawio-pitch` and `drawio-iterate`,
+and `csa-style-diagrams`. No skills or MCP servers are installed on
 your machine by cloning this repository.
 
-**Not everything is vendored.** Excalidraw is external because its pinned source
-has no explicit license. Anthropic's full 19-skill catalog is included, but its
-four restricted document skills and nine other skills remain external. See
-[the catalog](CATALOG.md), [Anthropic setup](ANTHROPIC.md), and
-[license boundaries](THIRD_PARTY_NOTICES.md).
+These support three approaches: Mermaid authoring, Aymen's combined pitch-and-
+refinement workflow, and Azure Architecture Center-inspired CSA-style diagrams. Microsoft
+Learn MCP and GitHub MCP remain available as opt-in research integrations. See
+[the catalog](CATALOG.md) and [license boundaries](THIRD_PARTY_NOTICES.md).
 
 ## Quick start
 
@@ -22,7 +21,8 @@ Set-Location csa-architecture-diagram-skills
 python .\tools\validate.py
 ```
 
-Python 3.10+ is needed only for this structural check and Python-based tools.
+Python 3.10+ is needed for this toolkit's structural checks and CSA's optional
+drawing/checking/export helpers.
 You can read and copy instruction-only skills without Python.
 
 1. Choose one skill below and review its full folder, not just `SKILL.md`.
@@ -37,29 +37,24 @@ You can read and copy instruction-only skills without Python.
 
 Start with this synthetic request:
 
-> Use natural-architecture-diagrams to design a conventional three-tier
-> architecture from my brief. Use thin boundaries, short labels and meaningful
-> connections, not a dashboard. Deliver editable draw.io source and a matching
+> Use csa-style-diagrams to design a three-tier architecture from my brief in
+> the visual style of Azure Architecture Center. Use official service icons,
+> clear section hierarchy, typed boundaries and meaningful connections, not a
+> dashboard. Deliver editable draw.io source and a matching
 > locally rendered PNG. Distinguish assumptions from verified product claims.
 
 ## Which skill should I use?
 
 | Task | Skill | Editable source and outputs |
 | --- | --- | --- |
-| Conventional architect-style diagrams; faithful recreation or scoped revisions | [natural-architecture-diagrams](skills/natural-architecture-diagrams/SKILL.md) | Object-editable `.drawio`, matching PNG; optional SVG |
+| Architecture Center-inspired diagrams; faithful recreation or scoped revisions | [csa-style-diagrams](skills/csa-style-diagrams/SKILL.md) | Object-editable `.drawio`, matching PNG; optional SVG |
 | Research-led, dense initial visual pitch on one A5 sheet | [drawio-pitch](skills/drawio-pitch/SKILL.md), Aymen original | `.drawio` + PNG + source/asset credits |
 | Aymen's prescribed publication-refinement cycle | [drawio-iterate](skills/drawio-iterate/SKILL.md), Aymen original | Separate `.drawio`/PNG pair per pass |
 | Mermaid authoring: sequence, C4, ER, flow and other software diagrams | [mermaid-diagrams](skills/mermaid-diagrams/SKILL.md), Softaworks | Text-editable Mermaid; export depends on renderer |
-| Themed Mermaid rendering for docs and terminals | [pretty-mermaid](skills/pretty-mermaid/SKILL.md), imxv | `.mmd` + SVG, PNG or ASCII/Unicode; supports a subset of Mermaid |
-| Inventory an existing Azure resource group | [azure-resource-visualizer](skills/azure-resource-visualizer/SKILL.md), Microsoft | Markdown + Mermaid; requires authorized Azure read access |
-| Azure icon diagrams and diagrams generated from IaC | [azure-diagrams](skills/azure-diagrams/SKILL.md), Carl Brindle | Python/IaC input + PNG; optional SVG; not native draw.io objects |
-| Excalidraw visual explanations | [Excalidraw upstream](https://github.com/coleam00/excalidraw-diagram-skill/tree/8646fcc9f74f38539c6cdb4c969723336a96ddcd), external | Editable `.excalidraw` JSON + PNG; rights and renderer setup required |
-| Skill authoring, MCP development, themes and communication | [Anthropic collection](ANTHROPIC.md) | Six bundled supporting skills; full official catalog and install routes |
 
-Retain Mermaid/Python source when future editing matters. PNG is not object
+Retain Mermaid/draw.io source when future editing matters. PNG is not object
 editable; SVG is not automatically equivalent to a native diagram document.
-The upstream Azure Diagrams skill discards throwaway Python scripts by default:
-explicitly request retained source if needed. Embedded raster icons in draw.io
+Embedded raster icons in draw.io
 remain raster even when their surrounding objects and labels are editable.
 
 ### Aymen originals versus the custom skill
@@ -72,26 +67,41 @@ with a sparse technical-diagram goal. A larger XML file is not proof of a better
 architecture. If the model, agents or renderer are unavailable, report the
 limitation rather than silently substituting a different workflow.
 
-The custom `natural-architecture-diagrams` skill has **no fixed model, agent
-count, pass count or growth quota**. Choose it for defect-driven refinement.
+The custom `csa-style-diagrams` skill has **no fixed model, agent
+count, pass count or growth quota**. Its defaults now include purposeful
+section bands, prominent service icons, meaningful workflow numbering and
+perimeter feedback loops. It selects a reference style appropriate to the
+workload, not a mandatory MLOps topology. Choose it for defect-driven refinement.
+It now includes [reusable local helpers and quality checks](skills/csa-style-diagrams/references/tooling.md),
+explicit presentation/reference/recreation modes, and an
+[annotated editable Fabric example](skills/csa-style-diagrams/examples/fabric-batch/README.md).
+The Fabric example uses disclosed neutral symbols. For Foundry, CSA also bundles
+[13 official core/companion icons](skills/csa-style-diagrams/assets/foundry/README.md),
+a local lookup, an editable icon sheet and
+[Foundry-specific guidance](skills/csa-style-diagrams/references/foundry.md).
+These icons retain Microsoft's permitted-use terms, separate from the MIT skill.
+CSA now also includes a [complete multi-project Foundry example](skills/csa-style-diagrams/examples/foundry-multi-project/README.md),
+[eight official Fabric icons](skills/csa-style-diagrams/assets/fabric/README.md)
+under Microsoft's archive MIT license, and an
+[official-icon Fabric example](skills/csa-style-diagrams/examples/fabric-official/README.md).
+[Deeper optional checks](skills/csa-style-diagrams/references/quality-checks.md)
+measure rendered SVG text and declared scope/relationship consistency.
+The [executed CSA/no-skill pilot](skills/csa-style-diagrams/benchmarks/README.md)
+preserves first drafts, findings and edit failures; it does not establish a general winner.
 
 ## Prerequisites and platforms
 
 | Component | Requirements / limits |
 | --- | --- |
 | Instruction-only skills | A skill-capable agent host; tools and model access vary by host |
-| draw.io workflows | A locally approved draw.io-compatible editor/exporter plus actual image inspection; no renderer or icon library bundled |
-| Pretty Mermaid | Node.js and npm; upstream declares Node >=16, use a maintained Node LTS; bundled dependency lockfile; native PNG package must support your platform |
-| Azure Diagrams | Python + `diagrams>=0.25.1`, system Graphviz (`dot` on PATH); optional matplotlib/CairoSVG and native libraries |
-| Azure inventory | Separately configured Azure CLI or Azure MCP and suitable read permissions; Learn MCP does **not** read subscriptions |
-| Excalidraw (external) | Upstream Python/uv + Playwright/Chromium renderer; review rights, browser dependencies and network behavior before setup |
-| Anthropic helpers | Some are instructions only; MCP evaluations use Python packages and Anthropic API access; skill-creator optimization requires Claude CLI and may incur costs |
+| CSA local helpers | Python 3.10+ standard library; optional local draw.io Desktop for PNG export and Edge/Chromium for rendered-text checks; no automatic installation |
+| draw.io workflows | A locally approved editor/exporter plus actual image inspection; no renderer bundled; CSA includes curated Foundry and Fabric icons |
+| Mermaid authoring | A Mermaid-capable viewer/editor or separately approved renderer supporting the requested syntax; no renderer bundled |
 | Remote MCP examples | Compatible HTTP MCP client; no Docker or Node needed for these two hosted endpoints; GitHub authentication required |
 
 Windows PowerShell, macOS and Linux setup notes are in [SETUP.md](SETUP.md).
-Vendor examples may use POSIX shell syntax. The original skill-creator evaluation
-helpers use POSIX-style pipe polling and are **not certified for native Windows**;
-use a supported environment such as WSL and verify your chosen workflow.
+Vendor examples may use POSIX shell syntax. Adapt command syntax to your platform
+and verify the chosen host and renderer independently.
 
 ## MCP, safety and privacy
 
@@ -105,11 +115,10 @@ repository data and tool results may be sent to the configured model provider.
 Never send customer diagrams, credentials or private identifiers to public
 search, online renderers or external services without approval. Upstream skills
 are preserved, not a security sandbox: some suggest online editors, fetch
-resources, install packages, call models or launch agents. Pretty Mermaid can
-automatically run `npm install` when dependencies are missing. Review scripts
-and prepare dependencies explicitly before using it in a restricted environment.
+resources, install packages, call models or launch agents. Review suggested
+commands and prepare dependencies explicitly in a restricted environment.
 
-Use synthetic briefs for evaluation, least-privilege accounts for inventory, and
+Use synthetic briefs for evaluation, least-privilege accounts for research, and
 human review for tool calls. Read-only GitHub tools can still disclose private
 data to the model; they do not constrain the agent's shell or other MCP servers.
 Product logos have separate usage rules. Appearance is not evidence of
@@ -117,11 +126,10 @@ architectural correctness, runtime support or vendor endorsement.
 
 ## Maintenance and verification
 
-[SOURCES.json](SOURCES.json) pins repositories, licenses, selections and
-omissions. [SOURCE-LOCK.json](SOURCE-LOCK.json) records every bundled file's
-SHA-256, upstream Git blob, size and provenance; the original custom pack is
-also hashed. [ANTHROPIC-CATALOG.json](ANTHROPIC-CATALOG.json) covers all 19
-official skills at the reviewed revision.
+[SOURCES.json](SOURCES.json) pins repositories, licenses and selections.
+[SOURCE-LOCK.json](SOURCE-LOCK.json) records every bundled file's
+SHA-256, upstream Git blob, size and provenance; the current custom pack is
+also hashed. Only the four selected architecture skills are distributed.
 
 Run `python .\tools\validate.py` and
 `python -m unittest discover -s tools -p "test_*.py"` after changes.
@@ -134,3 +142,6 @@ references, JSON/config shapes, local Markdown links, Python syntax and
 credential-pattern checks. These checks do not execute skills, install
 dependencies, render diagrams, authenticate MCP servers or deploy resources.
 No end-to-end host/model/renderer compatibility is claimed.
+CSA's helper tests, locally rendered examples and limited direct-file pilot are
+separate from these repository checks; see the skill's tooling guide and pilot
+report for coverage and limitations.

@@ -1,0 +1,16 @@
+{
+  "errors": 0,
+  "warnings": 2,
+  "issues": [
+    {
+      "level": "warning",
+      "code": "label-overlap",
+      "message": "flow-3-label / flow-4-label: bounding rectangles overlap"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "flow-1: diagonal/curved routing is not checked"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "errors": 0,
+  "warnings": 8,
+  "issues": [
+    {
+      "level": "warning",
+      "code": "label-overlap",
+      "message": "foundry-heading / search-tool-label: bounding rectangles overlap"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "edge-app-a-agent-a: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "edge-app-a-agent-a: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "edge-label-unchecked",
+      "message": "edge-app-b-agent-b: automatic edge-label placement needs visual inspection"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "edge-app-b-agent-b: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "edge-agent-a-models: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "edge-agent-b-models: renderer routing/perimeters cannot be predicted"
+    },
+    {
+      "level": "warning",
+      "code": "route-unchecked",
+      "message": "edge-agent-a-search: renderer routing/perimeters cannot be predicted"
+    }
+  ]
+}

@@ -1,13 +1,86 @@
 import copy
+from contextlib import redirect_stdout
+import io
+import json
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
 
-from validate import ROOT, SECRET, git_blob, load_json, markdown_targets, safe_path, validate_index, validate_mcp
+from validate import ROOT, SECRET, git_blob, load_json, markdown_targets, safe_path, validate, validate_asset_source, validate_index, validate_mcp
 
 
 class ValidatorTests(unittest.TestCase):
+    def test_current_four_skill_toolkit(self):
+        output = io.StringIO()
+        with redirect_stdout(output):
+            validate()
+        self.assertIn("PASS: 4 skills;", output.getvalue())
+        self.assertIn("3 MCP configs;", output.getvalue())
+
+    def test_changed_skill_selection_rejected(self):
+        for selections in ([], [{"upstream": "skills/extra", "local": "skills/extra"}]):
+            with self.subTest(selections=selections), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                source = copy.deepcopy(load_json(ROOT / "SOURCES.json")["sources"][0])
+                source["selections"] = selections
+                (root / "SOURCES.json").write_text(
+                    json.dumps({"schema_version": 1, "sources": [source]}), encoding="utf-8")
+                (root / "SOURCE-LOCK.json").write_text(
+                    '{"schema_version": 1, "files": []}', encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "four approved architecture skills"):
+                    validate(root)
+
+    def test_official_icon_archive_source(self):
+        source = next(s for s in load_json(ROOT / "SOURCES.json")["sources"] if s["status"] == "bundled-assets")
+        self.assertEqual(len(validate_asset_source(ROOT, source)), 14)
+        for key, value in (("url", "https://example.invalid/icons"), ("archive_url", "https://example.invalid/icons.zip"),
+                           ("archive_sha256", "not-a-hash"), ("license", "MIT"),
+                           ("license_path", "missing.pdf"), ("ref", "latest")):
+            changed = copy.deepcopy(source)
+            changed[key] = value
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                validate_asset_source(ROOT, changed)
+        changed = copy.deepcopy(source)
+        upstream = next(iter(changed["files"]))
+        changed["files"][upstream] = "skills/csa-style-diagrams/outside.svg"
+        with self.assertRaisesRegex(ValueError, "outside"):
+            validate_asset_source(ROOT, changed)
+
+    def test_icon_catalog_mapping_and_hash_must_match(self):
+        source = next(s for s in load_json(ROOT / "SOURCES.json")["sources"] if s["status"] == "bundled-assets")
+        catalog = load_json(ROOT / source["catalog"])
+        alias = next(iter(catalog["icons"]))
+        for key, value in (("sha256", "0"*64), ("upstream_path", "missing.svg"), ("path", "../escape.svg")):
+            changed = copy.deepcopy(catalog)
+            changed["icons"][alias][key] = value
+            with self.subTest(key=key), patch("validate.load_json", return_value=changed), self.assertRaises(ValueError):
+                validate_asset_source(ROOT, source)
+
+    def test_official_fabric_archive_and_distinct_license(self):
+        source = next(s for s in load_json(ROOT / "SOURCES.json")["sources"] if s["id"] == "microsoft-fabric-icons-6.1.0")
+        self.assertEqual(len(validate_asset_source(ROOT, source)), 9)
+        for key, value in (("license", "Microsoft Azure architecture icon terms"),
+                           ("ref", "main"), ("archive_url", source["archive_url"].replace(source["ref"], "main")),
+                           ("license_path", "LICENSE")):
+            changed = copy.deepcopy(source)
+            changed[key] = value
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                validate_asset_source(ROOT, changed)
+
+    def test_microsoft_asset_cannot_be_attributed_to_original_mit_source(self):
+        lock_path = ROOT / "SOURCE-LOCK.json"
+        lock = copy.deepcopy(load_json(lock_path))
+        entry = next(e for e in lock["files"] if e["source"] == "microsoft-azure-icons-v24")
+        entry["source"] = "csa-style-diagrams"
+        entry["upstream_path"] = entry["path"].removeprefix("skills/csa-style-diagrams/")
+        original_load = load_json
+        def replaced(path):
+            return lock if path == lock_path else original_load(path)
+        with patch("validate.load_json", side_effect=replaced):
+            with self.assertRaisesRegex(ValueError, "not in declared source selection"):
+                validate()
+
     def config(self, variant):
         return load_json(ROOT / "examples/mcp" / (variant + ".json"))
 
