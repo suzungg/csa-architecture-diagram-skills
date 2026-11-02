@@ -45,6 +45,43 @@ input for a smoke check. Inspect the actual export rather than assuming that a
 successful parse guarantees a readable layout. Do not send private material to
 online editors without approval.
 
+## Azure Diagrams
+
+Copy the complete [azure-diagrams folder](skills/azure-diagrams) using the
+bundled-skill procedure above. It requires Graphviz's `dot` executable on PATH
+and Python packages listed in its [core requirements](skills/azure-diagrams/requirements.txt).
+After approving installation, choose the Graphviz package for your platform:
+`winget install -e --id Graphviz.Graphviz` on Windows,
+`brew install graphviz` on macOS, or `sudo apt-get install graphviz` on Debian/Ubuntu.
+Reopen the terminal and check `dot -V`.
+
+Use an isolated Python environment. For example, from this toolkit's root on
+Windows, after approving dependencies:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r .\skills\azure-diagrams\requirements.txt
+```
+
+On macOS/Linux use `python3 -m venv .venv`, then
+`.venv/bin/python -m pip install -r skills/azure-diagrams/requirements.txt`.
+[Optional extras](skills/azure-diagrams/requirements-extras.txt) support additional
+diagram types and SVG processing; review native Cairo requirements before use.
+None of these installations or upstream scripts were run for this addition.
+
+Prefer PNG for sharing: ordinary Graphviz SVG output may reference local icon
+paths. Neither output is a native draw.io document. The original skill normally
+removes throwaway generation scripts; explicitly request a retained generator
+if reproducible, code-editable output is needed. Treat IaC analysis as guidance,
+not proof that every deployed resource or relationship was discovered.
+
+## Excalidraw: external option
+
+See [EXCALIDRAW.md](EXCALIDRAW.md) for the pinned upstream, unresolved license,
+conditional setup and network dependencies. It is not a sixth bundled folder
+and cannot be installed by the copy procedure above. Obtain suitable rights
+before copying it; no placeholder or modified substitute is included.
+
 ## draw.io workflows
 
 Bring an approved local draw.io-compatible editor/exporter. The three bundled

@@ -3,6 +3,34 @@
   "reviewed_on": "2026-10-29",
   "sources": [
     {
+      "id": "azure-diagrams",
+      "repository": "cmb211087/azure-diagrams-skill",
+      "url": "https://github.com/cmb211087/azure-diagrams-skill",
+      "ref": "d7513005f62ad8042c36987cd7da515a114701d1",
+      "reviewed_on": "2026-11-02",
+      "license": "MIT",
+      "license_path": "skills/azure-diagrams/LICENSE",
+      "status": "bundled",
+      "selections": [
+        {
+          "upstream": "skills/azure-diagrams",
+          "local": "skills/azure-diagrams"
+        }
+      ],
+      "reason": "User-requested addition of the complete published skill: all 32 files verified against the pinned upstream tree, including original MIT license, references, dependency manifests, scripts and fixture. Repository-level galleries, workflows and dependency installations are excluded. Existing snapshot bytes were reused only after current upstream verification."
+    },
+    {
+      "id": "excalidraw-diagram",
+      "repository": "coleam00/excalidraw-diagram-skill",
+      "url": "https://github.com/coleam00/excalidraw-diagram-skill",
+      "ref": "8646fcc9f74f38539c6cdb4c969723336a96ddcd",
+      "reviewed_on": "2026-11-02",
+      "license": "NOASSERTION",
+      "status": "external",
+      "selections": [],
+      "reason": "Requested option documented in EXCALIDRAW.md, not vendored: pinned tree, README and skill entrypoint still provide no explicit license. Obtain suitable permission before copying or redistributing. Excalidraw application's license does not license this separate skill. Upstream renderer uses Python 3.11+, uv, Playwright/Chromium and a remote esm.sh import; nothing installed or executed."
+    },
+    {
       "id": "mermaid-diagrams",
       "repository": "softaworks/agent-toolkit",
       "url": "https://github.com/softaworks/agent-toolkit",

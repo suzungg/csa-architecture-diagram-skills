@@ -9,6 +9,7 @@ embedded or separately bundled Microsoft artwork is excluded from that grant.
 | Bundled material | License and retained notice |
 | --- | --- |
 | Softaworks Mermaid Diagrams | [MIT](skills/mermaid-diagrams/LICENSE), copied from its upstream root |
+| Carl Brindle Azure Diagrams | [Original MIT license](skills/azure-diagrams/LICENSE), retained with all 32 selected skill files |
 | Aymen drawio-pitch and drawio-iterate | [Pitch MIT](skills/drawio-pitch/LICENSE.txt), [iterate MIT](skills/drawio-iterate/LICENSE.txt) |
 | CSA-style diagrams original code/text/layouts | [MIT](skills/csa-style-diagrams/LICENSE.txt); original copyright notice retained |
 | Microsoft Foundry/core companion icons and terms | [Original Microsoft terms](skills/csa-style-diagrams/assets/foundry/Microsoft_Terms_of_Use.pdf); copied unchanged from official Azure icons V24 |
@@ -18,6 +19,11 @@ All bundled upstream files are unmodified snapshots. The only packaging
 addition inside a third-party skill folder is the inherited MIT license for
 Softaworks. Aymen's repository-level samples are not included. Preserve applicable
 notices and licenses when copying skills onward.
+
+The separately authored [Excalidraw diagram skill](EXCALIDRAW.md) is linked only.
+No explicit license was found at the pinned revision, so its files are not
+redistributed. Excalidraw application's license does not license this skill.
+Do not add its source until suitable rights and notices have been reviewed.
 
 For the Azure/Foundry subset, Microsoft permits copying, distribution and display only in
 architecture diagrams, training materials or documentation, unless explicit

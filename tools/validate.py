@@ -12,6 +12,7 @@ from urllib.parse import unquote
 ROOT = Path(__file__).resolve().parents[1]
 IGNORED = {".git", "node_modules", ".venv", "__pycache__", "output", "artifacts"}
 REQUIRED_SKILLS = {
+    "skills/azure-diagrams",
     "skills/mermaid-diagrams",
     "skills/drawio-pitch",
     "skills/drawio-iterate",
@@ -207,7 +208,9 @@ def validate(root=ROOT, check_index=False):
             for name in source["required_files"]:
                 require(safe_path(root, source["local"] + "/" + name).is_file(), f"Missing original file: {name}")
     require(expected_skills == REQUIRED_SKILLS,
-            "Source selections must contain exactly the four approved architecture skills")
+            "Source selections must contain exactly the five approved architecture skills")
+    require({s["id"] for s in sources if s["status"] == "external"} == {"excalidraw-diagram"},
+            "Excalidraw must remain explicitly cataloged as external until redistribution rights are reviewed")
 
     locked_paths = set()
     for entry in lock["files"]:

@@ -28,7 +28,7 @@ force-add only reviewed lockfile paths when needed. On Windows, preserve upstrea
 bits in the index with `git update-index --chmod=+x -- <reviewed-path>`.
 Do not force-add an entire worktree or environment to work around an ignored file.
 
-The four bundled skills have instruction entrypoints; CSA also has local
+The five bundled skills have instruction entrypoints; CSA also has local
 drawing/checking/export helpers and a rendered example. Test host invocation and
 rendering separately with synthetic briefs and approved tools; these checks can
 create output, need runtimes or incur costs. Do not execute third-party commands
@@ -57,8 +57,9 @@ merely to prove that a folder was copied.
    SHA-1 over file bytes alone. Remove records for files actually removed and
    add new files only after reviewing them. Never refresh hashes just to hide
    unexpected local modifications.
-6. Keep the approved four-skill selection in the catalog, manifest and validator
-   aligned. Ask before removing or broadening that selection. Update the README,
+6. Keep the approved five-skill selection and external Excalidraw reference in
+   the catalog, manifest and validator aligned. Ask before removing or broadening
+   that selection. Recheck Excalidraw's license before any redistribution. Update the README,
    setup guidance and third-party notices when the selection changes.
 7. Recheck host/MCP official docs and configuration schemas if relevant.
    Run offline validation, then applicable approved runtime tests. Record
@@ -152,6 +153,6 @@ intentionally expects equality with upstream bytes.
 
 Confirm the intended repository visibility, no credentials/customer outputs,
 complete license notices, resolvable local links, current prerequisite notes,
-and the approved four-skill inventory. Do not describe a structural pass as a
+and the approved five-bundled/one-external inventory. Do not describe a structural pass as a
 rendered-diagram test or authenticated MCP smoke test. Do not install this
 toolkit into someone's global agent configuration as part of a release.

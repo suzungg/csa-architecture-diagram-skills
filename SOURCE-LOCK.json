@@ -2,6 +2,294 @@
   "schema_version": 1,
   "files": [
     {
+      "path": "skills/azure-diagrams/CONTRIBUTING.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/CONTRIBUTING.md",
+      "git_blob": "a698fe77fd1f1ea0ba118cdfaae865d7a4434485",
+      "sha256": "e54c8cf8e8dcaa158e2151cbf43a3c079b40465dc97f876d55393a8638ffba5f",
+      "bytes": 3064,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/LICENSE",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/LICENSE",
+      "git_blob": "062cea7599d68b3b91db2803bce6129787cba9b7",
+      "sha256": "d5e5d6c9e7997ea3fc65e088de23bf8869388a8149aed2b1ede0adfdbf60c763",
+      "bytes": 1074,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/README.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/README.md",
+      "git_blob": "dc845ebc47f302c5ca56c76969a01894265a9cbb",
+      "sha256": "2c4b4ddf3780276d6d5950c15813d7d14057c241309837e986f6338e65bd243d",
+      "bytes": 4554,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/SKILL.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/SKILL.md",
+      "git_blob": "04184ff8865f19bd1a9137e2118f4a0f19e5dc1b",
+      "sha256": "7808fba45dc1758f85febd1a95c473bb9966839770f2b47b4b23ce772211fd39",
+      "bytes": 16177,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/evals/README.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/evals/README.md",
+      "git_blob": "8e7f51d700f32e55cf5686578d118c3829bce2b8",
+      "sha256": "8f5c8be9b54676d850fc3c3f47e6da82bafc2a75d31a75b7c8df8d0551a51cac",
+      "bytes": 1317,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/evals/scenarios.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/evals/scenarios.md",
+      "git_blob": "f811ba72e0552b100f03923e3b256a8e1aa00fce",
+      "sha256": "7ad137d8018ad1faa801b210a170af23b4afedf8f8c642bb8500c14c930ff4fc",
+      "bytes": 2106,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/azure-components.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/azure-components.md",
+      "git_blob": "d7fc1b1a416427a1127cbe45b4420d445383b4d3",
+      "sha256": "b04a404140ab92030cc6e17456e15d88dbfd312454234f485a77838f75f2c29b",
+      "bytes": 17775,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/business-process-flows.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/business-process-flows.md",
+      "git_blob": "344341d8715dcd8de3af08dec361bdc4a6bf5a77",
+      "sha256": "6799cf8ea079bbfa7a4dba8f6011d8e2fc7914e6e37c990778b628df07586977",
+      "bytes": 11765,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/c4-model.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/c4-model.md",
+      "git_blob": "1ee62ca1f0bd0e7e918ecd5dbff7c160c82db3e0",
+      "sha256": "442e50ae9710397db8882265361e4b435b27ba2fb9596e9bbf74a603e4af08f6",
+      "bytes": 3426,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/common-patterns.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/common-patterns.md",
+      "git_blob": "49c9dff532d7d79cbf64387097c7830567cf49ea",
+      "sha256": "c850464557e5fcd7a5fe89e838d49d841bbf8cc678753cb4ee058fc137f09530",
+      "bytes": 19471,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/entity-relationship-diagrams.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/entity-relationship-diagrams.md",
+      "git_blob": "69e8553d5eb24c4227a41a1f2b225f7ae710c5aa",
+      "sha256": "eea6b4fcf3ae6c1f03c7888a04928f429cab38e3e929ac93d3cc9ed950566482",
+      "bytes": 10498,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/iac-to-diagram.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/iac-to-diagram.md",
+      "git_blob": "dd2e38a29cda9b175f289e63f1e734dcecbce691",
+      "sha256": "fa4987b6a3a6800eaed7a602b6eb6540d2c0a52e538d0727f031ecc45bc03281",
+      "bytes": 15774,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/integration-services.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/integration-services.md",
+      "git_blob": "308c703881f879ca290693b30183451b2c2f0e70",
+      "sha256": "4ae3b1a0a79568fac076d1ae9840203801683c20fac1c6a52bf28770a6f48214",
+      "bytes": 8360,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/large-diagram-strategies.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/large-diagram-strategies.md",
+      "git_blob": "ba1efc0e7a9b72bbba20957b49b8cdf95a1a5b72",
+      "sha256": "9627fd8939ee2a39edfea4ac97ec93c9108caa68d753acda13a236ee90dd47bd",
+      "bytes": 15551,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/mermaid-output.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/mermaid-output.md",
+      "git_blob": "d8bdfe05b9001d2484273de546148f5ee62918fa",
+      "sha256": "ea61b93fc806168fdbb6306bfdb28e1d5060d5491fb286f20dd4d006727fde84",
+      "bytes": 2665,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/migration-patterns.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/migration-patterns.md",
+      "git_blob": "9a15e742335afcbe1c89c72e74fed467e823a0d0",
+      "sha256": "befd8de100d729a3346e4aa1a0de8fa33d113c4731a851f80fac3cf690c0a781",
+      "bytes": 11838,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/preventing-overlaps.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/preventing-overlaps.md",
+      "git_blob": "ccfac262fb4c98e170daf0374bdae27b50e30a7e",
+      "sha256": "500d73f55aba34756ace50cc3f51b04a6a53a2686d1e5951f82faa6104c9fe19",
+      "bytes": 12377,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/quick-reference.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/quick-reference.md",
+      "git_blob": "76c50d24a87be152965ec4de6218901ca792fae4",
+      "sha256": "6af12da07956e3561978b6878aa8ff327f2f193666ee6c189761b6a4d74bd82d",
+      "bytes": 16568,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/sequence-auth-flows.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/sequence-auth-flows.md",
+      "git_blob": "930c2e9259795d187adab45a78c61de8c612e2e3",
+      "sha256": "cec98f15456109016faf2a933fe47f927739d4280a50080615d32208f225432c",
+      "bytes": 8098,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/timeline-gantt-diagrams.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/timeline-gantt-diagrams.md",
+      "git_blob": "2c370b215161635a936f0fbafe61598684629fdd",
+      "sha256": "d5ac10ec77cd226fb1aef488af20325540130cb3d8c1290ea54eaf58b5d05292",
+      "bytes": 12165,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/references/ui-wireframe-diagrams.md",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/references/ui-wireframe-diagrams.md",
+      "git_blob": "1badfd73c3aba0aac7aae03f3e55770997ea4cb8",
+      "sha256": "e9c6b8332184d0857436d19a1769b7d56df547cfb5c1d95008643ba39c668fd3",
+      "bytes": 20151,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/requirements-extras.txt",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/requirements-extras.txt",
+      "git_blob": "bb50addf4935dc764eaa94a677807e0647025ad6",
+      "sha256": "26249bd8ecf1acbf46159808337a45273c2d5029d98a8a73e5b6195d85166340",
+      "bytes": 580,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/requirements.txt",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/requirements.txt",
+      "git_blob": "e876ca005bad79e86ba5562373761ffb65308a7e",
+      "sha256": "76adb380966fe6a459be22487bc6906d7bd5cbf8582227ec0c8ed5763327f111",
+      "bytes": 910,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/scripts/ascii_to_diagram.py",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/scripts/ascii_to_diagram.py",
+      "git_blob": "95671ae1e36e5eedd79deab6b14f2eb188a77bb9",
+      "sha256": "c9db01418d52a53ee733a82f808bc7119cf5295e979a04f2b37a80d967e4f03a",
+      "bytes": 8536,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/scripts/check_imports.py",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/scripts/check_imports.py",
+      "git_blob": "e48209de7d185bd72d321cbaf2d7d7c3e9595e73",
+      "sha256": "6f6e07afdb35bdb846ae0e6f6b46968b34b25fa570a63b87c1feb9cdff4fdba4",
+      "bytes": 3359,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/scripts/generate_diagram.py",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/scripts/generate_diagram.py",
+      "git_blob": "0b06b0505c9939dd33b106835e8225f79bc7ff45",
+      "sha256": "3f7818e1b2f344dd188783c924a9d238cffeeb5e31c69941fd5d290426207a0b",
+      "bytes": 27313,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/scripts/iac_to_diagram.py",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/scripts/iac_to_diagram.py",
+      "git_blob": "529ebc6010ac2ddcbbb8483a489ede1f56f20764",
+      "sha256": "e5a2b1b7037ec9ed43c04bef63aee525dbd14829a7dd42883eab94a9c4634b17",
+      "bytes": 6504,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/scripts/list_azure_nodes.py",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/scripts/list_azure_nodes.py",
+      "git_blob": "886c131f6f7d184be59ceddf7b762241bb8ce92d",
+      "sha256": "f9e05a9b1456b6dc0a0a9afa3c6c4676916c0b217e3489a718ed6440f5dea9cf",
+      "bytes": 3119,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/scripts/multi_diagram_generator.py",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/scripts/multi_diagram_generator.py",
+      "git_blob": "e91a6c0468885cb7d7966435c1aebb17a635acc7",
+      "sha256": "e6f653c486b380ec811dba2ae4d14a6c0113d01e1f82ed34c1f27880b96e2025",
+      "bytes": 26240,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/scripts/render_examples.py",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/scripts/render_examples.py",
+      "git_blob": "5538ce0439007466ce351c3227e5c5b517e2ec5c",
+      "sha256": "82cb13445275df4ea4e77e4d406617a42cb2fb89f3c9c97b90c35f2ccb315238",
+      "bytes": 2866,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/scripts/verify_installation.py",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/scripts/verify_installation.py",
+      "git_blob": "8ebd96dff2aa2415023b8bcdc775510dc896b932",
+      "sha256": "d3c3385afc7a7455e5bc045899748211e6c7d311f80d2d76c6e15444cd285108",
+      "bytes": 6217,
+      "mode": "100644"
+    },
+    {
+      "path": "skills/azure-diagrams/tests/fixtures/sample-arm.json",
+      "source": "azure-diagrams",
+      "upstream_path": "skills/azure-diagrams/tests/fixtures/sample-arm.json",
+      "git_blob": "e14801532c7bf865f45cdf6586fc0dbd98157786",
+      "sha256": "7d52623acd8ae93b8bd0e144c53903a55fe81fb989b3ea0dafa867d3903de27d",
+      "bytes": 1119,
+      "mode": "100644"
+    },
+    {
       "path": "skills/csa-style-diagrams/LICENSE.txt",
       "source": "csa-style-diagrams",
       "upstream_path": "LICENSE.txt",

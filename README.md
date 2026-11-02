@@ -1,13 +1,16 @@
 # CSA architecture diagram skills
 
 A private, curated toolkit for editable architecture diagrams, diagram-as-code,
-and supporting research. **Four complete architecture skill folders are bundled**:
+and supporting research. **Five complete architecture skill folders are bundled**:
 `mermaid-diagrams`, Aymen's original `drawio-pitch` and `drawio-iterate`,
-and `csa-style-diagrams`. No skills or MCP servers are installed on
+`csa-style-diagrams`, and `azure-diagrams`.
+[Excalidraw is a sixth, external option](EXCALIDRAW.md), not bundled because its
+skill repository has no explicit license. No skills or MCP servers are installed on
 your machine by cloning this repository.
 
-These support three approaches: Mermaid authoring, Aymen's combined pitch-and-
-refinement workflow, and Azure Architecture Center-inspired CSA-style diagrams. Microsoft
+The bundled approaches are Mermaid authoring, Aymen's combined pitch-and-
+refinement workflow, Azure Architecture Center-inspired CSA diagrams and
+Python/Graphviz-based Azure Diagrams. Microsoft
 Learn MCP and GitHub MCP remain available as opt-in research integrations. See
 [the catalog](CATALOG.md) and [license boundaries](THIRD_PARTY_NOTICES.md).
 
@@ -51,6 +54,8 @@ Start with this synthetic request:
 | Research-led, dense initial visual pitch on one A5 sheet | [drawio-pitch](skills/drawio-pitch/SKILL.md), Aymen original | `.drawio` + PNG + source/asset credits |
 | Aymen's prescribed publication-refinement cycle | [drawio-iterate](skills/drawio-iterate/SKILL.md), Aymen original | Separate `.drawio`/PNG pair per pass |
 | Mermaid authoring: sequence, C4, ER, flow and other software diagrams | [mermaid-diagrams](skills/mermaid-diagrams/SKILL.md), Softaworks | Text-editable Mermaid; export depends on renderer |
+| Code-generated Azure architecture, IaC-oriented diagrams and technical flows | [azure-diagrams](skills/azure-diagrams/SKILL.md), Carl Brindle | Python-generated PNG/SVG; explicitly request retained generator source for future edits |
+| Sketch-style explanatory diagrams and workshops | [Excalidraw diagram skill](EXCALIDRAW.md), external only | Editable `.excalidraw` JSON + PNG; redistribution permission unresolved |
 
 Retain Mermaid/draw.io source when future editing matters. PNG is not object
 editable; SVG is not automatically equivalent to a native diagram document.
@@ -97,6 +102,8 @@ preserves first drafts, findings and edit failures; it does not establish a gene
 | CSA local helpers | Python 3.10+ standard library; optional local draw.io Desktop for PNG export and Edge/Chromium for rendered-text checks; no automatic installation |
 | draw.io workflows | A locally approved editor/exporter plus actual image inspection; no renderer bundled; CSA includes curated Foundry and Fabric icons |
 | Mermaid authoring | A Mermaid-capable viewer/editor or separately approved renderer supporting the requested syntax; no renderer bundled |
+| Azure Diagrams | Graphviz on PATH and Python `diagrams>=0.25.1`; optional extras in its requirements files; no dependencies bundled |
+| Excalidraw, external only | Resolve license first; Python 3.11+, uv, Playwright/Chromium; upstream template loads remote code |
 | Remote MCP examples | Compatible HTTP MCP client; no Docker or Node needed for these two hosted endpoints; GitHub authentication required |
 
 Windows PowerShell, macOS and Linux setup notes are in [SETUP.md](SETUP.md).
@@ -129,7 +136,8 @@ architectural correctness, runtime support or vendor endorsement.
 [SOURCES.json](SOURCES.json) pins repositories, licenses and selections.
 [SOURCE-LOCK.json](SOURCE-LOCK.json) records every bundled file's
 SHA-256, upstream Git blob, size and provenance; the current custom pack is
-also hashed. Only the four selected architecture skills are distributed.
+also hashed. Five selected architecture skills are distributed; the Excalidraw
+reference has no bundled source or lockfile entries.
 
 Run `python .\tools\validate.py` and
 `python -m unittest discover -s tools -p "test_*.py"` after changes.

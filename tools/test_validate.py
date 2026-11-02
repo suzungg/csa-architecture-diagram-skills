@@ -11,11 +11,11 @@ from validate import ROOT, SECRET, git_blob, load_json, markdown_targets, safe_p
 
 
 class ValidatorTests(unittest.TestCase):
-    def test_current_four_skill_toolkit(self):
+    def test_current_five_skill_toolkit(self):
         output = io.StringIO()
         with redirect_stdout(output):
             validate()
-        self.assertIn("PASS: 4 skills;", output.getvalue())
+        self.assertIn("PASS: 5 skills;", output.getvalue())
         self.assertIn("3 MCP configs;", output.getvalue())
 
     def test_changed_skill_selection_rejected(self):
@@ -28,8 +28,23 @@ class ValidatorTests(unittest.TestCase):
                     json.dumps({"schema_version": 1, "sources": [source]}), encoding="utf-8")
                 (root / "SOURCE-LOCK.json").write_text(
                     '{"schema_version": 1, "files": []}', encoding="utf-8")
-                with self.assertRaisesRegex(ValueError, "four approved architecture skills"):
+                with self.assertRaisesRegex(ValueError, "five approved architecture skills"):
                     validate(root)
+
+    def test_external_excalidraw_is_not_bundled(self):
+        manifest_path = ROOT / "SOURCES.json"
+        manifest = copy.deepcopy(load_json(manifest_path))
+        external = next(s for s in manifest["sources"] if s["id"] == "excalidraw-diagram")
+        self.assertEqual(external["status"], "external")
+        self.assertEqual(external["license"], "NOASSERTION")
+        self.assertEqual(external["selections"], [])
+        self.assertFalse((ROOT / "skills/excalidraw-diagram").exists())
+        self.assertFalse(any(e["source"] == external["id"] for e in load_json(ROOT / "SOURCE-LOCK.json")["files"]))
+        external["selections"] = [{"upstream": "", "local": "skills/excalidraw-diagram"}]
+        original_load = load_json
+        with patch("validate.load_json", side_effect=lambda path: manifest if path == manifest_path else original_load(path)):
+            with self.assertRaisesRegex(ValueError, "External source has bundled files"):
+                validate()
 
     def test_official_icon_archive_source(self):
         source = next(s for s in load_json(ROOT / "SOURCES.json")["sources"] if s["status"] == "bundled-assets")
