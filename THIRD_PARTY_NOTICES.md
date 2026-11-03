@@ -41,7 +41,7 @@ also asks that appearance/proportions be retained and product icons not represen
 your own service. See the [Fabric asset catalog](skills/csa-style-diagrams/assets/fabric/README.md).
 Neither license transfers Microsoft's trademarks or implies endorsement.
 
-Dependency packages are not vendored. Installing them introduces their own
+Skill runtime dependency packages are not vendored. Installing them introduces their own
 licenses and notices. Cloud-service names and logos do not imply trademark
 permission, certification or
 endorsement. Obtain suitable asset rights for your own diagrams.
@@ -52,3 +52,18 @@ has the same license.
 For archive assets, `git_blob` is a digest computed from the selected file bytes,
 not evidence of an upstream Git commit; archive version/SHA-256 and exact member
 paths provide the acquisition pin.
+
+## Presentation archive
+
+The [presentation ZIP](presentations/architecture-diagrams.zip) contains local
+Reveal.js 6.0.2 assets under MIT (`vendor/reveal/LICENSE`) and Mona Sans v2.0.27
+under SIL OFL (`assets/fonts/OFL.txt`). Paths here are relative to the extracted
+`architecture-diagrams-brand-deck` folder. Microsoft Fabric artwork and CSA
+layout/code notices are retained at `assets/LICENSE-Fabric` and
+`sources/LICENSE-CSA.txt`; additional notices accompany the nested diagram-source
+ZIP. The presentation's README and provenance manifest describe its sources.
+
+The user-supplied Cowork screenshot is included as part of this requested
+presentation; no separate redistribution license is asserted. The repository's
+MIT license does not relicense that screenshot or third-party assets. The deck
+is independent and does not imply GitHub, Microsoft or Anthropic endorsement.

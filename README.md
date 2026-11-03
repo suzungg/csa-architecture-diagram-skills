@@ -1,6 +1,6 @@
 # CSA architecture diagram skills
 
-A private, curated toolkit for editable architecture diagrams, diagram-as-code,
+A public, curated toolkit for editable architecture diagrams, diagram-as-code,
 and supporting research. **Five complete architecture skill folders are bundled**:
 `mermaid-diagrams`, Aymen's original `drawio-pitch` and `drawio-iterate`,
 `csa-style-diagrams`, and `azure-diagrams`.
@@ -16,7 +16,7 @@ Learn MCP and GitHub MCP remain available as opt-in research integrations. See
 
 ## Quick start
 
-Clone with an account that can access this private repository:
+Clone the public repository:
 
 ```powershell
 git clone https://github.com/suzungg/csa-architecture-diagram-skills.git
@@ -45,6 +45,23 @@ Start with this synthetic request:
 > clear section hierarchy, typed boundaries and meaningful connections, not a
 > dashboard. Deliver editable draw.io source and a matching
 > locally rendered PNG. Distinguish assumptions from verified product claims.
+
+## Presentation
+
+[Download the presentation (ZIP)](presentations/architecture-diagrams.zip):
+**Creating architecture diagrams with AI - Tools, skills and approaches**.
+
+The 10-slide deck covers the options, a sample prompt, and the Cowork,
+Azure Diagrams, Excalidraw, Aymen, Mermaid, Astra + draw.io and CSA examples.
+Extract the ZIP and open `architecture-diagrams-brand-deck/index.html` in a
+browser. All presentation assets are included for offline viewing; click a
+diagram to enlarge it. The archive's README explains local serving for speaker
+notes, editing and controls.
+
+The download includes editable slide source, presenter notes and the six-approach
+diagram source bundle. Cowork is a supplied PNG, not an editable source or an
+identical-brief comparison. Original notices and workflow limitations are retained
+inside the archive; see [licensing and provenance](THIRD_PARTY_NOTICES.md).
 
 ## Which skill should I use?
 
